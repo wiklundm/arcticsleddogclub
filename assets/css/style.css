@@ -4,14 +4,23 @@
     margin: 0;
     box-sizing: border-box;
 }
+/*Gereral styles*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*Generic project styles*/
+    color: #ffffff;
+}
 /*Header*/
 header {
-    background-color:white;
+    background-color: white;
  }
-/*Main 
-content*/
+/* Main content */
 main {
-    background-color: lightskyblue;
+    background-color: lightblue;
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
 }
 /*Footer*/
 footer {
