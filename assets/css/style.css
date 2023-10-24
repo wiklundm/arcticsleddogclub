@@ -1,3 +1,6 @@
+/*Google fonts import*/
+<style>@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Philosopher&display=swap');
+</style>
 /*Asterisk wildcard selector to override all default styles on the page added by the browser*/
 * {
     padding: 0;
@@ -18,7 +21,7 @@ header {
  }
 /* Main content */
 main {
-    background-color: lightblue;
+    background-color: lightblue
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
