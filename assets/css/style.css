@@ -1,27 +1,27 @@
-/*Google fonts import*/
-<style>@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Philosopher&display=swap');
-</style>
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Philosopher&display=swap');
 /*Asterisk wildcard selector to override all default styles on the page added by the browser*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-/*Gereral styles*/
+/* General styles */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     /*Generic project styles*/
-    color: #ffffff;
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
 }
-/*Header*/
+/* Header */
 header {
     background-color: white;
  }
 /* Main content */
 main {
-    background-color: lightblue
+    background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
