@@ -89,9 +89,9 @@ The colors needed to match the colors in the sky and snow on the ground. Since t
 
 Fonts
 I chose the fonts by testing different types on Google Fonts.
-The main fonts used on the website on h1-headings and the logo is Aptos Serif. I used a cursive font called Ink Free for the inspirational text on the Home page.
+The main fonts used on the website and the logo is Lato light 300. I used a font called Philosopher for the inspirational text on the Home page.
 Images
-The image for the Home page and image called tent are borrowed from my friends at Lifestyle North AB/Kiruna Dogsled AB. 
+The image for the Home page and image called tent are borrowed from my friends private collection Anna Norman at Lifestyle North AB/Kiruna Dogsled AB. 
 The remaining pictures are from iStock free photos. The photos represent different parts of the sleddog sport and gives a happy feeling.
 
 Features
