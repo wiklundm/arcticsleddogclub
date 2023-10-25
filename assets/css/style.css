@@ -25,8 +25,8 @@ header {
         width: 100%;
         box-shadow: 0 2px 2px #3a3a3a;
         display: flex;
-            justify-content: space-between;
-            align-items: baseline;
+        justify-content: space-between;
+        align-items: baseline;
  }
  header a {
      text-decoration: none;
@@ -64,6 +64,7 @@ nav {
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
+    
 }
 
 /* Nav toggle */
@@ -82,12 +83,26 @@ main {
     background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 77px;
+    margin-top: 43px;
 }
 /*Footer*/
+#social networks [ 
+text-align: center;
+padding: 20px 0;
+display: flex;
+justify-content: space-evenly;
+list-style-type: none;
+
+]
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
 footer {
     background-color: #ffffff;
 }
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
@@ -110,7 +125,11 @@ footer {
         #logo { 
             line-height: 75px;
         }
-           /* Main content */
+    /* Main content */
+        main {
+    /* Push main content down to accommodate larger header */
+            margin-top: 77px;
+                   }
     /* Media query: tablets and larger (992px and up) */
     @media screen and (min-width: 992px) {
         #menu a:hover { 
