@@ -86,17 +86,16 @@ main {
     margin-top: 43px;
 }
 /*Footer*/
-#social networks [ 
+#social-media [ 
 text-align: center;
-padding: 20px 0;
+padding: 22px 0;
 display: flex;
 justify-content: space-evenly;
 list-style-type: none;
-
 ]
-#social-networks i {
-    font-size: 160%;
-    padding: 5%;
+#social-media i {
+    font-size: 150%;
+    padding: 6%;
     color: #3a3a3a;
 }
 footer {
