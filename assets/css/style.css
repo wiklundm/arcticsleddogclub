@@ -86,13 +86,13 @@ main {
     margin-top: 43px;
 }
 /*Footer*/
-#social-media [ 
-text-align: center;
-padding: 22px 0;
-display: flex;
-justify-content: space-evenly;
-list-style-type: none;
-]
+#social-media {
+    text-align: center;
+    padding: 22px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
 #social-media i {
     font-size: 150%;
     padding: 6%;
@@ -101,7 +101,6 @@ list-style-type: none;
 footer {
     background-color: #ffffff;
 }
-
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
