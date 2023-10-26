@@ -40,7 +40,6 @@ header {
      color: #252525;
  }
 
-
  /* Navigation links */
  #menu {
      font-size: 110%;
@@ -83,7 +82,7 @@ main {
     background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 43px;
+    margin-top: 110px;
 }
 /*Footer*/
 #social-media {
@@ -101,6 +100,18 @@ main {
 footer {
     background-color: #ffffff;
 }
+/* Media query: mobilephones and larger (316px and up) */
+@media screen and (min-width: 316px) {
+        main {
+                /* Push main content down to accommodate larger header */
+                margin-top: 77px;
+            }
+ /* Media query: mobilephones and larger (448px and up) */
+@media screen and (min-width: 448px) {
+main {
+/* Push main content down to accommodate larger header */
+    margin-top: 42px;
+                            }
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
