@@ -15,7 +15,12 @@ body {
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
 }
-
+ h1, h2, h3 {
+     font-family: 'Philosopher', sans-serif;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     color: #252525;
+ }
 /* Header */
 header {
         background-color: #ffffff;
@@ -27,17 +32,10 @@ header {
         display: flex;
         justify-content: space-between;
         align-items: baseline;
- }
+    }
  header a {
      text-decoration: none;
      color: inherit;
- }
- /* Headings and logo */
- h1 {
-     font-family: 'Philosopher', sans-serif;
-     text-transform: uppercase;
-     letter-spacing: 2px;
-     color: #252525;
  }
 
  /* Navigation links */
@@ -83,12 +81,27 @@ main {
     flex: 1 0 auto;
     margin-top: 110px;
 }
-/* Hero image section */
+/* Hero section */
 #heroimage {
     height: 600px;
     width: 100%;
     background: url("../images/sleddogteam.jpg") no-repeat center center/cover;
-   
+    position: relative;
+
+}
+/*cover-text*/
+#cover-text {
+    background-color:rgb(183, 200, 226, .2);
+    font-size: 120%;
+    position: absolute;
+    bottom: 20px;
+    width: 60%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+#cover-text>h2, #cover-text>h3 {
+    color: #3a3a3a;
 }
 /*Footer*/
 #social-media {
@@ -108,16 +121,21 @@ footer {
 }
 /* Media query: mobilephones and larger (316px and up) */
 @media screen and (min-width: 316px) {
-        main {
-                /* Push main content down to accommodate larger header */
+        main {   /* Push main content down to accommodate larger header */
                 margin-top: 77px;
             }
+        }
  /* Media query: mobilephones and larger (448px and up) */
 @media screen and (min-width: 448px) {
 main {
 /* Push main content down to accommodate larger header */
     margin-top: 42px;
                             }
+ /*Hero cover text*/
+ #cover-text {
+padding-top: 60px;
+ }
+                        }
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
@@ -145,12 +163,18 @@ main {
     /* Push main content down to accommodate larger header */
             margin-top: 77px;
                    }
+    /*Hero cover text*/
+    #cover-text {
+        width: 300px;
+        left: 50px;
+        padding-top: 60px;
+    }
+                }
     /* Media query: tablets and larger (992px and up) */
     @media screen and (min-width: 992px) {
         #menu a:hover { 
         border-bottom: 1px solid #3a3a3a;
         }
 
-    }
     }
    
