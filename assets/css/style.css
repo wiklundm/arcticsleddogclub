@@ -103,7 +103,14 @@ main {
 #cover-text>h2, #cover-text>h3 {
     color: #3a3a3a;
 }
-
+/*experience-text*/
+#experience {
+font-size: 120%;
+padding-top: 10px;
+padding-bottom: 10px;
+font-style: italic;
+text-align: center;
+}
 /*Footer*/
 #social-media {
     text-align: center;
@@ -122,6 +129,7 @@ footer {
     bottom: 0;
     z-index: 3;
     color: #252525;  
+    
 }
 /* Media query: mobilephones and larger (316px and up) */
 @media screen and (min-width: 316px) {
