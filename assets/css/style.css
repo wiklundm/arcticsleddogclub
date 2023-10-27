@@ -103,6 +103,7 @@ main {
 #cover-text>h2, #cover-text>h3 {
     color: #3a3a3a;
 }
+
 /*Footer*/
 #social-media {
     text-align: center;
@@ -118,6 +119,9 @@ main {
 }
 footer {
     background-color: #ffffff;
+    bottom: 0;
+    z-index: 3;
+    color: #252525;  
 }
 /* Media query: mobilephones and larger (316px and up) */
 @media screen and (min-width: 316px) {
