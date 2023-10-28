@@ -188,19 +188,7 @@ hr {
 .container {
     display: flex;
     width: 280px;
-    height: 158px;
-
-}
-#smileimage {
-    min-height: 120px;
-    width: 93%;
-    margin: auto;
-    background: url("../images/smile.jpg") no-repeat bottom center/cover;
-    /*Used if the image is unavailable*/
-    background-color: lightblue;
-            justify-content: flex-start;
-}
-
+    height: 158px;}
 /*Footer*/
 #social-media {
     text-align: center;
@@ -226,7 +214,7 @@ footer {
         main {   /* Push main content down to accommodate larger header */
                 margin-top: 77px;
             }
-        #childimage, #smileimage{
+        #childimage,{
         min-height: 150px;
         }
         }
@@ -244,7 +232,7 @@ padding-top: 60px;
  #experience {
      font-size: 280%;
  }
- #childimage, #smileimage {
+ #childimage, {
      min-height: 190px;
  }
   
@@ -294,7 +282,7 @@ padding-top: 60px;
         border-bottom: 1px solid #3a3a3a;
         }
         /*courses section*/
-                #childimage, #smileimage {
+                #childimage, {
                     min-height: 400px;
                 }
 
@@ -305,7 +293,7 @@ padding-top: 60px;
                  border-bottom: 1px solid #3a3a3a;
              }
     /*courses section*/
-             #childimage, #smileimage {
+             #childimage, {
                  min-height: 500px;
              }
 
