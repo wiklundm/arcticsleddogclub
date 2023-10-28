@@ -129,17 +129,22 @@ text-align: center;
     background: url("../images/child.jpg") no-repeat top left/cover;
     background-color: lightblue;
     /*Used if the image is unavailable*/
-}
-#content {
-    list-style-type: none;
-}
+    }
 
 #meet > div {
         line-height: 20px;
         margin: 20px;
         background-color: rgb(220, 173, 170, .2);
     }
-
+#place {
+    list-style-type: none;
+}
+ #course-content {
+    list-style-type: none;
+ }
+  #additional-information {
+    list-style-type: none;
+ }
 #info > div {
     line-height: 20px;
     margin: 20px;
@@ -147,8 +152,7 @@ text-align: center;
         }
 #content p {
     padding: 0, 20px;
-
-}
+    }
 hr {
     border-top: 1px solid #3a3a3a;
     margin: 4px 0;
@@ -247,17 +251,27 @@ padding-top: 60px;
         #content {
             display: flex;
             column-gap: 10px;
+            flex-wrap: nowrap;
         }
  
 
         #meet {
-            order: -1;
+        order: -1;
+                 }
+        #meet > div {
+         height: 450px;
+        width: 380px;
                  }
         #childimage {
-            order: 0;
+        order: 0;
                  }
+        #childimage > div {
+
+         }
         #info {
             order: 1;
+            height: 450px;
+            width: 380px;
                  }
         #smileimage {
             order: 2;
