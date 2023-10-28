@@ -103,15 +103,16 @@ main {
 #cover-text>h2, #cover-text>h3 {
     color: #3a3a3a;
 }
-/*experience-text*/
+/*experience-text under hero-image*/
 #experience {
-font-size: 120%;
+font-size: 160%;
 padding-top: 10px;
 padding-bottom: 10px;
 font-style: italic;
 text-align: center;
 }
 /*courses-section*/
+
 #courses {
     width: 90%;
     margin: 20px auto;
@@ -120,6 +121,14 @@ text-align: center;
     margin-bottom: 15px;
     text-align: center;
     font-size: 240%;
+}
+#childimage {
+    min-height: 120px;
+    width: 100%;
+    margin: auto;
+    background: url("../images/child.jpg") no-repeat top left/cover;
+    background-color: lightblue;
+    /*Used if the image is unavailable*/
 }
 #meet > div, #info > div {
     line-height: 20px;
@@ -132,9 +141,8 @@ hr {
     border-top: 1px solid #3a3a3a;
     margin: 4px 0;
 }
-#childimage {
-     background: url("../images/child.jpg") no-repeat center center/cover;
-}#smileimage {
+
+#smileimage {
      background: url("../images/smile.jpg") no-repeat center center/cover;
 }
 
@@ -163,6 +171,9 @@ footer {
         main {   /* Push main content down to accommodate larger header */
                 margin-top: 77px;
             }
+        #childimage {
+        min-height: 150px;
+        }
         }
  /* Media query: mobilephones and larger (448px and up) */
 @media screen and (min-width: 448px) {
@@ -173,6 +184,9 @@ main {
  /*Hero cover text*/
  #cover-text {
 padding-top: 60px;
+ }
+ #childimage {
+     min-height: 190px;
  }
                         }
 /* Media query: tablets and larger (768px and up) */
@@ -208,12 +222,28 @@ padding-top: 60px;
         left: 50px;
         padding-top: 60px;
     }
+         #childimage {
+             min-height: 320px;
+         }
                 }
     /* Media query: tablets and larger (992px and up) */
     @media screen and (min-width: 992px) {
         #menu a:hover { 
         border-bottom: 1px solid #3a3a3a;
         }
+                #childimage {
+                    min-height: 400px;
+                }
 
     }
-   
+         /* Media query: desktop (1200px and up) */
+         @media screen and (min-width: 1200px) {
+             #menu a:hover {
+                 border-bottom: 1px solid #3a3a3a;
+             }
+    
+             #childimage {
+                 min-height: 500px;
+             }
+    
+         }
