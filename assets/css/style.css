@@ -100,7 +100,7 @@ main {
     padding-top: 40px;
     padding-left: 10px;
 }
-#cover-text>h2, #cover-text>h3 {
+#cover-text > h2, #cover-text > h3 {
     color: #3a3a3a;
 }
 /*experience-text under hero-image*/
@@ -120,7 +120,7 @@ text-align: center;
 #courses h2 {
     margin-bottom: 15px;
     text-align: center;
-    font-size: 240%;
+    font-size: 280%;
 }
 #childimage {
     min-height: 120px;
@@ -227,6 +227,11 @@ padding-top: 60px;
         left: 50px;
         padding-top: 60px;
     }
+        /*experience-text under hero-image*/
+        #experience {
+            font-size: 240%;
+        }
+        /*courses section*/
          #childimage, #smileimage {
              min-height: 320px;
          }
@@ -236,6 +241,7 @@ padding-top: 60px;
         #menu a:hover { 
         border-bottom: 1px solid #3a3a3a;
         }
+        /*courses section*/
                 #childimage, #smileimage {
                     min-height: 400px;
                 }
@@ -246,9 +252,9 @@ padding-top: 60px;
              #menu a:hover {
                  border-bottom: 1px solid #3a3a3a;
              }
-    
+    /*courses section*/
              #childimage, #smileimage {
                  min-height: 500px;
              }
-    
+
          }
