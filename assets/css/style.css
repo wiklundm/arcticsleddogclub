@@ -126,8 +126,7 @@ background-color: rgb(220, 173, 170, .2);
 }
 .contact-box-left {
     margin: 20px;
-    
-    text-align: left;
+       text-align: left;
 }
 
 /*courses-section*/
@@ -136,6 +135,7 @@ background-color: rgb(220, 173, 170, .2);
     width: 90%;
     margin: 20px auto;
     display: flex;
+    flex-direction: column;
 
 }
 #courses h2 {
@@ -183,6 +183,13 @@ background-color: rgb(220, 173, 170, .2);
 hr {
     border-top: 1px solid #3a3a3a;
     margin: 4px 0;
+}
+/*YouTube video aspect ratio 16:9*/
+.container {
+    display: flex;
+    width: 280px;
+    height: 158px;
+
 }
 #smileimage {
     min-height: 120px;
