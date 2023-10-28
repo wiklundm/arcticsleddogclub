@@ -280,9 +280,8 @@ padding-top: 60px;
          #meet > div {
             text-align: start;
             align-self: flex-start;
-            background-color: ;
          }
-       /* #content > div {*/
+        #content > div {
             flex: 1;
  }
         #meet {
