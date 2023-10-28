@@ -116,7 +116,6 @@ text-align: center;
 #courses {
     width: 90%;
     margin: 20px auto;
-    list-style-type: none;
 }
 #courses h2 {
     margin-bottom: 15px;
@@ -134,10 +133,17 @@ text-align: center;
 #content {
     list-style-type: none;
 }
-#meet > div, #info > div {
+
+#meet > div {
+        line-height: 20px;
+        margin: 20px;
+        background-color: rgb(220, 173, 170, .2);
+    }
+
+#info > div {
     line-height: 20px;
     margin: 20px;
-
+    background-color: rgb(132, 172, 222, .2);
         }
 #content p {
     padding: 0, 20px;
@@ -232,15 +238,65 @@ padding-top: 60px;
         width: 300px;
         left: 50px;
         padding-top: 60px;
-    }
+        }
         /*experience-text under hero-image*/
         #experience {
             font-size: 240%;
         }
         /*courses section*/
-         #childimage, #smileimage {
-             min-height: 320px;
+        #content {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
+         #childimage {
+            display: flex;
+             width: 50%;
+        justify-content: flex-end;
+                }
+          #smileimage {
+            display: flex;
+            width: 50%;
+        justify-content: flex-start;
+                                }
+         #meet,
+         #info {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
          }
+         #meet > div,
+         #info > div {
+            width: 50%;
+            font-size: 140%;
+         }
+         #info > div > h3 {
+            font-size: 100%;
+         }
+         #info > div {
+            text-align: end;
+            align-self: flex-end;
+         }
+         #meet > div {
+            text-align: start;
+            align-self: flex-start;
+            background-color: ;
+         }
+       /* #content > div {*/
+            flex: 1;
+ }
+        #meet {
+            order: -1;
+                 }
+        #childimage {
+            order: 0;
+                 }
+        #info {
+            order: 1;
+                 }
+        #smile {
+            order: 2;
+                                  }
                 }
     /* Media query: tablets and larger (992px and up) */
     @media screen and (min-width: 992px) {
