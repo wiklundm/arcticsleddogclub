@@ -246,44 +246,10 @@ padding-top: 60px;
         /*courses section*/
         #content {
             display: flex;
-            flex-direction: column;
-            flex-wrap: nowrap;
+            column-gap: 10px;
         }
-         #childimage {
-            display: flex;
-             width: 50%;
-        justify-content: flex-end;
-                }
-          #smileimage {
-            display: flex;
-            width: 50%;
-        justify-content: flex-start;
-                                }
-         #meet,
-         #info {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-         }
-         #meet > div,
-         #info > div {
-            width: 50%;
-            font-size: 140%;
-         }
-         #info > div > h3 {
-            font-size: 100%;
-         }
-         #info > div {
-            text-align: end;
-            align-self: flex-end;
-         }
-         #meet > div {
-            text-align: start;
-            align-self: flex-start;
-         }
-        #content > div {
-            flex: 1;
- }
+ 
+
         #meet {
             order: -1;
                  }
@@ -293,7 +259,7 @@ padding-top: 60px;
         #info {
             order: 1;
                  }
-        #smile {
+        #smileimage {
             order: 2;
                                   }
                 }
