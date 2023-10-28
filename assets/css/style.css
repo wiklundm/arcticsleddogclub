@@ -145,16 +145,16 @@ background-color: rgb(220, 173, 170, .2);
 }
 #childimage {
     min-height: 120px;
-    width: 93%;
-    margin: 20px;
+    width: 90%;
+    margin-left: 18px;
+    margin-right: 22px;
     background: url("../images/child.jpg") no-repeat top left/cover;
     /*Used if the image is unavailable*/
     background-color: lightblue;
-    justify-content: flex-end;
+    justify-content: center;
        
     }
     
-
 #meet > div {
         line-height: 20px;
         margin: 20px;
@@ -189,6 +189,7 @@ hr {
     display: flex;
     width: 280px;
     height: 158px;}
+
 /*Footer*/
 #social-media {
     text-align: center;
@@ -214,9 +215,12 @@ footer {
         main {   /* Push main content down to accommodate larger header */
                 margin-top: 77px;
             }
-        #childimage,{
-        min-height: 150px;
-        }
+                   /*YouTube video aspect ratio 16:9*/
+                   .container {
+                    width: 250px;
+                    height: 141px;
+                    margin-left: 16px;
+                   }
         }
  /* Media query: mobilephones and larger (448px and up) */
 @media screen and (min-width: 448px) {
@@ -232,10 +236,15 @@ padding-top: 60px;
  #experience {
      font-size: 280%;
  }
- #childimage, {
-     min-height: 190px;
+ #childimage {
+     min-height: 170px;
  }
-  
+   /*YouTube video aspect ratio 16:9*/
+   .container {
+       width: 370px;
+       height: 208px;
+       margin-left: 16px;
+   }
                         }
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -274,7 +283,21 @@ padding-top: 60px;
         #experience {
             font-size: 240%;
         }
-  
+   /*courses section*/
+   #meet {
+       margin-right: 30px;
+   }
+   #info {
+    margin-right: 30px;
+   }
+   #childimage {
+       min-height: 300px;
+   }
+   .container {
+       width: 625px;
+       height: 352px;
+       margin-left: 20px;
+   }
                 }
     /* Media query: tablets and larger (992px and up) */
     @media screen and (min-width: 992px) {
@@ -282,8 +305,9 @@ padding-top: 60px;
         border-bottom: 1px solid #3a3a3a;
         }
         /*courses section*/
-                #childimage, {
-                    min-height: 400px;
+                #childimage {
+                    min-height: 380px;
+                    width: 95%;
                 }
 
     }
@@ -294,7 +318,8 @@ padding-top: 60px;
              }
     /*courses section*/
              #childimage, {
-                 min-height: 500px;
+                
+                 width: 100%;
              }
 
          }
