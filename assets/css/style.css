@@ -110,12 +110,33 @@ padding-top: 10px;
 padding-bottom: 10px;
 font-style: italic;
 text-align: center;
+background-color: rgb(220, 173, 170, .2);
 }
+/*contact-section*/
+#contact {
+    margin-bottom: 10px;
+}
+
+.contact-boxes-container {
+    width: 100%;
+    margin: auto;
+}
+.text-left {
+    margin: 20px;
+}
+.contact-box-left {
+    margin: 20px;
+    
+    text-align: left;
+}
+
 /*courses-section*/
 
 #courses {
     width: 90%;
     margin: 20px auto;
+    display: flex;
+
 }
 #courses h2 {
     margin-bottom: 15px;
@@ -124,17 +145,21 @@ text-align: center;
 }
 #childimage {
     min-height: 120px;
-    width: 100%;
-    margin: auto;
+    width: 93%;
+    margin: 20px;
     background: url("../images/child.jpg") no-repeat top left/cover;
-    background-color: lightblue;
     /*Used if the image is unavailable*/
+    background-color: lightblue;
+    justify-content: flex-end;
+       
     }
+    
 
 #meet > div {
         line-height: 20px;
         margin: 20px;
         background-color: rgb(220, 173, 170, .2);
+            align-self: flex-start;
     }
 #place {
     list-style-type: none;
@@ -149,6 +174,8 @@ text-align: center;
     line-height: 20px;
     margin: 20px;
     background-color: rgb(132, 172, 222, .2);
+    align-self: flex-end;
+                    
         }
 #content p {
     padding: 0, 20px;
@@ -159,11 +186,12 @@ hr {
 }
 #smileimage {
     min-height: 120px;
-    width: 100%;
+    width: 93%;
     margin: auto;
     background: url("../images/smile.jpg") no-repeat bottom center/cover;
-    background-color: lightblue;
     /*Used if the image is unavailable*/
+    background-color: lightblue;
+            justify-content: flex-start;
 }
 
 /*Footer*/
@@ -204,6 +232,10 @@ main {
  /*Hero cover text*/
  #cover-text {
 padding-top: 60px;
+ }
+ /*experience-text under hero-image*/
+ #experience {
+     font-size: 280%;
  }
  #childimage, #smileimage {
      min-height: 190px;
@@ -247,35 +279,7 @@ padding-top: 60px;
         #experience {
             font-size: 240%;
         }
-        /*courses section*/
-        #content {
-            display: flex;
-            column-gap: 10px;
-            flex-wrap: nowrap;
-        }
- 
-
-        #meet {
-        order: -1;
-                 }
-        #meet > div {
-         height: 450px;
-        width: 380px;
-                 }
-        #childimage {
-        order: 0;
-                 }
-        #childimage > div {
-
-         }
-        #info {
-            order: 1;
-            height: 450px;
-            width: 380px;
-                 }
-        #smileimage {
-            order: 2;
-                                  }
+  
                 }
     /* Media query: tablets and larger (992px and up) */
     @media screen and (min-width: 992px) {
