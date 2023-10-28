@@ -141,9 +141,13 @@ hr {
     border-top: 1px solid #3a3a3a;
     margin: 4px 0;
 }
-
 #smileimage {
-     background: url("../images/smile.jpg") no-repeat center center/cover;
+    min-height: 120px;
+    width: 100%;
+    margin: auto;
+    background: url("../images/smile.jpg") no-repeat bottom center/cover;
+    background-color: lightblue;
+    /*Used if the image is unavailable*/
 }
 
 /*Footer*/
@@ -171,7 +175,7 @@ footer {
         main {   /* Push main content down to accommodate larger header */
                 margin-top: 77px;
             }
-        #childimage {
+        #childimage, #smileimage{
         min-height: 150px;
         }
         }
@@ -185,9 +189,10 @@ main {
  #cover-text {
 padding-top: 60px;
  }
- #childimage {
+ #childimage, #smileimage {
      min-height: 190px;
  }
+  
                         }
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -222,7 +227,7 @@ padding-top: 60px;
         left: 50px;
         padding-top: 60px;
     }
-         #childimage {
+         #childimage, #smileimage {
              min-height: 320px;
          }
                 }
@@ -231,7 +236,7 @@ padding-top: 60px;
         #menu a:hover { 
         border-bottom: 1px solid #3a3a3a;
         }
-                #childimage {
+                #childimage, #smileimage {
                     min-height: 400px;
                 }
 
@@ -242,7 +247,7 @@ padding-top: 60px;
                  border-bottom: 1px solid #3a3a3a;
              }
     
-             #childimage {
+             #childimage, #smileimage {
                  min-height: 500px;
              }
     
