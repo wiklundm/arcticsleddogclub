@@ -321,9 +321,8 @@ padding-top: 60px;
                  border-bottom: 1px solid #3a3a3a;
              }
     /*courses section*/
-             #childimage, {
-                
-                 width: 100%;
+             #childimage {
+                min-height: 420px; 
              }
 
          }
