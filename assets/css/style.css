@@ -206,18 +206,14 @@ padding-left: 20px;
     }
     #aboutus {
         list-style-type: none;
-
     }
-  .
     #jumpimage {
-        min-height: 50px;
-         width: 33.33%;
+        min-height: 170px;
+         width: 90%;
         background: url("../images/jump.jpg") no-repeat center center/cover;
         /*Used if the image is unavailable*/
         background-color: lightblue;
         border-radius: 50px;
-        margin-top: 20px;
-        display: inline-block;
         }
      #smileimage {
     min-height: 120px;
@@ -230,13 +226,23 @@ padding-left: 20px;
     justify-content: center;
     border-radius: 8px;
                 }
- #inside-left {
-    box-sizing: border-box;
-    
-
-
- }
-
+    #skijouring {
+    min-height: 120px;
+    width: 90%;
+    margin-left: 18px;
+    margin-right: 39px;
+    background: url("../images/skijouring.jpg") no-repeat bottom center/cover;
+     /*Used if the image is unavailable*/
+    background-color: lightblue;
+    justify-content: center;
+    border-radius: 8px;
+                }
+.submit {
+    text-align: center;
+}
+.inner-right {
+    background-color: rgb(220, 173, 170, .2);
+}
 /*Footer*/
 #social-media {
     text-align: center;
