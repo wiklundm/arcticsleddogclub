@@ -128,6 +128,28 @@ background-color: rgb(220, 173, 170, .2);
     margin: 55px;
        text-align: left;
 }
+/*about-us-section*/
+.contact-box-right {
+    margin: 55px;
+    text-align: right;
+}
+#smileimage {
+    background: url("../images/smile.jpg") no-repeat center center/cover;
+    /*Used if the image is unavailable*/
+    background-color: lightblue;
+    border-radius: 50%;
+}
+.wrapper {
+    padding: 20px;
+    text-align: left;
+}
+/*Form*/
+.inner-left, .inner-right {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
 
 /*courses-section*/
 
