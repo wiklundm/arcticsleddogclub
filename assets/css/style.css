@@ -133,7 +133,7 @@ background-color: rgb(220, 173, 170, .2);
 
 #courses {
     width: 90%;
-    margin: 20px auto;
+    margin: 20px;
     display: flex;
     flex-direction: column;
 
@@ -153,8 +153,7 @@ background-color: rgb(220, 173, 170, .2);
     background-color: lightblue;
     justify-content: center;
     border-radius: 8px;
-       
-    }
+}
     
 #meet > div {
         line-height: 20px;
@@ -194,17 +193,41 @@ height: 129px;
 padding-left: 20px;
     }
     /*about-us-section*/
-#about {
-    width: 90%;
-    margin: 20px auto;
-    display: flex;
-    flex-direction: column;
+    #about {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
 #about h2 {
-        margin-bottom: 15px;
+        margin-top: 15px;
         text-align: center;
         font-size: 280%;
     }
-}
+    #aboutus {
+        list-style-type: none;
+    }
+    #jumpimage {
+        min-height: 170px;
+         width: 90%;
+        background: url("../images/jump.jpg") no-repeat center center/cover;
+        /*Used if the image is unavailable*/
+        background-color: lightblue;
+        border-radius: 50px;
+        margin-top: 20px;
+        }
+     #smileimage {
+    min-height: 120px;
+    width: 90%;
+    margin-left: 18px;
+    margin-right: 39px;
+    background: url("../images/smile.jpg") no-repeat bottom center/cover;
+     /*Used if the image is unavailable*/
+    background-color: lightblue;
+    justify-content: center;
+    border-radius: 8px;
+                }
+
 /*Footer*/
 #social-media {
     text-align: center;
@@ -222,8 +245,7 @@ footer {
     background-color: #ffffff;
     bottom: 0;
     z-index: 3;
-    color: #252525;  
-    
+    color: #252525;     
 }
 /* Media query: mobilephones and larger (316px and up) */
 @media screen and (min-width: 316px) {
@@ -235,6 +257,10 @@ footer {
                     width: 250px;
                     height: 141px;
                     margin-left: 16px;
+                   }
+                   /*about-us-section*/
+                   #jumpimage {
+                    min-height: 200px;
                    }
         }
  /* Media query: mobilephones and larger (448px and up) */
@@ -260,6 +286,10 @@ padding-top: 60px;
        height: 208px;
        margin-left: 16px;
    }
+         /*about-us-section*/
+         #jumpimage {
+             min-height: 280px;
+         }
                         }
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -313,6 +343,10 @@ padding-top: 60px;
        height: 360px;
        margin-left: 10px;
    }
+         /*about-us-section*/
+         #jumpimage {
+             min-height: 480px;
+         }
                 }
     /* Media query: tablets and larger (992px and up) */
     @media screen and (min-width: 992px) {
@@ -324,7 +358,10 @@ padding-top: 60px;
                     min-height: 380px;
                     width: 95%;
                 }
-
+  /*about-us-section*/
+  #jumpimage {
+      min-height: 620px;
+  }
     }
          /* Media query: desktop (1200px and up) */
          @media screen and (min-width: 1200px) {
@@ -333,7 +370,7 @@ padding-top: 60px;
              }
     /*courses section*/
              #childimage {
-                min-height: 420px; 
+                min-height: 840px; 
              }
 
          }
