@@ -188,9 +188,11 @@ hr {
 }
 /*YouTube video aspect ratio 16:9*/
 .container {
+    display: flex;
 width: 230px;
 height: 129px;
 padding-left: 20px;
+
     }
     /*about-us-section*/
     #about {
@@ -206,8 +208,12 @@ padding-left: 20px;
     }
     #aboutus {
         list-style-type: none;
-        margin-left: 10px;
-    }/*images for about us section*/
+        margin-left: 10px; 
+}
+#about h2 {
+    margin-bottom: 20px;
+}
+/*images for about us section*/
     #jumpimage {
         min-height: 170px;
          width: 90%;
@@ -286,10 +292,10 @@ footer {
                     margin-left: 16px;
                    }
                    /*about-us-section*/
-                   #jumpimage {
+                   #jumpimage, #smileimage, #skijouring {
                     min-height: 200px;
                    }
-        }
+                                  }
  /* Media query: mobilephones and larger (448px and up) */
 @media screen and (min-width: 448px) {
 main {
