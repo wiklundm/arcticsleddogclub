@@ -242,6 +242,10 @@ padding-left: 20px;
 }
 .inner-right {
     background-color: rgb(220, 173, 170, .2);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 90%;
 }
 /*Footer*/
 #social-media {
