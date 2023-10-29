@@ -128,28 +128,6 @@ background-color: rgb(220, 173, 170, .2);
     margin: 55px;
        text-align: left;
 }
-/*about-us-section*/
-.contact-box-right {
-    margin: 55px;
-    text-align: right;
-}
-#smileimage {
-    background: url("../images/smile.jpg") no-repeat center center/cover;
-    /*Used if the image is unavailable*/
-    background-color: lightblue;
-    border-radius: 50%;
-}
-.wrapper {
-    padding: 20px;
-    text-align: left;
-}
-/*Form*/
-.inner-left, .inner-right {
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-
 
 /*courses-section*/
 
@@ -215,7 +193,18 @@ width: 230px;
 height: 129px;
 padding-left: 20px;
     }
-
+    /*about-us-section*/
+#about {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+#about h2 {
+        margin-bottom: 15px;
+        text-align: center;
+        font-size: 280%;
+    }
+}
 /*Footer*/
 #social-media {
     text-align: center;
