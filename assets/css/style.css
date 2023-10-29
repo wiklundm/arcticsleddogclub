@@ -206,6 +206,7 @@ padding-left: 20px;
     }
     #aboutus {
         list-style-type: none;
+        margin-left: 20px;
     }
     #jumpimage {
         min-height: 170px;
