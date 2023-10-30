@@ -85,10 +85,11 @@ main {
 }
 /* Hero section */
 #heroimage {
-    height: 700px;
+    height: 600px;
     width: 100%;
     background: url("../images/sleddogteam.jpg") no-repeat center center/cover;
     position: relative;
+   
 
 }
 /*cover-text*/
@@ -107,31 +108,39 @@ main {
 }
 /*experience-text under hero-image*/
 #experience {
-font-size: 160%;
-padding-top: 10px;
-padding-bottom: 10px;
+font-size: 150%;
+padding: 50px;
 font-style: italic;
 text-align: center;
 background-color: rgb(220, 173, 170, .2);
-
 align-items: flex-start;
+
 }
 /*contact-section*/
 #contact {
-    margin-bottom: 10px;
+    position: relative;
+    padding-top: 160px;
+    width: 100%;
+    display: flex;
+    background: url("../images/snowflake.jpg") no-repeat center center/cover;
+   align-self: stretch;
 }
 
 .contact-boxes-container {
-    width: 100%;
-    margin: auto;
+    width: 90%;
+    height: 270px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+   
+
 }
 .text-left {
     margin: 55px;
 }
-.contact-box-left {
-    margin: 55px;
-       text-align: left;
-}
+
+
+
 
 /*courses-section*/
 
