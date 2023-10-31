@@ -57,11 +57,10 @@ nav {
     background-color: #ffffff;
     width: 100%;
     left: 0;
-    padding: 0 2rem;
+    padding: 0 rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
-    
 }
 
 /* Nav toggle */
@@ -81,7 +80,7 @@ main {
     flex: 1 0 auto;
     margin-top: 110px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 /* Hero section */
 #heroimage {
@@ -89,8 +88,7 @@ main {
     width: 100%;
     background: url("../images/sleddogteam.jpg") no-repeat center center/cover;
     position: relative;
-   
-
+    
 }
 /*cover-text*/
 #cover-text {
@@ -119,28 +117,29 @@ align-items: flex-start;
 /*contact-section*/
 #contact {
     position: relative;
-    padding-top: 160px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     width: 100%;
+    height: 270px;
     display: flex;
     background: url("../images/snowflake.jpg") no-repeat center center/cover;
-   align-self: stretch;
+    color: #3a3a3a;
+    font-size: 90%;
+    
 }
 
-.contact-boxes-container {
-    width: 90%;
-    height: 270px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    position: relative;
-   
-
+.contact-box {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    font-size: 120%;
+    color: #3a3a3a;
 }
-.text-left {
-    margin: 55px;
+.contact-box p{
+    font-weight: bolder;
 }
-
-
-
 
 /*courses-section*/
 
@@ -184,7 +183,7 @@ align-items: flex-start;
   #additional-information {
     list-style-type: none;
  }
-#info > div {
+#course-content-id {
     line-height: 20px;
     margin: 20px;
     background-color: rgb(132, 172, 222, .2);
@@ -192,6 +191,13 @@ align-items: flex-start;
     border-radius: 8px;
                     
         }
+#add-information {
+    line-height: 20px;
+        margin: 20px;
+        background-color: rgb(132, 172, 222, .2);
+        align-self: flex-end;
+        border-radius: 8px;
+}
 #content p {
     padding: 0, 20px;
     }
@@ -373,9 +379,9 @@ padding-top: 60px;
             margin: 0 0.5rem;
         }
     /* Main content */
-        main {
+      #main {
     /* Push main content down to accommodate larger header */
-            margin-top: 77px;
+            margin-top: 79px;
                    }
     /*Hero cover text*/
     #cover-text {
@@ -390,12 +396,15 @@ padding-top: 60px;
    /*courses section*/
    #meet {
        margin-right: 30px;
+       display:flex;
    }
    #info {
     margin-right: 30px;
    }
    #childimage {
        min-height: 300px;
+       display: flex; 
+       justify-content: flex-end;
    }
    .container {
        width: 640px;
