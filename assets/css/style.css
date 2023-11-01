@@ -145,10 +145,7 @@ align-items: flex-start;
 
 #courses {
     width: 90%;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-
+    margin: 20px auto;
 }
 #courses h2 {
     margin-bottom: 15px;
@@ -171,7 +168,6 @@ align-items: flex-start;
         line-height: 20px;
         margin: 20px;
         background-color: rgb(220, 173, 170, .2);
-            align-self: flex-start;
             border-radius: 8px;
     }
 #place {
@@ -187,7 +183,7 @@ align-items: flex-start;
     line-height: 20px;
     margin: 20px;
     background-color: rgb(132, 172, 222, .2);
-    align-self: flex-end;
+    
     border-radius: 8px;
                     
         }
@@ -195,7 +191,6 @@ align-items: flex-start;
     line-height: 20px;
         margin: 20px;
         background-color: rgb(132, 172, 222, .2);
-        align-self: flex-end;
         border-radius: 8px;
 }
 #content p {
@@ -316,7 +311,7 @@ footer {
                    .container {
                     width: 250px;
                     height: 141px;
-                    margin-left: 16px;
+                    margin-left: 10px;
                    }
                    /*about-us-section*/
                    #jumpimage, #smileimage, #skijouring {
@@ -397,6 +392,14 @@ padding-top: 60px;
    #meet {
        margin-right: 30px;
        display:flex;
+   }
+   #meet > div {
+    display: flex;
+  
+   }
+   #course-content-id {
+    display: flex;
+   
    }
    #info {
     margin-right: 30px;
