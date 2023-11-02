@@ -1,11 +1,13 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Philosopher&display=swap');
+
 /*Asterisk wildcard selector to override all default styles on the page added by the browser*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 /* General styles */
 body {
     min-height: 100vh;
@@ -15,43 +17,50 @@ body {
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
 }
- h1, h2, h3 {
-     font-family: 'Philosopher', sans-serif;
-     text-transform: uppercase;
-     letter-spacing: 2px;
-     color: #252525;
- }
+
+h1,
+h2,
+h3 {
+    font-family: 'Philosopher', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
 /* Header */
 header {
-        background-color: #ffffff;
-        padding: 0 1rem;
-        position: fixed;
-        z-index: 99;
-        width: 100%;
-        box-shadow: 0 2px 2px #3a3a3a;
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-    }
- header a {
-     text-decoration: none;
-     color: inherit;
- }
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
 
- /* Navigation links */
- #menu {
-     font-size: 110%;
-     letter-spacing: 3px;
-     list-style-type: none;
-    }
+header a {
+    text-decoration: none;
+    color: inherit;
+}
 
- #menu > li {
+/* Navigation links */
+#menu {
+    font-size: 110%;
+    letter-spacing: 3px;
+    list-style-type: none;
+}
+
+#menu>li {
     margin-bottom: 1em;
- }
- .active {
+}
+
+.active {
     border-bottom: 1px solid #3a3a3a;
- }
- /* Navbar styles with dropdown toggle */
+}
+
+/* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -67,6 +76,7 @@ nav {
 #nav-toggle:checked~nav {
     display: block;
 }
+
 #nav-toggle {
     display: none;
 }
@@ -74,25 +84,28 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
+
 /* Main content */
 main {
-        /* Make main element take up any surplus space to push footer down */
+    /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 110px;
     display: flex;
     flex-direction: column;
 }
+
 /* Hero section */
 #heroimage {
     height: 600px;
     width: 100%;
     background: url("../images/sleddogteam.jpg") no-repeat center center/cover;
     position: relative;
-    
+
 }
+
 /*cover-text*/
 #cover-text {
-    background-color:rgb(183, 200, 226, .2);
+    background-color: rgb(183, 200, 226, .2);
     font-size: 120%;
     position: absolute;
     bottom: 20px;
@@ -101,19 +114,23 @@ main {
     padding-top: 40px;
     padding-left: 10px;
 }
-#cover-text > h2, #cover-text > h3 {
+
+#cover-text>h2,
+#cover-text>h3 {
     color: #3a3a3a;
 }
+
 /*experience-text under hero-image*/
 #experience {
-font-size: 150%;
-padding: 50px;
-font-style: italic;
-text-align: center;
-background-color: rgb(220, 173, 170, .2);
-align-items: flex-start;
+    font-size: 150%;
+    padding: 50px;
+    font-style: italic;
+    text-align: center;
+    background-color: rgb(220, 173, 170, .2);
+    align-items: flex-start;
 
 }
+
 /*contact-section*/
 #contact {
     position: relative;
@@ -125,7 +142,7 @@ align-items: flex-start;
     background: url("../images/snowflake.jpg") no-repeat center center/cover;
     color: #3a3a3a;
     font-size: 90%;
-    
+
 }
 
 .contact-box {
@@ -137,7 +154,8 @@ align-items: flex-start;
     font-size: 120%;
     color: #3a3a3a;
 }
-.contact-box p{
+
+.contact-box p {
     font-weight: bolder;
 }
 
@@ -147,11 +165,14 @@ align-items: flex-start;
     width: 90%;
     margin: 20px auto;
 }
+
 #courses h2 {
     margin-bottom: 15px;
+    margin-top: 20px;
     text-align: center;
     font-size: 280%;
 }
+
 #childimage {
     min-height: 120px;
     width: 90%;
@@ -163,117 +184,135 @@ align-items: flex-start;
     justify-content: center;
     border-radius: 8px;
 }
-    
-#meet > div {
-        line-height: 20px;
-        margin: 20px;
-        background-color: rgb(220, 173, 170, .2);
-            border-radius: 8px;
-    }
+
+#meet>div {
+    line-height: 20px;
+    margin: 20px;
+    background-color: rgb(220, 173, 170, .2);
+    border-radius: 8px;
+}
+
 #place {
     list-style-type: none;
 }
- #course-content {
+
+#course-content {
     list-style-type: none;
- }
-  #additional-information {
+}
+
+#additional-information {
     list-style-type: none;
- }
+}
+
 #course-content-id {
     line-height: 20px;
     margin: 20px;
     background-color: rgb(132, 172, 222, .2);
-    
     border-radius: 8px;
-                    
-        }
+
+}
+
 #add-information {
     line-height: 20px;
-        margin: 20px;
-        background-color: rgb(132, 172, 222, .2);
-        border-radius: 8px;
+    margin: 20px;
+    background-color: rgb(132, 172, 222, .2);
+    border-radius: 8px;
 }
+
 #content p {
     padding: 0, 20px;
-    }
+}
+
 hr {
     border-top: 1px solid #3a3a3a;
     margin: 4px 0;
 }
+
 /*YouTube video aspect ratio 16:9*/
 .container {
     display: flex;
-width: 230px;
-height: 129px;
-padding-left: 20px;
+    padding-left: 20px;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
 
-    }
-    /*about-us-section*/
-    #about {
-        width: 90%;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-    }
-#about h2 {
-        margin-top: 15px;
-        text-align: center;
-        font-size: 280%;
-    }
-    #aboutus {
-        list-style-type: none;
-        margin-left: 10px; 
-        margin-top: 20px;
-        margin-right: 20px;
 }
+
+/*about-us-section*/
+#about {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#about h2 {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#aboutus {
+    list-style-type: none;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
 #about h2 {
     margin-bottom: 20px;
 }
+
 #ask {
     margin-left: 10px;
     margin-top: 20px;
     margin-right: 20px;
 }
-/*images for about us section*/
-    #jumpimage {
-        min-height: 170px;
-         width: 90%;
-         margin-left: 10px;
-        background: url("../images/jump.jpg") no-repeat center center/cover;
-        /*Used if the image is unavailable*/
-        background-color: lightblue;
-        border-radius: 50px;
-        }
 
-     #smileimage {
+/*images for about us section*/
+#jumpimage {
+    min-height: 170px;
+    width: 90%;
+    margin-left: 10px;
+    background: url("../images/jump.jpg") no-repeat center center/cover;
+    /*Used if the image is unavailable*/
+    background-color: lightblue;
+    border-radius: 50px;
+}
+
+#smileimage {
     min-height: 120px;
     width: 90%;
     margin-left: 10px;
     margin-right: 39px;
     background: url("../images/smile.jpg") no-repeat bottom center/cover;
-     /*Used if the image is unavailable*/
+    /*Used if the image is unavailable*/
     background-color: lightblue;
     justify-content: center;
     border-radius: 8px;
-                }
-                
-    #skijouring {
+}
+
+#skijouring {
     min-height: 130px;
     width: 90%;
     margin-left: 10px;
     margin-right: 39px;
     background: url("../images/skijouring.jpg") no-repeat bottom center/cover;
-     /*Used if the image is unavailable*/
+    /*Used if the image is unavailable*/
     background-color: lightblue;
     justify-content: center;
     border-radius: 8px;
-                }
+}
+
 #submit {
     text-align: center;
-     text-transform: uppercase;
-     letter-spacing: 2px;
-     color: #252525;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
 }
+
 .inner-right {
     background-color: rgb(220, 173, 170, .2);
     font-family: 'Philosopher', sans-serif;
@@ -291,157 +330,194 @@ padding-left: 20px;
     justify-content: space-evenly;
     list-style-type: none;
 }
+
 #social-media i {
     font-size: 150%;
     padding: 5%;
     color: #3a3a3a;
 }
+
 footer {
     background-color: #ffffff;
     bottom: 0;
     z-index: 3;
-    color: #252525;     
+    color: #252525;
 }
+
 /* Media query: mobilephones and larger (316px and up) */
 @media screen and (min-width: 316px) {
-        main {   /* Push main content down to accommodate larger header */
-                margin-top: 77px;
-            }
-                   /*YouTube video aspect ratio 16:9*/
-                   .container {
-                    width: 250px;
-                    height: 141px;
-                    margin-left: 10px;
-                   }
-                   /*about-us-section*/
-                   #jumpimage, #smileimage, #skijouring {
-                    min-height: 200px;
-                   }
-                                  }
- /* Media query: mobilephones and larger (448px and up) */
+    main {
+        /* Push main content down to accommodate larger header */
+        margin-top: 77px;
+    }
+
+    /*YouTube video aspect ratio 16:9*/
+    .container {
+        width: 250px;
+        height: 141px;
+        margin-left: 10px;
+    }
+
+    /*about-us-section*/
+    #jumpimage,
+    #smileimage,
+    #skijouring {
+        min-height: 200px;
+    }
+}
+
+/* Media query: mobilephones and larger (448px and up) */
 @media screen and (min-width: 448px) {
-main {
-/* Push main content down to accommodate larger header */
-    margin-top: 42px;
-                            }
- /*Hero cover text*/
- #cover-text {
-padding-top: 60px;
- }
- /*experience-text under hero-image*/
- #experience {
-     font-size: 280%;
- }
- #childimage {
-     min-height: 170px;
- }
-   /*YouTube video aspect ratio 16:9*/
-   .container {
-       width: 370px;
-       height: 208px;
-       margin-left: 16px;
-   }
-         /*about-us-section*/
-         #jumpimage, #smileimage,
-        #skijouring {
-             min-height: 280px;
-         }
-    
-                  }
-                   
+    main {
+        /* Push main content down to accommodate larger header */
+        margin-top: 42px;
+    }
+
+    /*Hero cover text*/
+    #cover-text {
+        padding-top: 60px;
+    }
+
+    /*experience-text under hero-image*/
+    #experience {
+        font-size: 280%;
+    }
+
+    #childimage {
+        min-height: 170px;
+    }
+
+    /*YouTube video aspect ratio 16:9*/
+    .container {
+        width: 370px;
+        height: 208px;
+        margin-left: 16px;
+    }
+
+    /*about-us-section*/
+    #jumpimage,
+    #smileimage,
+    #skijouring {
+        min-height: 280px;
+    }
+
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
-        nav {
-            display: block;
-            position: relative;
-            box-shadow: none;
-            width: fit-content;
-            padding-right: 1rem;
-        }
-        #menu {
-            display: flex;
-        }
-        #menu > li {
-            padding-left: 1rem;
-        }
-        .nav-toggle-label {
-            display: none;
-        }
-        #logo { 
-            line-height: 75px;
-            font-size: 280%;
-            margin: 0 0.5rem;
-        }
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        line-height: 75px;
+        font-size: 280%;
+        margin: 0 0.5rem;
+    }
+
     /* Main content */
-      #main {
-    /* Push main content down to accommodate larger header */
-            margin-top: 79px;
-                   }
+    #main {
+        /* Push main content down to accommodate larger header */
+        margin-top: 79px;
+    }
+
     /*Hero cover text*/
     #cover-text {
         width: 300px;
         left: 50px;
         padding-top: 60px;
-        }
-        /*experience-text under hero-image*/
-        #experience {
-            font-size: 240%;
-        }
-   /*courses section*/
-   #meet {
-       margin-right: 30px;
-       display:flex;
-   }
-   #meet > div {
-    display: flex;
-  
-   }
-   #course-content-id {
-    display: flex;
-   
-   }
-   #info {
-    margin-right: 30px;
-   }
-   #childimage {
-       min-height: 300px;
-       display: flex; 
-       justify-content: flex-end;
-   }
-   .container {
-       width: 640px;
-       height: 360px;
-       margin-left: 10px;
-   }
-         /*about-us-section*/
-         #jumpimage, #skijouring, #jumpimage {
-             min-height: 480px;
-         }
-                }
-    /* Media query: tablets and larger (992px and up) */
-    @media screen and (min-width: 992px) {
-        #menu a:hover { 
-        border-bottom: 1px solid #3a3a3a;
-        }
-        /*courses section*/
-                #childimage {
-                    min-height: 380px;
-                    width: 95%;
-                }
-  /*about-us-section*/
-  #jumpimage {
-      min-height: 620px;
-  }
     }
-         /* Media query: desktop (1200px and up) */
-         @media screen and (min-width: 1200px) {
-             #menu a:hover {
-                 border-bottom: 1px solid #3a3a3a;
-             }
-    /*courses section*/
-             #childimage {
-                min-height: 840px; 
-             }
 
-         }
+    /*experience-text under hero-image*/
+    #experience {
+        font-size: 240%;
+    }
+
+    /*courses section*/
+    #meet {
+        margin-right: 30px;
+        display: flex;
+    }
+
+    #meet>div {
+        display: flex;
+
+    }
+
+    #course-content-id {
+        display: flex;
+
+    }
+
+    #info {
+        margin-right: 30px;
+    }
+
+    #childimage {
+        min-height: 300px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .container {
+        width: 640px;
+        height: 360px;
+        margin-left: 10px;
+    }
+
+    /*about-us-section*/
+    #jumpimage,
+    #skijouring,
+    #jumpimage {
+        min-height: 480px;
+    }
+}
+
+/* Media query: tablets and larger (992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+
+    /*courses section*/
+    #childimage {
+        min-height: 380px;
+        width: 95%;
+    }
+
+    /*about-us-section*/
+    #jumpimage {
+        min-height: 620px;
+    }
+}
+
+/* Media query: desktop (1200px and up) */
+@media screen and (min-width: 1200px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+
+    /*courses section*/
+    #childimage {
+        min-height: 840px;
+    }
+
+}
