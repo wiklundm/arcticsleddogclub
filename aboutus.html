@@ -1,110 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Meta tags for search engines-->
-    <meta name="description" content="Arctic sleddog club, Abisko based sleddog club to learn about and train sleddogs">
-    <meta name="keywords" content="sleddog club, sleddog, sleddogs, train, compete, mountain, sports, exersice">
-    <meta name="author" content="Arctic Sleddog Club">
+    <meta
+      name="description"
+      content="Arctic sleddog club, Abisko based sleddog club to learn about and train sleddogs"
+    />
+    <meta
+      name="keywords"
+      content="sleddog club, sleddog, sleddogs, train, compete, mountain, sports, exersice"
+    />
+    <meta name="author" content="Arctic Sleddog Club" />
+
     <!--Title-->
     <title>Arctic Sleddog Club</title>
     <!--Favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
     <!--Stylesheet-->
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-<body>
+  <body>
     <!--Header-->
 
     <header>
-        <a href="index.html">
-            <h1 id="logo">Arctic Sleddog Club</h1>
-        </a>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-        <nav>
-            <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="courses.html">Courses</a></li>
-                <li><a href="aboutus.html" class="active">About us</a></li>
-            </ul>
-        
-        </nav>
+      <a href="index.html">
+        <h1 id="logo">Arctic Sleddog Club</h1>
+      </a>
+      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <nav>
+        <ul id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="aboutus.html" class="active">About us</a></li>
+        </ul>
+      </nav>
     </header>
     <!--Main content-->
     <!--About us section-->
     <main>
-    <section>
-    <div class="about" id="about">
-      <h2>About us</h2>
-      
-      <div class="contents" id="content">
-        <!--An img-->
-        <div class="jump" id="jumpimage" alt="Group of people in the snow jump in joy"></div>
-      <span class="inside-left" id="inside-left"</span> 
-        <ul id="aboutus">
-            <li>Arctic sleddog club is situated in Abisko, above the arctic circle.</li>
-            <li>The clubs purpose is to spread the knowledge about the sleddog culture.</li>
-            <li>To educate, train for and participate in sleddog races.</li>
-            <li>To engage people in outdoor activities in an arctic environment.</li>
-            <li>To promote good dogcare and work against doping and discrimination in sports.</li>
-            <li>The club is part of (Swedish sleddog federation) and therby member at (Swedish national athletes federation).</li>
-            <li>Arctic sleddog club are following the regulations set by ESDRA and ISDVMA with additional Swedish restrictions.</li>
-      </ul>
-      </div>
-            <div class="ask" id="ask">
-               <h3>Ask us anything about sleddogs!</h3>
-                <p>Everybody interested in sleddogs are welcome to join us!><br>
-            </div>
-      <!--Form-->
-      <div class="inner-right">
-        <form method="POST" action="https://formdump.codeinstitute.net">
-            <fieldset>
+      <section>
+        <div class="about" id="about">
+          <h2>About us</h2>
+
+          <div class="contents" id="content">
+            <!--An img-->
+            <div
+              class="jump"
+              id="jumpimage"
+              alt="Group of people in the snow jump in joy"
+            ></div>
+            <div class="inside-left" id="inside-left"></div>
+            <ul id="aboutus">
+              <li>
+                Arctic sleddog club is situated in Abisko, above the arctic
+                circle.
+              </li>
+              <li>
+                The clubs purpose is to spread the knowledge about the sleddog
+                culture.
+              </li>
+              <li>To educate, train for and participate in sleddog races.</li>
+              <li>
+                To engage people in outdoor activities in an arctic environment.
+              </li>
+              <li>
+                To promote good dogcare and work against doping and
+                discrimination in sports.
+              </li>
+              <li>
+                The club is part of (Swedish sleddog federation) and therby
+                member at (Swedish national athletes federation).
+              </li>
+              <li>
+                Arctic sleddog club are following the regulations set by ESDRA
+                and ISDVMA with additional Swedish restrictions.
+              </li>
+            </ul>
+          </div>
+          <div class="ask" id="ask">
+            <h3>Ask us anything about sleddogs!</h3>
+            <p>
+              Everybody interested in sleddogs are welcome to join us!><br />
+            </p>
+          </div>
+
+          <!--Form-->
+          <div class="inner-right">
+            <form method="POST" action="https://formdump.codeinstitute.net">
+              <fieldset>
                 <legend>Your details</legend>
                 <div>
-                    <label for="fname">First Name</label><br>
-                    <input id="fname" type="text" name="fname" placeholder="First name" input required="name-field"><br>
-                    <label for="lname">Last Name</label><br>
-                    <input id="lname" type="text" name="lname" placeholder="Last name" input required="name-field"><br>
+                  <label for="fname">First Name</label><br />
+                  <input
+                    id="fname"
+                    type="text"
+                    name="fname"
+                    placeholder="First name"
+                    required
+                  /><br />
+                  <label for="lname">Last Name</label><br />
+                  <input
+                    id="lname"
+                    type="text"
+                    name="lname"
+                    placeholder="Last name"
+                    required
+                  /><br />
                 </div>
                 <div>
-                    <label for="email-field">Email</label><br>
-                    <input id="email-field" type="email" name="email" placeholder="Your email" input required="email-field"><br>
-                    <label for="information">Information</label><br>
-                    <input id="information" type="text" name="information" placeholder="Information" input required="name-field"><br>
+                  <label for="email-field">Email</label><br />
+                  <input
+                    id="email-field"
+                    type="email"
+                    name="email"
+                    placeholder="Your email"
+                    required
+                  /><br />
+                  <label for="information">Information</label><br />
+                  <input
+                    id="information"
+                    type="text"
+                    name="information"
+                    placeholder="Information"
+                    required
+                  /><br />
                 </div>
-                
-                <input button="submit" type="submit" id="submit" class="text-center" value="Contact us">
-            </fieldset>
-        </form>
-    
-      </div>
-     <div class="skijouring" id="skijouring" alt="Woman is skijouring behind a sleddog"></div>
-    <div class="smile" id="smileimage" alt="Couple having fun riding a sled"></div>
-    </div>
-    </section>
+
+                <button
+                  class="submit"
+                  type="submit"
+                  id="submit"
+                  value="Contact us"
+                ></button>
+              </fieldset>
+            </form>
+          </div>
+          <div
+            class="skijouring"
+            id="skijouring"
+            alt="Woman is skijouring behind a sleddog"
+          ></div>
+          <div
+            class="smile"
+            id="smileimage"
+            alt="Couple having fun riding a sled"
+          ></div>
+        </div>
+      </section>
     </main>
     <footer>
-        <ul id="social-media">
-            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li><a href="https://www.instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)"><i
-                        class="fa-brands fa-instagram"></i></a></li>
-            <li><a href="https://www.twitter.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
-            </li>
-        </ul>
+      <ul id="social-media">
+        <li>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Facebook page (opens in a new tab)"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Instagram page (opens in a new tab)"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.twitter.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Twitter page (opens in a new tab)"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </li>
+      </ul>
     </footer>
     <!--Font Awesome Kit-->
-    <script src="https://kit.fontawesome.com/b3317de248.js" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://kit.fontawesome.com/b3317de248.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
