@@ -7,7 +7,7 @@ Welcome to the website of Arctic Sleddog Club!
 The Arctic Sleddog Club is a club located in the far north of Sweden in a town called Abisko
 There are more than 4000 dogs in the area and sleddog tourism is a big source of income. Despite that there are no training or educational facilities. When the season starts most kennels and companies have to teach and train their employees by them selves for several weeks before they can start working with the tourists. This is both expensive and timeconsuming. For the natives who wants to know more about sleddogs the closest club and training facility are in Kiruna approximately 250km away.
 
-The Arctic Sleddog Club is seated at the mountains in beautiful surroundings, but even though the nature is beautiful the weather can rapidly change, and it can be dangerous if you are not prepared for the arctic climate. The temperature falls below -40 degrees Celsius some weeks of the year and lavins are frequently occurring. Since its amount of snow during the year the winter season is long, and the club can guarantee that there is sufficient amount of snow on the trails. The club wants to spread the knowledge about how to enjoy dogsledding in the mouintanins while still being safe.  
+The Arctic Sleddog Club is seated at the mountains in beautiful surroundings, but even though the nature is beautiful the weather can rapidly change, and it can be dangerous if you are not prepared for the arctic climate. The temperature falls below -40 degrees Celsius some weeks of the year and lavins are frequently occurring. Since its amount of snow during the year the winter season is long, and the club can guarantee that there is sufficient amount of snow on the trails. The club wants to spread the knowledge about how to enjoy dogsledding in the mouintanins while still being safe.
 
 With this said the Arctic Sleddog Clubs purpose is to educate and spread the knowledge about sleddog culture and to engage people in outdoor activities in an arctic environment. To educate train for and participate in sleddog races. To promote a good dogcare and sportsmanship and work against doping and discrimination in sports.
 The website is a three-page website. It features an home page, a courses page and an about page where you can read about when, where and what the next course is about.
@@ -18,45 +18,45 @@ UX
 Development Plane
 
 1. Strategy Plan
-Thes site is fictional.
-Online research was and interviewed members of different sleddog associations in the county of Norrbotten (the biggest county by area in Sweden).
-I discovered that people living and visiting the area mainly did so due to its beautiful nature, and sleddog tourism was a big part of why people went there.
-Research also told me that there are almost as many sleddogs as people in the county of Kiruna.
-The nature is free for everyone to visit but there are a few regulations that needs to be followed in the mountain area, especially when comes to areas with reindeers.
+   Thes site is fictional.
+   Online research was and interviewed members of different sleddog associations in the county of Norrbotten (the biggest county by area in Sweden).
+   I discovered that people living and visiting the area mainly did so due to its beautiful nature, and sleddog tourism was a big part of why people went there.
+   Research also told me that there are almost as many sleddogs as people in the county of Kiruna.
+   The nature is free for everyone to visit but there are a few regulations that needs to be followed in the mountain area, especially when comes to areas with reindeers.
 
 User goals
 
-* The site targets young and adults with an interest in sleddogs and nature.
-* Living fulltime or winter season in the area in the north of the county of Kiruna.
-* To spread the knowledge about sleddogs and its culture and how to behave in the mountains in an arctic climate.
+- The site targets young and adults with an interest in sleddogs and nature.
+- Living fulltime or winter season in the area in the north of the county of Kiruna.
+- To spread the knowledge about sleddogs and its culture and how to behave in the mountains in an arctic climate.
 
 First time user
 
-* Create a design that was professional and not causing information overload. There were many websites that was cropped with information and very poor layout.
-* To make a user easily navigate between the pages and attract with both text and visual images.
-* To find information about the content, location and time of the upcoming course.
-* Give access to social media links for reviews and other information.
+- Create a design that was professional and not causing information overload. There were many websites that was cropped with information and very poor layout.
+- To make a user easily navigate between the pages and attract with both text and visual images.
+- To find information about the content, location and time of the upcoming course.
+- Give access to social media links for reviews and other information.
 
 Returning user and first-time user
 
-* As both a returning and first-time visitor I want to find options to contact the Sleddog Club.
-* To create a design that would be fully responsive on all devices and screen sizes.
+- As both a returning and first-time visitor I want to find options to contact the Sleddog Club.
+- To create a design that would be fully responsive on all devices and screen sizes.
 
 Business goals
 The website is mainly for individuals but when the knowledge of the sports and dogcare increases, the understanding and knowledge of the sport and sleddog culture increases which gives positive effects also on businesses.
 
-* Increased interest in the sport can give the business more customers.
-* The business can hire educated staff instead of putting several weeks into training new staff by themselves as is for now.
-* When people following the rules in the mountains, the reindeer’s gest less stressed and the Sami are getting healthier animals.
+- Increased interest in the sport can give the business more customers.
+- The business can hire educated staff instead of putting several weeks into training new staff by themselves as is for now.
+- When people following the rules in the mountains, the reindeer’s gest less stressed and the Sami are getting healthier animals.
 
 Other considerations
 
-*The Arctic Sleddog Club has a B2C (Business-to-costumer) approach.
+\*The Arctic Sleddog Club has a B2C (Business-to-costumer) approach.
 
-* The design stands out amongst the competitors.
-* Minimal content and large images to avoid informational overload as in many similar websites.
-* The content and headlines are appealing and fills a purpose.
-* There is a slight difference between the Arctic Sleddog Club and other companies organizing courses since it is a club.
+- The design stands out amongst the competitors.
+- Minimal content and large images to avoid informational overload as in many similar websites.
+- The content and headlines are appealing and fills a purpose.
+- There is a slight difference between the Arctic Sleddog Club and other companies organizing courses since it is a club.
 
 DESIGN PROCESS
 
@@ -136,36 +136,36 @@ The user can to leave a message on any subject regarding sleddogs and also apply
 The form requires the user to fill it out correctly before clicking the CONTACT US button. The button is responsive (confirmed by sending the user to a template page borrowed from Code Institute). The background color is the same color set on the section for time and place on the courses page. This gives a consistent theme.
 
 Skijouring image
-The image shows the user the discipline of skijouring to inspire sending questions about the sport.  
+The image shows the user the discipline of skijouring to inspire sending questions about the sport.
 
 The Footer
 The footer uses the same theme as the Navbar and provides the social media links of the club, that opens in a new tab. The style remains the same over the webpages.
 
 Features to be implemented in the future:
 
-* Choices to pay in different ways such as Paypal and bank-transfer.
-* Choices to change the language of the website to Swedish
-* Add Captcha to the contact form to allow better security from spam.
-* Choices for GDPR
-* A separate page for those interested in competitions.
-* A Gallerypage with pictures from different disciplines, courses and competitions made by the club.
-  
+- Choices to pay in different ways such as Paypal and bank-transfer.
+- Choices to change the language of the website to Swedish
+- Add Captcha to the contact form to allow better security from spam.
+- Choices for GDPR
+- A separate page for those interested in competitions.
+- A Gallerypage with pictures from different disciplines, courses and competitions made by the club.
+
 Technologies used
 
- *Language: HTML5 and CSS3
- *Google fonts was used to import Lato and Philosopher fonts
- *Fontawesome to import icons for UX purposes and to look good
- *Codeanywhere to write the code
- *GitHub to store the project and Gitpod terminal to commit to Git and push to GitHub
- *Balsamic to create the wireframes during the design process
- *Am I Responsive to preview the website on different devices
- *Istock was the sorce of several of the images used in my project.
- *Favicon was created using RedKetchup from a picture of one of my own sleddogs
+*Language: HTML5 and CSS3
+*Google fonts was used to import Lato and Philosopher fonts
+*Fontawesome to import icons for UX purposes and to look good
+*Codeanywhere to write the code
+*GitHub to store the project and Gitpod terminal to commit to Git and push to GitHub
+*Balsamic to create the wireframes during the design process
+*Am I Responsive to preview the website on different devices
+*Istock was the sorce of several of the images used in my project.
+\*Favicon was created using RedKetchup from a picture of one of my own sleddogs
 
 Issues and bugs
 
 The biggest issue was my bad internet connetion. The Codeanywehere often stopped working, had to be reloaded, data was not being pushed and meny times I did not know if it was the code that was wrong or the connection problem.This was frustrating and very timeconsuming since I hade to start over and over again meny times and made me unsurtain of my code. This problem was unfortunately nothing I could fix due to there are no better service here, just try to work around it and push more often.
-The nest issue that made a lot of more issues stacking up was when my free codingtime on Codeanywhere was stopped. I got another free account from CodeInstitute. The problem was to transfer the project to the place. It seemed to work for a little time but when the old one stopped working I was not able to push or change anything in the new account either. This was also very timeconsuming and for days I could not code since we did not had any education on that part from the program.  I searched for solutions how to merge the accounts on stack.
+The nest issue that made a lot of more issues stacking up was when my free codingtime on Codeanywhere was stopped. I got another free account from CodeInstitute. The problem was to transfer the project to the place. It seemed to work for a little time but when the old one stopped working I was not able to push or change anything in the new account either. This was also very timeconsuming and for days I could not code since we did not had any education on that part from the program. I searched for solutions how to merge the accounts on stack.
 
 Issue:
 The flexbox properties for the contact page -section meeting would not align to the left on and the course content info would not align to the right.
@@ -176,6 +176,7 @@ Css warning: Importent statement do not load in parallel (@import google fonts).
 Solution: after reading all I could find on stack and talking to my mentor we decided to ignore the issue since it did not made any real problem.
 
 # Deployment
+
 To make my project viewable to others.
 The project was developed in Codeanywhere, commited to Git and pushed and stored to GitHub pages. This allowed me to share the live website with others. <https://wiklundm.github.io/arcticsleddogclub/>
 
