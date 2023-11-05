@@ -175,7 +175,7 @@ Issue:
 Css warning: Importent statement do not load in parallel (@import google fonts).
 Solution: after reading all I could find on stack and talking to my mentor we decided to ignore the issue since it did not made any real problem.
 
-Deployment
+# Deployment
 To make my project viewable to others.
 The project was developed in Codeanywhere, commited to Git and pushed and stored to GitHub pages. This allowed me to share the live website with others. <https://wiklundm.github.io/arcticsleddogclub/>
 
