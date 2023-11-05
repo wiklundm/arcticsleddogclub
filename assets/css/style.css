@@ -199,7 +199,7 @@ main {
     border-radius: 8px;
     float: left;
     width: 33%;
-    
+
 }
 
 .meetings {
@@ -219,7 +219,7 @@ main {
     border-radius: 8px;
     width: 66%;
     float: right;
-    
+
 }
 
 .course-content-class {
@@ -245,6 +245,7 @@ main {
     width: 100%;
     background-color: rgb(132, 172, 222, 0.2);
     border-radius: 8px;
+    flex-direction: column;
     display: flex;
     align-items: center;
     text-align: center;
