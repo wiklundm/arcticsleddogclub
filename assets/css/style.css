@@ -95,13 +95,11 @@ main {
 }
 
 /* Hero section */
+
 #heroimage {
     position: relative;
-    top: 0;
-    left: 0;
     width: 100%;
-    height: 100%;
-   /*Background color used if the image is unavailable*/ 
+    /*Background color used if the image is unavailable*/
     background-color: lightblue;
     background-repeat: no-repeat;
     background-size: cover;
@@ -113,18 +111,12 @@ main {
     background-color: rgb(183, 200, 226, 0.2);
     font-size: 70%;
     position: absolute;
-    display: flex;
-    top: 32%;
-    left: 0%;
-    margin-left: 20px;
-    flex-direction: column;
-
+    width: 50%;
+    min-height: 50px;
+    padding: 10px;
+    top: 25%;
 }
 
-#cover-text>div {
-    display: flex;
-    align-items: flex-end;
-}
 
 #cover-text>h2,
 #cover-text>h3 {
@@ -184,12 +176,12 @@ main {
 
 #content {
     display: flex;
-        flex-direction: column;
+    flex-direction: column;
 }
 
 #childimage {
     min-height: 120px;
-    width: 95%;
+    width: 100%;
     margin-left: 18px;
     /*Used if the image is unavailable*/
     background-color: lightblue;
@@ -200,18 +192,40 @@ main {
     border-radius: 8px;
 }
 
-#meet>div {
-    line-height: 20px;
-    margin: 20px;
+#meet {
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: rgb(220, 173, 170, 0.2);
     border-radius: 8px;
-    display: flex;
-    justify-items: flex-start;
-    align-items: flex-start;
+    float: left;
+    width: 33%;
+    
+}
+
+.meetings {
+    line-height: 20px;
+    clear: both;
+    flex-direction: column;
 }
 
 #place {
     list-style-type: none;
+}
+
+#course-content-id {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(132, 172, 222, 0.2);
+    border-radius: 8px;
+    width: 66%;
+    float: right;
+    
+}
+
+.course-content-class {
+    line-height: 20px;
+    clear: both;
+    flex-direction: column;
 }
 
 #course-content {
@@ -222,20 +236,13 @@ main {
     list-style-type: none;
 }
 
-#course-content-id {
-    line-height: 20px;
-    margin: 20px;
-    background-color: rgb(132, 172, 222, 0.2);
-    border-radius: 8px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-
 #add-information {
     line-height: 20px;
-    margin: 20px;
-    width: 90%;
+    /*margin center the div*/
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
     background-color: rgb(132, 172, 222, 0.2);
     border-radius: 8px;
     display: flex;
@@ -249,6 +256,7 @@ main {
 
 hr {
     border-top: 1px solid #3a3a3a;
+    width: 100%;
     margin: 4px 0;
 }
 
@@ -258,7 +266,6 @@ hr {
     padding-left: 20px;
     width: 90%;
     margin: auto;
-    flex-direction: column;
     align-items: center;
 }
 
@@ -402,7 +409,7 @@ footer {
 
     /*Hero section cover text*/
     #cover-text {
-            top: 29%;
+        top: 29%;
         font-size: 100%;
     }
 
@@ -469,8 +476,8 @@ footer {
     /*Hero section cover text*/
     #cover-text {
         width: 300px;
-     top: 50%;
-     font-size: 120%;
+        top: 50%;
+        font-size: 120%;
     }
 
     /*experience-text under hero-image*/
@@ -519,11 +526,13 @@ footer {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
-        /*Hero section cover text*/
-        #cover-text {
-            top: 64%;
-            font-size: 140%;
-        }
+
+    /*Hero section cover text*/
+    #cover-text {
+        top: 64%;
+        font-size: 140%;
+    }
+
     /*courses section*/
     #childimage {
         min-height: 380px;
@@ -541,12 +550,14 @@ footer {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
-/*Hero section cover text*/
-#cover-text {
-    top: 72%;
-    width: 350px;
-    font-size: 160%;
-}
+
+    /*Hero section cover text*/
+    #cover-text {
+        top: 72%;
+        width: 350px;
+        font-size: 160%;
+    }
+
     /*courses section*/
     #childimage {
         min-height: 840px;
