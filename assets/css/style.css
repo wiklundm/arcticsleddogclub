@@ -101,6 +101,8 @@ main {
     left: 0;
     width: 100%;
     height: 100%;
+   /*Background color used if the image is unavailable*/ 
+    background-color: lightblue;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -182,19 +184,20 @@ main {
 
 #content {
     display: flex;
+        flex-direction: column;
 }
 
 #childimage {
     min-height: 120px;
-    width: 90%;
+    width: 95%;
     margin-left: 18px;
-    margin-right: 39px;
     /*Used if the image is unavailable*/
     background-color: lightblue;
+    background-repeat: no-repeat;
+    display: flex;
     justify-content: center;
+    align-items: center;
     border-radius: 8px;
-    right: 0px;
-    top: 0px;
 }
 
 #meet>div {
@@ -203,7 +206,6 @@ main {
     background-color: rgb(220, 173, 170, 0.2);
     border-radius: 8px;
     display: flex;
-    flex-direction: row;
     justify-items: flex-start;
     align-items: flex-start;
 }
@@ -226,7 +228,6 @@ main {
     background-color: rgb(132, 172, 222, 0.2);
     border-radius: 8px;
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
 }
@@ -238,7 +239,6 @@ main {
     background-color: rgb(132, 172, 222, 0.2);
     border-radius: 8px;
     display: flex;
-    flex-direction: column;
     align-items: center;
     text-align: center;
 }
@@ -463,7 +463,7 @@ footer {
     /* Main content */
     #main {
         /* Push main content down to accommodate larger header */
-        margin-top: 79px;
+        margin-top: 150px;
     }
 
     /*Hero section cover text*/
@@ -498,8 +498,6 @@ footer {
 
     #childimage {
         min-height: 300px;
-        display: flex;
-        justify-content: flex-end;
     }
 
     .container {
