@@ -1,101 +1,135 @@
-# Project Title
 
-Arctic Sleddog Club
+# Arctic Sleddog Club
 
-Introduction
-Welcome to the website of Arctic Sleddog Club!
-The Arctic Sleddog Club is a club located in the far north of Sweden in a town called Abisko
+## Introduction
+
+### Welcome to the website of Arctic Sleddog Club
+
+The Arctic Sleddog Club is a club located in the far north of Sweden in a town called Abisko.
 There are more than 4000 dogs in the area and sleddog tourism is a big source of income. Despite that there are no training or educational facilities. When the season starts most kennels and companies have to teach and train their employees by them selves for several weeks before they can start working with the tourists. This is both expensive and timeconsuming. For the natives who wants to know more about sleddogs the closest club and training facility are in Kiruna approximately 250km away.
 
-The Arctic Sleddog Club is seated at the mountains in beautiful surroundings, but even though the nature is beautiful the weather can rapidly change, and it can be dangerous if you are not prepared for the arctic climate. The temperature falls below -40 degrees Celsius some weeks of the year and lavins are frequently occurring. Since its amount of snow during the year the winter season is long, and the club can guarantee that there is sufficient amount of snow on the trails. The club wants to spread the knowledge about how to enjoy dogsledding in the mouintanins while still being safe.
+The Arctic Sleddog Club is seated at the base of the mountain in beautiful surroundings. But even though the nature is beautiful the weather can rapidly change, and it can be dangerous if you are not prepared for the arctic climate. The temperature falls below -40 degrees Celsius some weeks over the year and lavins are frequently occurring. The cold and long winter season, the guarantee of enough snow on the trails and the big population of sleddogs makes the location for the club optimal. The club wants to spread the knowledge about how to enjoy dogsledding in the mouintanins while still being safe.
 
-With this said the Arctic Sleddog Clubs purpose is to educate and spread the knowledge about sleddog culture and to engage people in outdoor activities in an arctic environment. To educate train for and participate in sleddog races. To promote a good dogcare and sportsmanship and work against doping and discrimination in sports.
-The website is a three-page website. It features an home page, a courses page and an about page where you can read about when, where and what the next course is about.
+*The Arctic Sleddog Clubs purpose is to educate and spread the knowledge about sleddog culture and to engage people in outdoor activities in an arctic environment.
+*To educate train for and participate in sleddog races.
+*To promote good dogcare and sportsmanship and work against doping and discrimination in sports.
+*The website is a three-page website. It features an home page, a courses page and an about page where you can read about when, where and what the next course is about.
 
-Please note that this site is a fictional website using HTML and CSS and was created for The Code Institutes Milestone Project 1. There are no Arctic Sleddog Club even though there are demands for it.
+_Please note that this site is a fictional website using HTML and CSS and was created for The Code Institutes Milestone Project 1. There are no Arctic Sleddog Club even though there are demands for it._
 
-UX
-Development Plane
+## UX
 
-1. Strategy Plan
-   Thes site is fictional.
-   Online research was and interviewed members of different sleddog associations in the county of Norrbotten (the biggest county by area in Sweden).
-   I discovered that people living and visiting the area mainly did so due to its beautiful nature, and sleddog tourism was a big part of why people went there.
-   Research also told me that there are almost as many sleddogs as people in the county of Kiruna.
-   The nature is free for everyone to visit but there are a few regulations that needs to be followed in the mountain area, especially when comes to areas with reindeers.
+### Development Plane
 
-User goals
+#### Strategy Plan
 
-- The site targets young and adults with an interest in sleddogs and nature.
-- Living fulltime or winter season in the area in the north of the county of Kiruna.
+The site is fictional.
+Reaserch was made online and by interviews of members from different sleddog associations.
+I discovered that people living and visiting the area mainly did so due to its beautiful nature, and sleddog tourism is a big source of income.
+Research also told me that there are almost as many sleddogs as people in the county of Kiruna.
+The nature is free for everyone to visit, but there are regulations that needs to be followed in the mountain area, especially when comes to areas with reindeers.
+The arctid climate and vast wild nature with frequent lavins makes it important to have the right knowledge before driving sleddogs in the area.
+
+##### User goals
+
+- The site targets young people and adults with an interest in sleddogs and nature.
+- Living or spending time during the winter in the area.
 - To spread the knowledge about sleddogs and its culture and how to behave in the mountains in an arctic climate.
 
-First time user
+##### First time user
 
-- Create a design that was professional and not causing information overload. There were many websites that was cropped with information and very poor layout.
+- Create a professional design that are not causing information overload. When I did research I found out that many websites of sleddog clubs  was cropped with information and had flawed layout.
 - To make a user easily navigate between the pages and attract with both text and visual images.
-- To find information about the content, location and time of the upcoming course.
+- To find information about the content, location, time and price of the upcoming course.
 - Give access to social media links for reviews and other information.
 
-Returning user and first-time user
+##### Returning user and first-time user
 
-- As both a returning and first-time visitor I want to find options to contact the Sleddog Club.
+- As both a returning and first-time visitor I want to easily be able to contact the Sleddog Club.
 - To create a design that would be fully responsive on all devices and screen sizes.
 
-Business goals
-The website is mainly for individuals but when the knowledge of the sports and dogcare increases, the understanding and knowledge of the sport and sleddog culture increases which gives positive effects also on businesses.
+#### Business goals
+
+The website is mainly for individuals but when information aspreads, the understanding and knowledge of the sport and sleddog culture increases which gives positive effects also on businesses. T
 
 - Increased interest in the sport can give the business more customers.
 - The business can hire educated staff instead of putting several weeks into training new staff by themselves as is for now.
-- When people following the rules in the mountains, the reindeer’s gest less stressed and the Sami are getting healthier animals.
+- When people following the rules in the mountains, the reindeers gest less stressed and the Sami are getting healthier animals with higher survival rate. This gives a good relation with the natives and makes the club able to use their land for the clubs purposes.
+- Advertising, sponsorship on competitions and businessevents also gives profits.
+- The tourism companies can hire educated staff which saves several weeks of time and money.
+  
+#### Other considerations
 
-Other considerations
-
-\*The Arctic Sleddog Club has a B2C (Business-to-costumer) approach.
+##### The Arctic Sleddog Club has a B2C (Business-to-costumer) approach
 
 - The design stands out amongst the competitors.
 - Minimal content and large images to avoid informational overload as in many similar websites.
 - The content and headlines are appealing and fills a purpose.
-- There is a slight difference between the Arctic Sleddog Club and other companies organizing courses since it is a club.
+- There are no other clubs in the area but a lot of sleddogs.
 
-DESIGN PROCESS
+## DESIGN PROCESS
 
 1.Strategy plane
+
 I wanted to create a page that could gather people with similar interests and spread knowledge about sleddogs.
 I had recently started to learn how to write code and my aim for this project was to apply what I had learned in HTML and CSS.
 
 2.Scope plan
-I decided that since the nature and dogs is the main reason people would visit the page it is important to have images visualizing the experiences the people attending the course would have.
-I needed a contact form.
-Location and meeting hours.
-Information about what to expect taking the course.
 
-Functionality requirements:
+-I decided that since the nature and dogs is the main reason people would visit the page it is important to have images visualizing the experiences the people joining the club and attending the course would have.
+-I needed a contact form.
+-Location, meeting hours and costs.
+-Information about what to expect taking the course.
+-Information about the club.
+
+*Functionality requirements:
 The user needs to be able to navigate through the website to access all the contents.
 The user can easily contact the club.
 
 3.Structure plane
+
 When I had decided what features I wanted, I began to create the structure of my design into pages.
-The Home page would tell the user what they are visiting a site for a Sleddog club. That the club is in a mountain area with beautiful and relaxing environments and contact information.
-The Courses page tells the user when and where the next course will be, the main content and price for the cour
-The About us page tells us a little of the club.
-There is a navigation menu bar but also astrategically placed button to encourage the user to stay motivated and continue to the next step.
+-The Home page would tell the user they are visiting a site for a Sleddog club.
+That the club is in a mountain area with beautiful and relaxing environments and the contact information.
+An inspirational text gives a mental picture of what you can experience.
+
+-The Courses page tells the user when, where, the price and content of the next course.
+
+-The About us page tells the user a little about the club and what regulations need to be followed.
+There are a contact form.
+
+There is a navigation menu bar to easily navigate between the pages that encourages the user to stay motivated and continue to the next step.
 
 4.Skeleton plane
-Wireframes were made in Balsamic to design the navigation and interface for desktop, tablet and mobile. The header and footer remain the same over the pages with functional icons and navigation.
+
+Wireframes were made in Balsamic to design the navigation and interface for desktop, tablets and mobile.
+The header and footer remain the same over the pages with functional icons and navigation.
 
 5.Surface plane
-The colors needed to match the colors in the sky and snow on the ground. Since the colors in the sky are varying with the time of day and light, I chose colors that suited that color scheme. I used Ginifab.com to identify colors from the image on home page and added other colors that fit well with the other ones from Hexcolorpedia .
 
-Favicon
+**Colors**
+The colors needed to match the colors in the sky and snow on the ground. Since the snow and sky are complex with a lot of different shades and contrasts during the day, I chose soft colors that suited that color scheme. I used Hexcolorpedia and Ginifab.com to identify colors from the image on home page and used them as the base for the rest of the colours.
+As a background colour in case the images does not load I chose #lightblue. For the paragraphs in the courses page a light blue rgb(132,172,222 0.2) and light pink rgb(220,173,170 0,2) and the form in about us is also the light pink colour.
+
+**Favicon**
 The Favicon was created from a picure of one of my own sleddogs using RedKetchup.
 
-Fonts
+**Fonts**
 I chose the fonts by testing different types on Google Fonts.
-The main fonts used on the website and the logo is Lato light 300, a sans-serif font. I used a font called Philosopher, also a sans-serif, for the inspirational text on the Home page and the headings.
-Images
+The main fonts used on the website and the logo is Lato light 300, a sans-serif font. I used a font called Philosopher, also a sans-serif, for the inspirational text on the Home page and the headings. For the headings and paragraphs I used the dark colour #3a3a3a. For the header and footer i used the light #ffffff for high contrast.
+
+**Images**
 The background image on the home page is borrowed from my friends private collection Anna Norman at Lifestyle North AB/Kiruna Dogsled AB.
+![Sleddogteams runs on a snowy mountain](assets/images/sleddogteam.jpg)
 The remaining pictures are from iStock free photos. The photos represent different parts of the sleddog sport and are motivational.
+![Dog pulls child on a sled](assets/images/child.jpg)
+![Group of people in the snow jumps in joy](assets/images/jump.jpg)
+![Woman is skijouring behind two sleddogs](assets/images/skijouring.jpg)
+![Couple having fun riding a sled](assets/images/smile.jpg)
+![White snowflakes on grey background]("assets/images/snowflake.jpg")
+
+I also added a YouTube sleddog movie made by National Geographic to add both sound and visual effects. 
+![Sleddog Movie](https://www.youtube.com/embed/6nVfFNbxX7s?si=czFZmxTQhXYpDqcX)
 
 FEATURES
 The Home Page:
