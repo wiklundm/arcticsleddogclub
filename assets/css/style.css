@@ -488,21 +488,26 @@ footer {
     /*courses section*/
     #meet {
             float: left;
-    width: 43vw;
-    left: 0;
+    width: 50vw;
     }
+.meetings {
+    font-size: 120%;
+}
 
     #course-content-id {
-         width: 45vw;
+         width: 50vw;
         float: right;
-  right: 0;
-
+    }
+    .course-content-class {
+        font-size: 120%;
     }
 
     #info {
         margin-right: 30px;
     }
-
+#add-information {
+    font-size: 120%;
+}
     #childimage {
         min-height: 300px;
     }
@@ -530,9 +535,16 @@ footer {
     /*courses section*/
     #childimage {
         min-height: 380px;
-        width: 95%;
     }
-
+.meetings {
+    font-size: 140%;
+}
+        .course-content-class {
+            font-size: 140%;
+        }
+#add-information {
+    font-size: 140%;
+}
     /*about-us-section*/
     #jumpimage {
         min-height: 620px;
@@ -556,4 +568,13 @@ footer {
     #childimage {
         min-height: 840px;
     }
+    .meetings {
+    font-size: 160%;
+}
+        .course-content-class {
+            font-size: 160%;
+        }
+#add-information {
+    font-size: 160%;
+}
 }
