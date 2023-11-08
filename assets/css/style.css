@@ -176,36 +176,40 @@ main {
 
 #content {
     display: flex;
-    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    color: #3a3a3a;
+    flex-wrap: wrap;
+
+
 }
 
 #childimage {
-    min-height: 120px;
-    width: 100%;
-    margin-left: 18px;
     /*Used if the image is unavailable*/
     background-color: lightblue;
     background-repeat: no-repeat;
+    background-position: center;
     display: flex;
-    justify-content: center;
-    align-items: center;
     border-radius: 8px;
+    width: 90vw;
 }
 
 #meet {
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 10px;
     background-color: rgb(220, 173, 170, 0.2);
     border-radius: 8px;
-    float: left;
-    width: 33%;
-
+    width: 90vw;
 }
 
 .meetings {
     line-height: 20px;
     clear: both;
     flex-direction: column;
+    width: 100%;
+    text-align: center;
+    
 }
 
 #place {
@@ -215,17 +219,18 @@ main {
 #course-content-id {
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 10px;
     background-color: rgb(132, 172, 222, 0.2);
     border-radius: 8px;
-    width: 66%;
-    float: right;
-
+   width: 90vw;
 }
 
 .course-content-class {
     line-height: 20px;
     clear: both;
     flex-direction: column;
+    width: 100%;
+    text-align: center;
 }
 
 #course-content {
@@ -242,13 +247,12 @@ main {
     margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 100%;
+    width: 100vw;
     background-color: rgb(132, 172, 222, 0.2);
     border-radius: 8px;
     flex-direction: column;
     display: flex;
-    align-items: center;
-    text-align: center;
+   text-align: center;
 }
 
 #content p {
@@ -488,8 +492,9 @@ footer {
 
     /*courses section*/
     #meet {
-        margin-right: 30px;
-        display: flex;
+            float: left;
+    width: 43vw;
+    left: 0;
     }
 
     #meet>div {
@@ -497,7 +502,10 @@ footer {
     }
 
     #course-content-id {
-        display: flex;
+         width: 45vw;
+        float: right;
+  right: 0;
+
     }
 
     #info {
