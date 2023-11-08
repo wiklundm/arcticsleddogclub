@@ -163,8 +163,10 @@ main {
 /*courses-section*/
 
 #courses {
-    width: 90%;
-    margin: 20px auto;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #courses h2 {
@@ -265,6 +267,8 @@ hr {
     overflow: hidden;
     width: 100%;
     padding-top: 56.25%;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 /* iframe full width, height in the container */
@@ -277,6 +281,7 @@ hr {
     width: 100%;
     height: 100%;
     border-radius: 8px;
+
 }
 /*about-us-section*/
 #about {
