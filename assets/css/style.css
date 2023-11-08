@@ -171,7 +171,7 @@ main {
     margin-bottom: 15px;
     margin-top: 20px;
     text-align: center;
-    font-size: 280%;
+    font-size: 240%;
 }
 
 #content {
@@ -209,7 +209,6 @@ main {
     flex-direction: column;
     width: 100%;
     text-align: center;
-    
 }
 
 #place {
@@ -262,16 +261,17 @@ main {
 hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
-    margin: 4px 0;
+    margin: 4px;
 }
 
 /*YouTube video aspect ratio 16:9*/
 .container {
     display: flex;
     padding-left: 20px;
-    width: 90%;
+    width: 80%;
     margin: auto;
-    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /*about-us-section*/
@@ -392,9 +392,7 @@ footer {
 
     /*YouTube video aspect ratio 16:9*/
     .container {
-        width: 250px;
-        height: 141px;
-        margin-left: 10px;
+   display: flex;
     }
 
     /*about-us-section*/
@@ -429,8 +427,6 @@ footer {
 
     /*YouTube video aspect ratio 16:9*/
     .container {
-        width: 370px;
-        height: 208px;
         margin-left: 16px;
     }
 
@@ -497,10 +493,6 @@ footer {
     left: 0;
     }
 
-    #meet>div {
-        display: flex;
-    }
-
     #course-content-id {
          width: 45vw;
         float: right;
@@ -517,8 +509,6 @@ footer {
     }
 
     .container {
-        width: 640px;
-        height: 360px;
         margin-left: 10px;
     }
 
