@@ -561,7 +561,7 @@ footer {
     #cover-text {
         top: 72%;
         width: 350px;
-        font-size: 160%;
+        font-size: 150%;
     }
 
     /*courses section*/
@@ -569,12 +569,16 @@ footer {
         min-height: 840px;
     }
     .meetings {
-    font-size: 160%;
+    font-size: 150%;
+    padding-top: 25px;
 }
         .course-content-class {
-            font-size: 160%;
+            font-size: 150%;
+            padding-top: 25px;
         }
 #add-information {
-    font-size: 160%;
+    font-size: 150%;
+    padding-top: 25px;
+    height: 140px;
 }
 }
