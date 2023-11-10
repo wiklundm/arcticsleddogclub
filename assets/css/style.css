@@ -227,6 +227,9 @@ color: #3a3a3a;
 #place {
     list-style-type: none;
 }
+#additional-information {
+    list-style-type: none;
+}
 
 #course-content-id {
     padding-top: 20px;
