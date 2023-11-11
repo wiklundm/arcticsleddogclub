@@ -24,7 +24,7 @@ h3 {
     font-family: "Philosopher", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #252525;
+    color: #3a3a3a;
 }
 
 /* Header */
@@ -251,10 +251,6 @@ color: #3a3a3a;
     list-style-type: none;
 }
 
-#content p {
-    padding: 0 20px;
-}
-
 hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
@@ -310,33 +306,35 @@ color: #3a3a3a;
 }
 /*about-us-section*/
 #about {
-    width: 90%;
+    width: 100%;
     margin: auto;
     display: flex;
     flex-direction: column;
-}
+ position: relative;
 
+}
 #about h2 {
-    margin-top: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
     font-size: 280%;
+    color: #3a3a3a;
 }
 
 #aboutus {
     list-style-type: none;
-    margin-left: 10px;
-    margin-top: 20px;
-    margin-right: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
-#about h2 {
-    margin-bottom: 20px;
+#about h3 {
+     color: #3a3a3a;
 }
 
 #ask {
-    margin-left: 10px;
-    margin-top: 20px;
-    margin-right: 20px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+    color: #3a3a3a;
 }
 
 /*images for about us section*/
@@ -346,7 +344,6 @@ color: #3a3a3a;
         background-repeat: no-repeat;
         background-position: center;
         display: flex;
-        border-radius: 8px;
         width: 100vw;
     min-height: 170px;
     border-radius: 50px;
@@ -378,16 +375,16 @@ color: #3a3a3a;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #252525;
+color: #3a3a3a;
 }
 
 .inner-right {
     background-color: rgb(220, 173, 170, 0.2);
     font-family: "Philosopher", sans-serif;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-    width: 90%;
+padding-bottom: 15px;
+margin-bottom: 15px;
+    width: 100%;
+    color: #3a3a3a;
 }
 
 /*Footer*/
@@ -455,6 +452,10 @@ footer {
     }
 
     /*about-us-section*/
+
+        #info-box {
+            display: flex;
+        }
     #jumpimage,
     #smileimage,
     #skijouring {
