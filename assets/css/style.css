@@ -382,7 +382,6 @@ color: #3a3a3a;
     background-color: rgb(220, 173, 170, 0.2);
     font-family: "Philosopher", sans-serif;
 padding-bottom: 15px;
-margin-bottom: 15px;
     width: 100%;
     color: #3a3a3a;
 }
@@ -427,6 +426,7 @@ footer {
     #skijouring {
         min-height: 200px;
     }
+    
 }
 
 /* Media query: mobilephones and larger (448px and up) */
@@ -453,13 +453,24 @@ footer {
 
     /*about-us-section*/
 
-        #info-box {
-            display: flex;
-        }
+                #info-box {
+                    display: flex;
+                }
     #jumpimage,
     #smileimage,
     #skijouring {
         min-height: 280px;
+    }
+#ask {
+            width: 50vw;
+                float: left;
+                flex-basis: 100%;
+                padding-top: 60px;
+    }
+    .inner-right {
+            width: 50vw;
+                float: right;
+                flex-basis: 100%;
     }
 }
 
@@ -545,6 +556,7 @@ footer {
     }
 
     /*about-us-section*/
+    
     #jumpimage,
     #skijouring,
     #jumpimage {
@@ -578,6 +590,10 @@ footer {
     font-size: 140%;
 }
     /*about-us-section*/
+    #ask {
+        font-size: 160%;
+        padding-top: 45px;
+    }
     #jumpimage {
         min-height: 620px;
     }
