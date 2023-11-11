@@ -341,36 +341,36 @@ color: #3a3a3a;
 
 /*images for about us section*/
 #jumpimage {
-    min-height: 170px;
-    width: 90%;
-    margin-left: 10px;
-    background: url("../images/jump.jpg") no-repeat center center/cover;
     /*Used if the image is unavailable*/
-    background-color: lightblue;
+        background-color: lightblue;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        border-radius: 8px;
+        width: 100vw;
+    min-height: 170px;
     border-radius: 50px;
 }
 
 #smileimage {
-    min-height: 120px;
-    width: 90%;
-    margin-left: 10px;
-    margin-right: 39px;
-    background: url("../images/smile.jpg") no-repeat bottom center/cover;
     /*Used if the image is unavailable*/
-    background-color: lightblue;
-    justify-content: center;
+        background-color: lightblue;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        border-radius: 8px;
+        width: 100vw;
     border-radius: 8px;
 }
 
 #skijouring {
-    min-height: 130px;
-    width: 90%;
-    margin-left: 10px;
-    margin-right: 39px;
-    background: url("../images/skijouring.jpg") no-repeat bottom center/cover;
-    /*Used if the image is unavailable*/
+/*Used if the image is unavailable*/
     background-color: lightblue;
-    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    border-radius: 8px;
+    width: 100vw;
     border-radius: 8px;
 }
 
