@@ -101,11 +101,16 @@ main {
     width: 100%;
     /*Background color used if the image is unavailable*/
     background-color: lightblue;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+object-fit: cover;
+height: 100%;
+margin-bottom: -10px;
 }
 
+#heroimage-div {
+position: relative;
+width: 100%;
+overflow: hidden;
+}
 /*cover-text*/
 #cover-text {
     background-color: rgb(183, 200, 226, 0.2);
@@ -114,7 +119,7 @@ main {
     width: 50%;
     min-height: 50px;
     padding: 10px;
-    top: 25%;
+    bottom: 10px;
 }
 
 
@@ -418,9 +423,7 @@ footer {
     }
 
     /*Hero section cover text*/
-    #cover-text {
-        top: 26%;
-    }
+  
 
     /*about-us-section*/
     #jumpimage,
@@ -442,7 +445,6 @@ footer {
 
     /*Hero section cover text*/
     #cover-text {
-        top: 29%;
         font-size: 100%;
     }
 
@@ -469,6 +471,7 @@ footer {
             width: 50vw;
                 float: left;
                 flex-basis: 100%;
+                padding-bottom: 15px;
         
     }
     .inner-right {
@@ -518,7 +521,6 @@ footer {
     /*Hero section cover text*/
     #cover-text {
         width: 300px;
-        top: 50%;
         font-size: 120%;
     }
 
@@ -579,7 +581,6 @@ footer {
 
     /*Hero section cover text*/
     #cover-text {
-        top: 64%;
         font-size: 140%;
     }
 
@@ -614,7 +615,6 @@ footer {
 
     /*Hero section cover text*/
     #cover-text {
-        top: 72%;
         width: 350px;
         font-size: 150%;
     }
