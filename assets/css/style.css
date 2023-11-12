@@ -258,11 +258,15 @@ text-align: center;
 .course-content-class > h3 {
     padding-bottom: 20px;
 }
+/*font-awesome icons*/
 .fa-regular {
     margin-left: 10px;
 }
 .fa-solid {
     margin-left: 10px;
+}
+.fa-paw:before {
+    margin-right: 10px;
 }
 #course-content {
   list-style-type: none;
@@ -444,6 +448,9 @@ footer {
   #skijouring {
     min-height: 200px;
   }
+  #about {
+    margin-top: 40px;
+  }
   #ask {
     font-size: 140%;
   }
@@ -532,16 +539,17 @@ footer {
     margin-top: 150px;
   }
 
-  /*Hero section cover text*/
+  /*Hero section cover text on home page*/
   #cover-text {
     width: 300px;
     font-size: 120%;
   }
 
-  /*experience-text under hero-image*/
+  /*experience-text on home page*/
   #experience {
     font-size: 240%;
   }
+  /*contact-section on home page*/
 #contact-box {
     font-size: 130%;
 }
@@ -580,6 +588,9 @@ footer {
   }
 
   /*about-us-section*/
+   #about {
+       margin-top: 110px;
+   }
   #ask {
     padding-top: 60px;
   }
@@ -617,6 +628,10 @@ footer {
   element.style {}
 
   /*about-us-section*/
+  
+  #about {
+    margin-top: 40px;
+  }
   #ask {
     font-size: 160%;
     padding-top: 45px;
@@ -652,6 +667,8 @@ footer {
   }
   #add-information {
     font-size: 150%;
-
   }
+  /*About-us section*/
+  
+
 }
