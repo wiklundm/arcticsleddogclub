@@ -1,9 +1,9 @@
 
-# Arctic Sleddog Club
+# ARCTIC SLEDDOG CLUB
 
-## Introduction
+# Introduction
 
-### Welcome to the website of Arctic Sleddog Club
+## Welcome to the website of Arctic Sleddog Club
 
 The Arctic Sleddog Club is a club located in the far north of Sweden in a town called Abisko.
 There are more than 4000 dogs in the area and sleddog tourism is a big source of income. Despite that there are no training or educational facilities. When the season starts most kennels and companies have to teach and train their employees by them selves for several weeks before they can start working with the tourists. This is both expensive and timeconsuming. For the natives who wants to know more about sleddogs the closest club and training facility are in Kiruna approximately 250km away.
@@ -50,7 +50,7 @@ The arctid climate and vast wild nature with frequent lavins makes it important 
 
 #### Business goals
 
-The website is mainly for individuals but when information aspreads, the understanding and knowledge of the sport and sleddog culture increases which gives positive effects also on businesses. 
+The website is mainly for individuals but when information aspreads, the understanding and knowledge of the sport and sleddog culture increases which gives positive effects also on businesses.
 
 - Increased interest in the sport can give the business more customers.
 - The business can hire educated staff instead of putting several weeks into training new staff by themselves as is for now.
@@ -67,18 +67,17 @@ The website is mainly for individuals but when information aspreads, the underst
 - The content and headlines are appealing and fills a purpose.
 - There are no other clubs in the area but a lot of sleddogs.
 
-## DESIGN PROCESS
+# DESIGN PROCESS
 
-1.Strategy plane
+1.**Strategy plane**
 
-I wanted to create a page that could gather people with similar interests and spread knowledge about sleddogs.
-I had recently started to learn how to write code and my aim for this project was to apply what I had learned in HTML and CSS.
+I wanted to create a page that could gather people with similar interests and spread knowledge about sleddogs. The user should be easy to use, navigate and find the information the user have come for. I had recently started to learn how to write code and my aim for this project was to apply what I had learned in HTML and CSS.
 
-2.Scope plan
+2.**Scope plan**
 
--I decided that since the nature and dogs is the main reason people would visit the page it is important to have images visualizing the experiences the people joining the club and attending the course would have.
+-I decided that since the nature and dogs is the main reason people would visit the page it is important to have images visualizing the experiences the people joining the club and attending the course would have. To provide enough information so the user wants to know more.
 -I needed a contact form.
--Location, meeting hours and costs.
+-Location, meeting hours and costs for the course.
 -Information about what to expect taking the course.
 -Information about the club.
 
@@ -86,32 +85,32 @@ I had recently started to learn how to write code and my aim for this project wa
 The user needs to be able to navigate through the website to access all the contents.
 The user can easily contact the club.
 
-3.Structure plane
+3.**Structure plane**
 
 When I had decided what features I wanted, I began to create the structure of my design into pages.
 
--The Home page would tell the user they are visiting a site for a Sleddog club.
-That the club is in a mountain area with beautiful and relaxing environments and the contact information.
+-The **Home** page would tell the user they are visiting a site for a Sleddog club.
+That the club is in a mountain area with beautiful and relaxing environments and provide contact information.
 An inspirational text gives a mental picture of what you can experience.
 
--The Courses page tells the user when, where, the price and content of the next course.
+-The **Courses** page tells the user when, where, the price and content of the next course.
 
--The About us page tells the user a little about the club and what regulations need to be followed.
-There are a contact form.
+-The **About us** page tells the user a little about the club and what regulations need to be followed.
+There are a contact section with input fields for name, adress, email and an information field where the user can leave a message to the club.
 
 There is a navigation menu bar to easily navigate between the pages that encourages the user to stay motivated and continue to the next step.
+The navigation bar is responsive with links to the different pages and for smaller screens there are a hamburger icon with a dropdown list to save space.
 
-4.Skeleton plane
+4.**Skeleton plane**
 
 Wireframes were made in Balsamic to design the navigation and interface for desktop, tablets and mobile.
 The header and footer remain the same over the pages with functional icons and navigation.
 
-5.Surface plane
+1. **Surface plane**
 
 **Colors**
 The colors needed to match the colors in the sky and snow on the ground. Since the snow and sky are complex with a lot of different shades and contrasts during the day, I chose soft colors that suited that color scheme. I used Hexcolorpedia and Ginifab.com to identify colors from the image on home page and used them as the base for the rest of the colours.
-As a background colour in case the images does not load I chose #lightblue. For the paragraphs in the courses page a light blue rgb(132,172,222 0.2) and light pink rgb(220,173,170 0,2) and the form in about us is also the light pink colour.
-
+As a background colour in case the images does not load I chose #lightblue. For the paragraphs in the courses page a light blue rgb(132,172,222 0.2) and light pink rgb(220,173,170 0,2) and the form in about us is also the light pink colour.![Colours I used](assets/docs/)
 **Favicon**
 The Favicon was created from a picure of one of my own sleddogs using RedKetchup.
 
@@ -129,7 +128,7 @@ The remaining pictures are from iStock free photos. The photos represent differe
 ![Couple having fun riding a sled](assets/images/smile.jpg)
 ![White snowflakes on grey background]("assets/images/snowflake.jpg")
 
-I also added a YouTube sleddog movie made by National Geographic to add both sound and visual effects. 
+I also added a YouTube sleddog movie made by National Geographic to add both sound and visual effects and give the user a teaser and more information about the sport.
 ![Sleddog Movie](https://www.youtube.com/embed/6nVfFNbxX7s?si=czFZmxTQhXYpDqcX)
 
 FEATURES
