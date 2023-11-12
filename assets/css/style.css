@@ -191,7 +191,7 @@ main {
   margin-bottom: 15px;
   margin-top: 20px;
   text-align: center;
-  font-size: 240%;
+  font-size: 200%;
 }
 
 #content {
@@ -302,6 +302,7 @@ hr {
 }
 #add-info-box h3 {
     padding-bottom: 20px;
+    font-size: 100%;
 }
 #add-information li {
   color: #3a3a3a;
@@ -319,6 +320,7 @@ text-align: center;
   padding-top: 56.25%;
   margin-left: 20px;
   margin-right: 20px;
+  height: auto;
 }
 
 /* iframe full width, height in the container */
@@ -353,7 +355,7 @@ text-align: center;
   list-style-type: none;
   padding-bottom: 15px;
   padding-top: 15px;
-  font-size: 110%;
+  font-size: 100%;
 }
 
 #about h3 {
@@ -374,7 +376,7 @@ text-align: center;
   background-position: center;
   display: flex;
   width: 100vw;
-  min-height: 170px;
+  height: auto;
   border-radius: 50px;
 }
 
@@ -386,6 +388,7 @@ text-align: center;
   display: flex;
   width: 100vw;
   border-radius: 50px;
+  height: auto;
 }
 
 #skijouring {
@@ -397,6 +400,7 @@ text-align: center;
   border-radius: 8px;
   width: 100vw;
   border-radius: 50px;
+  height: auto;
 }
 #fname { 
     width: 50%;
@@ -499,6 +503,10 @@ footer {
 
   #childimage {
     min-height: 170px;
+  }
+  /*Courses section*/
+  #add-info-box h3 {
+    font-size: 110%;
   }
 
   /*about-us-section*/
@@ -604,6 +612,9 @@ footer {
   #add-information {
     font-size: 120%;
   }
+  #add-info-box {
+    padding-top: 40px;
+  }
   #childimage {
     min-height: 300px;
   }
@@ -641,7 +652,7 @@ footer {
     font-size: 140%;
   }
   .course-content-class {
-    font-size: 140%;
+    font-size: #add-info-box h3 140%;
   }
   #add-information {
     font-size: 140%;
@@ -651,6 +662,10 @@ footer {
   
   #about {
     margin-top: 40px;
+  }
+  #aboutus {
+    display: flex;
+    padding: 20px;
   }
   #ask {
     font-size: 160%;
@@ -687,6 +702,7 @@ footer {
   }
   #add-information {
     font-size: 150%;
+    max-height: 190px;
   }
   /*About-us section*/
   
