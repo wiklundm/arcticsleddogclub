@@ -652,8 +652,11 @@ footer {
     font-size: 140%;
   }
   .course-content-class {
-    font-size: #add-info-box h3 140%;
+    font-size: 140%;
   }
+  #add-info-box h3 {
+    font-size: 140%;
+   }
   #add-information {
     font-size: 140%;
   }
@@ -665,7 +668,6 @@ footer {
   }
   #aboutus {
     display: flex;
-    padding: 20px;
   }
   #ask {
     font-size: 160%;
