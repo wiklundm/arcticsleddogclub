@@ -107,17 +107,15 @@ The header and footer remain the same over the pages with functional icons and n
 
 **Balsamic** to create the wireframes during the design process. The Balsamic are a very basic model of how I was planning the layout to turn out and worked as a reminder for the structure in different screensizes.![Screenshot of Balsamic Wireframe I used](assets/docs/wireframe-tiny.jpg)
 
-
 1. **Surface plane**
 
-##Technologies used
+## Technologies used
 
 **Language** HTML5 and CSS3
 **Workspace** *Codeanywhere to write the code
 **GitHub** to store the project and Gitpod terminal to commit to Git and push to GitHub
 
 **Font Awesome** to import icons for UX purposes and to look good. Facebook, Instagram, Twitter, Paws, Calender.
-
 
 **Am I Responsive** to preview the website on different screensizes.
 
@@ -199,7 +197,6 @@ Features to be implemented in the future:
 - Choices for GDPR
 - A separate page for those interested in competitions.
 - A Gallerypage with pictures from different disciplines, courses and competitions made by the club.
-
 
 Issues and bugs
 
