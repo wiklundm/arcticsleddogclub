@@ -155,6 +155,7 @@ main {
   min-height: 260px;
   overflow: hidden;
 }
+
 #contact-box {
   position: absolute;
   padding-top: 20px;
@@ -209,8 +210,9 @@ main {
   background-position: center;
   display: flex;
   border-radius: 8px;
-  width: 100vw;
-}
+        max-width: 100%;
+        height: auto;
+    }
 
 #meet {
   padding-top: 20px;
@@ -337,6 +339,7 @@ text-align: center;
   display: flex;
   flex-direction: column;
   position: relative;
+  margin-top: 10px;
 }
 #about h2 {
   margin-top: 20px;
@@ -350,6 +353,7 @@ text-align: center;
   list-style-type: none;
   padding-bottom: 15px;
   padding-top: 15px;
+  font-size: 110%;
 }
 
 #about h3 {
@@ -357,9 +361,9 @@ text-align: center;
 }
 
 #ask {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 20px;
   color: #3a3a3a;
+  font-size: 110%;
 }
 
 /*images for about us section*/
@@ -380,9 +384,8 @@ text-align: center;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
-  border-radius: 8px;
   width: 100vw;
-  border-radius: 8px;
+  border-radius: 50px;
 }
 
 #skijouring {
@@ -393,7 +396,19 @@ text-align: center;
   display: flex;
   border-radius: 8px;
   width: 100vw;
-  border-radius: 8px;
+  border-radius: 50px;
+}
+#fname { 
+    width: 50%;
+}
+#lname {
+    width: 50%;
+}
+#email-field {
+    width: 50%;
+}
+#information {
+    width: 50%;
 }
 
 #submit {
@@ -401,16 +416,22 @@ text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #3a3a3a;
+    background-color: rgb(220, 173, 170, 0.2);
+        font-family: "Philosopher", sans-serif;
+        padding-bottom: 15px;
+            padding-top: 10px;
 }
 
 .inner-right {
   background-color: rgb(220, 173, 170, 0.2);
   font-family: "Philosopher", sans-serif;
-  padding-bottom: 15px;
-  padding-top: 10px;
   width: 100%;
   color: #3a3a3a;
   margin-bottom: 15px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
 }
 
 /*Footer*/
@@ -625,7 +646,6 @@ footer {
   #add-information {
     font-size: 140%;
   }
-  element.style {}
 
   /*about-us-section*/
   
