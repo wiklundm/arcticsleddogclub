@@ -225,9 +225,14 @@ main {
   clear: both;
   flex-direction: column;
   width: 100%;
-  text-align: center;
+text-align: center;
 }
-
+.meetings > h3 {
+    padding-bottom: 20px;
+}
+.meetings > i {
+    margin-left: 10px;
+}
 #place {
   list-style-type: none;
 }
@@ -250,7 +255,15 @@ main {
   width: 100%;
   text-align: center;
 }
-
+.course-content-class > h3 {
+    padding-bottom: 20px;
+}
+.fa-regular {
+    margin-left: 10px;
+}
+.fa-solid {
+    margin-left: 10px;
+}
 #course-content {
   list-style-type: none;
 }
@@ -279,9 +292,14 @@ hr {
   flex-direction: column;
   align-items: center;
   background-color: rgb(255, 255, 255, 0.2);
+  font-weight: bold;
+}
+#add-info-box h3 {
+    padding-bottom: 20px;
 }
 #add-information li {
   color: #3a3a3a;
+text-align: center;
 }
 #add-information h3 {
   color: #3a3a3a;
@@ -420,12 +438,7 @@ footer {
     margin-top: 77px;
   }
 
-  /*Contact section */
-  #add-info-box {
-    padding-top: 50px;
-  }
-
-  /*about-us-section*/
+  /*About-us-section*/
   #jumpimage,
   #smileimage,
   #skijouring {
@@ -533,10 +546,6 @@ footer {
     font-size: 130%;
 }
 
-  /*Contact section */
-  #add-info-box {
-      padding-top: 90px;
-  }
   /*courses section*/
   #course-box {
     display: flex;
@@ -607,9 +616,6 @@ footer {
   }
   element.style {}
 
-  #add-info-box {
-    padding-top: 130px;
-  }
   /*about-us-section*/
   #ask {
     font-size: 160%;
