@@ -103,14 +103,30 @@ The navigation bar is responsive with links to the different pages and for small
 
 4.**Skeleton plane**
 
-Wireframes were made in Balsamic to design the navigation and interface for desktop, tablets and mobile.
-The header and footer remain the same over the pages with functional icons and navigation.
+The header and footer remain the same over the pages with functional icons and navigation. On small screens the navigation bar becomes a burger-icon with a dropdown list to save space. ![Screenshot of header](assets/docs/header.jpg)![Screenshot of footer](assets/docs/footers.jpg)
+
+**Balsamic** to create the wireframes during the design process. The Balsamic are a very basic model of how I was planning the layout to turn out and worked as a reminder for the structure in different screensizes.![Screenshot of Balsamic Wireframe I used](assets/docs/wireframe-tiny.jpg)
+
 
 1. **Surface plane**
 
+##Technologies used
+
+**Language** HTML5 and CSS3
+**Workspace** *Codeanywhere to write the code
+**GitHub** to store the project and Gitpod terminal to commit to Git and push to GitHub
+
+**Font Awesome** to import icons for UX purposes and to look good. Facebook, Instagram, Twitter, Paws, Calender.
+
+
+**Am I Responsive** to preview the website on different screensizes.
+
+*Istock was the sorce of several of the images used in my project.
+\*Favicon was created using RedKetchup from a picture of one of my own sleddogs
+
 **Colors**
 The colors needed to match the colors in the sky and snow on the ground. Since the snow and sky are complex with a lot of different shades and contrasts during the day, I chose soft colors that suited that color scheme. I used Hexcolorpedia and Ginifab.com to identify colors from the image on home page and used them as the base for the rest of the colours.
-As a background colour in case the images does not load I chose #lightblue. For the paragraphs in the courses page a light blue rgb(132,172,222 0.2) and light pink rgb(220,173,170 0,2) and the form in about us is also the light pink colour.![Colours I used](assets/docs/)
+As a background colour in case the images does not load I chose #lightblue. For the paragraphs in the courses page a light blue rgb(132,172,222 0.2) and light pink rgb(220,173,170 0,2) and the form in about us is also the light pink colour.![Screenshot of colours I used](assets/docs/colours.jpg)
 **Favicon**
 The Favicon was created from a picure of one of my own sleddogs using RedKetchup.
 
@@ -184,17 +200,6 @@ Features to be implemented in the future:
 - A separate page for those interested in competitions.
 - A Gallerypage with pictures from different disciplines, courses and competitions made by the club.
 
-Technologies used
-
-*Language: HTML5 and CSS3
-*Google fonts was used to import Lato and Philosopher fonts
-*Fontawesome to import icons for UX purposes and to look good
-*Codeanywhere to write the code
-*GitHub to store the project and Gitpod terminal to commit to Git and push to GitHub
-*Balsamic to create the wireframes during the design process
-*Am I Responsive to preview the website on different devices
-*Istock was the sorce of several of the images used in my project.
-\*Favicon was created using RedKetchup from a picture of one of my own sleddogs
 
 Issues and bugs
 
