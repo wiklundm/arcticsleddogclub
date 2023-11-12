@@ -17,11 +17,11 @@ The Arctic Sleddog Club is seated at the base of the mountain in beautiful surro
 
 _Please note that this site is a fictional website using HTML and CSS and was created for The Code Institutes Milestone Project 1. There are no Arctic Sleddog Club even though there are demands for it._
 
-## UX
+# UX
 
-### Development Plane
+## Development Plane
 
-#### Strategy Plan
+### Strategy Plan
 
 The site is fictional.
 Reaserch was made online and by interviews of members from different sleddog associations.
@@ -30,27 +30,27 @@ Research also told me that there are almost as many sleddogs as people in the co
 The nature is free for everyone to visit, but there are regulations that needs to be followed in the mountain area, especially when comes to areas with reindeers.
 The arctid climate and vast wild nature with frequent lavins makes it important to have the right knowledge before driving sleddogs in the area.
 
-##### User goals
+#### User goals
 
 - The site targets young people and adults with an interest in sleddogs and nature.
 - Living or spending time during the winter in the area.
 - To spread the knowledge about sleddogs and its culture and how to behave in the mountains in an arctic climate.
 
-##### First time user
+#### First time user
 
 - Create a professional design that are not causing information overload. When I did research I found out that many websites of sleddog clubs  was cropped with information and had flawed layout.
 - To make a user easily navigate between the pages and attract with both text and visual images.
 - To find information about the content, location, time and price of the upcoming course.
 - Give access to social media links for reviews and other information.
 
-##### Returning user and first-time user
+#### Returning user and first-time user
 
 - As both a returning and first-time visitor I want to easily be able to contact the Sleddog Club.
 - To create a design that would be fully responsive on all devices and screen sizes.
 
 #### Business goals
 
-The website is mainly for individuals but when information aspreads, the understanding and knowledge of the sport and sleddog culture increases which gives positive effects also on businesses. T
+The website is mainly for individuals but when information aspreads, the understanding and knowledge of the sport and sleddog culture increases which gives positive effects also on businesses. 
 
 - Increased interest in the sport can give the business more customers.
 - The business can hire educated staff instead of putting several weeks into training new staff by themselves as is for now.
@@ -58,9 +58,9 @@ The website is mainly for individuals but when information aspreads, the underst
 - Advertising, sponsorship on competitions and businessevents also gives profits.
 - The tourism companies can hire educated staff which saves several weeks of time and money.
   
-#### Other considerations
+### Other considerations
 
-##### The Arctic Sleddog Club has a B2C (Business-to-costumer) approach
+#### The Arctic Sleddog Club has a B2C (Business-to-costumer) approach
 
 - The design stands out amongst the competitors.
 - Minimal content and large images to avoid informational overload as in many similar websites.
@@ -89,6 +89,7 @@ The user can easily contact the club.
 3.Structure plane
 
 When I had decided what features I wanted, I began to create the structure of my design into pages.
+
 -The Home page would tell the user they are visiting a site for a Sleddog club.
 That the club is in a mountain area with beautiful and relaxing environments and the contact information.
 An inspirational text gives a mental picture of what you can experience.
