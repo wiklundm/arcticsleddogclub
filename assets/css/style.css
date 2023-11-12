@@ -151,7 +151,8 @@ main {
   background-position: center;
   /*Background color used if the image is unavailable*/
   background-color: rgb(220, 173, 170, 0.2);
-  width: auto;
+  width: 100%;
+  min-height: 260px;
   overflow: hidden;
 }
 #contact-box {
@@ -176,7 +177,7 @@ main {
   color: #3a3a3a;
 }
 
-/*courses-section*/
+/*courses-page*/
 
 #courses {
   width: 100%;
@@ -419,7 +420,10 @@ footer {
     margin-top: 77px;
   }
 
-  /*Hero section cover text*/
+  /*Contact section */
+  #add-info-box {
+    padding-top: 50px;
+  }
 
   /*about-us-section*/
   #jumpimage,
@@ -528,6 +532,11 @@ footer {
 #contact-box {
     font-size: 130%;
 }
+
+  /*Contact section */
+  #add-info-box {
+      padding-top: 90px;
+  }
   /*courses section*/
   #course-box {
     display: flex;
@@ -596,6 +605,11 @@ footer {
   #add-information {
     font-size: 140%;
   }
+  element.style {}
+
+  #add-info-box {
+    padding-top: 130px;
+  }
   /*about-us-section*/
   #ask {
     font-size: 160%;
@@ -632,7 +646,6 @@ footer {
   }
   #add-information {
     font-size: 150%;
-    padding-top: 25px;
-    height: 140px;
+
   }
 }
