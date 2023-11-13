@@ -344,7 +344,6 @@ text-align: center;
   margin-top: 10px;
 }
 #about h2 {
-  margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
   font-size: 280%;
@@ -363,6 +362,7 @@ text-align: center;
 }
 #info-box {
     background-color: rgb(220, 173, 170, 0.2);
+    border-radius: 8px;
 }
 #ask {
   padding: 20px;
