@@ -212,8 +212,15 @@ main {
   border-radius: 8px;
         max-width: 100%;
         height: auto;
+        position: relative;
     }
-
+#childimg-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #meet {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -370,7 +377,9 @@ text-align: center;
   font-size: 110%;
 font-family: "Philosopher", sans-serif;
 }
-
+#jump-image-container {
+    width: 100%:
+}
 /*images for about us section*/
 
 #jumpimage {
@@ -613,7 +622,6 @@ footer {
   /*about-us-section*/
   #jumpimage {
     width: 60%;
-    margin-left: 20%;
   }
    #about {
        margin-top: 110px;
@@ -646,10 +654,7 @@ footer {
   }
 
   /*courses section*/
-#childimage {
-    padding-left: 25%;
-    padding-right: 25%;
-}
+
   .meetings {
     font-size: 140%;
   }
@@ -677,7 +682,6 @@ footer {
   }
  #jumpimage {
     width: 50%;
-    margin-left: 25%;
  }
  
 }
