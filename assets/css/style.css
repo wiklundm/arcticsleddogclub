@@ -362,7 +362,6 @@ text-align: center;
   color: #3a3a3a;
 }
 #info-box {
-    display: flex;
     background-color: rgb(220, 173, 170, 0.2);
 }
 #ask {
@@ -511,6 +510,7 @@ footer {
 
   #info-box {
     display: flex;
+    border-radius: 8px;
   }
 
   #ask {
