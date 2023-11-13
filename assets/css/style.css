@@ -401,7 +401,6 @@ font-family: "Philosopher", sans-serif;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
-  border-radius: 8px;
   width: 100%;
   border-radius: 50px;
   height: auto;
@@ -612,13 +611,27 @@ footer {
  
 
   /*about-us-section*/
+  #jumpimage {
+    width: 60%;
+    margin-left: 20%;
+  }
    #about {
        margin-top: 110px;
    }
+   #aboutus {
+    font-size: 130%;
+   }
   #ask {
-    padding-top: 60px;
+    padding-top: 120px;
   }
-
+  #smileimage {
+    width: 50%;
+    border-radius: 8px;
+      }
+#skijouring {
+    width: 50%;
+    border-radius: 8px;
+}
 }
 
 /* Media query: tablets and larger (992px and up) */
@@ -650,15 +663,19 @@ footer {
   /*about-us-section*/
   
   #about {
-    margin-top: 40px;
+    margin-top: 60px;
   }
   #aboutus {
     display: flex;
   }
   #ask {
     font-size: 160%;
-    padding-top: 45px;
+    padding-top: 130px;
   }
+ #jumpimage {
+    width: 50%;
+    margin-left: 25%;
+ }
  
 }
 
@@ -694,4 +711,7 @@ footer {
 min-height: 200px;
     font-size: x-large;
     }    
+    #ask {
+        padding-top: 160px;
+    }
 }
