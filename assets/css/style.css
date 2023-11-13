@@ -384,13 +384,22 @@ font-family: "Philosopher", sans-serif;
 
 #jumpimage {
   /*Used if the image is unavailable*/
-  background-color: lightblue;
+background-color: #ffffff;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
-  width: 100%;
+ max-width: 100%;
   height: auto;
   border-radius: 50px;
+position: relative;
+}   
+   
+#jump-imgage-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #smileimage {
