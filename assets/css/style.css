@@ -205,7 +205,7 @@ main {
 
 #childimage {
   /*Used if the image is unavailable*/
-  background-color: lightblue;
+  background-color: #ffffff;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
@@ -646,7 +646,10 @@ footer {
   }
 
   /*courses section*/
-
+#childimage {
+    padding-left: 25%;
+    padding-right: 25%;
+}
   .meetings {
     font-size: 140%;
   }

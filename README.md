@@ -115,7 +115,7 @@ The header and footer remain the same over the pages with functional icons and n
 **Workspace** *Codeanywhere to write the code
 **GitHub** to store the project and Gitpod terminal to commit to Git and push to GitHub
 
-**Font Awesome** to import icons for UX purposes and to look good. Facebook, Instagram, Twitter, Paws, Calender.
+**FontAwesome** to import icons for UX purposes and to look good. Facebook, Instagram, Twitter, Paws, Calender.
 
 **Am I Responsive** to preview the website on different screensizes.
 
