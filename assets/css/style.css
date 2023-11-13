@@ -361,11 +361,15 @@ text-align: center;
 #about h3 {
   color: #3a3a3a;
 }
-
+#info-box {
+    display: flex;
+    background-color: rgb(220, 173, 170, 0.2);
+}
 #ask {
   padding: 20px;
   color: #3a3a3a;
   font-size: 110%;
+font-family: "Philosopher", sans-serif;
 }
 
 /*images for about us section*/
