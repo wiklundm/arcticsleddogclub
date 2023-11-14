@@ -686,6 +686,9 @@ footer {
   #about {
     margin-top: 60px;
   }
+  #about h2{
+    font-size: 300%;
+  }
   #aboutus {
     display: flex;
   }
@@ -694,7 +697,7 @@ footer {
     padding-top: 130px;
   }
  #jumpimage {
-    width: 50%;
+    width: 100%;
  }
  
 }
