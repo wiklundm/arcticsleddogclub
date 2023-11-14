@@ -88,6 +88,7 @@ The user can easily contact the club.
 3.**Structure plane**
 
 When I had decided what features I wanted, I began to create the structure of my design into pages.
+The website has three pages and the links on the navigation bar opens in a new tab.
 
 -The **Home** page would tell the user they are visiting a site for a Sleddog club.
 That the club is in a mountain area with beautiful and relaxing environments and provide contact information.
@@ -103,11 +104,9 @@ The navigation bar is responsive with links to the different pages and for small
 
 4.**Skeleton plane**
 
-The header and footer remain the same over the pages with functional icons and navigation. On small screens the navigation bar becomes a burger-icon with a dropdown list to save space. ![Screenshot of header](assets/docs/header.jpg)![Screenshot of footer](assets/docs/footers.jpg)
-
 **Balsamic** to create the wireframes during the design process. The Balsamic are a very basic model of how I was planning the layout to turn out and worked as a reminder for the structure in different screensizes.![Screenshot of Balsamic Wireframe I used](assets/docs/wireframe-tiny.jpg)
 
-1. **Surface plane**
+5.**Surface plane**
 
 ## Technologies used
 
@@ -117,14 +116,14 @@ The header and footer remain the same over the pages with functional icons and n
 
 **GitHub** to store the project and Gitpod terminal to commit to Git and push to GitHub
 
-**FontAwesome** to import icons for UX purposes and to look good. Facebook, Instagram, Twitter, Paws, Calender.
+**FontAwesome** to import icons for UX purposes and to look good. Facebook, Instagram, Twitter, Paws, Calender. The fonts are used in the footer and in the unordered lists. The fonts in the footer has links to Facebook, Twitter and Instagram and redirects the user to that webpage destination in a new tab.
 
 **Am I Responsive** to preview the website on different screensizes.![Screenshot of Am I Responsive](assets/docs/am-i-responsive.jpg)
 
 **Favicon** was created using RedKetchup with a picture of one of my own sleddogs. ![Screenshot of my Favicon](assets/docs/favicon.jpg)
 
 **Colours**
- I used Hexcolorpedia and Ginifab.com to identify colors from the image on home page and used them as the base for the rest of the colours. I chose soft colors that suited that color scheme.
+ I used Hexcolorpedia and Ginifab.com to identify colours from the image on home page and used them as the base for the rest of the colours. I chose soft colours that suited that color scheme.
 As a background colour in case the images does not load I chose #lightblue. I used a light blue rgb(132,172,222 0.2) and light pink rgb(220,173,170 0,2) .![Screenshot of colours I used](assets/docs/colours.jpg).
 
 **Fonts**
@@ -132,81 +131,97 @@ I chose the fonts by testing different types on Google Fonts.
 The main fonts used on the website and the logo is Lato light 300, a sans-serif font. I used a font called Philosopher, also a sans-serif, for the inspirational text on the Home page and the headings. For the headings and paragraphs I used the dark colour #3a3a3a. For the header and footer i used the light #ffffff for high contrast.
 
 **Images**
-The background image on the home page is borrowed from my friends private collection Anna Norman at Lifestyle North AB/Kiruna Dogsled AB.
-![Sleddogteams runs on a snowy mountain](assets/images/sleddogteam.jpg)
-The remaining pictures are from iStock free photos. The photos represent different parts of the sleddog sport and are motivational.
-![Dog pulls child on a sled](assets/images/child.jpg)
-![Group of people in the snow jumps in joy](assets/images/jump.jpg)
-![Woman is skijouring behind two sleddogs](assets/images/skijouring.jpg)
-![Couple having fun riding a sled](assets/images/smile.jpg)
-![White snowflakes on grey background]("assets/images/snowflake.jpg")
+Tiny-Png and Shopify was used to resize and compress the images.
 
-Tiny-Png and The images was reized with o
+The background image on the home page is borrowed from my friends private collection Anna Norman at Lifestyle North AB/Kiruna Dogsled AB. The other pictures are from IStock and are free pictures to use.
+The images represents different parts of the sleddog sport and are motivational.
+The images are displayed under the section of the website they belong.
 
 I also added a YouTube sleddog movie made by National Geographic to add both sound and visual effects and give the user a teaser and more information about the sport.
 ![Sleddog Movie](https://www.youtube.com/embed/6nVfFNbxX7s?si=czFZmxTQhXYpDqcX)
 
-FEATURES
-The Home Page:
+# FEATURES
 
-The Header
-The logo has the heading with the name of the club to easily understand what the site is all about.
-The navigation bar includes links to the Home, Course and About us. The links helps the user to easily navigate to a specific content they are looking for without having to use the back button in the browser head or keep scrolling down to find the relevant content. The nav links have an active state which changes according to which section the user is currently looking at. On smaller screens the navbar is an burger-icon that toggles down and on larger screen the navigatin links are spread out evenly. The header remains in the same position and style over the website.
+# The HOME page
 
-The landing page image
+### The Header
+
+**The logo** has the heading with the name of the club to easily understand what the site is all about. The font is Philosopher sans-sarif.
+
+**The Header**
+The navigation bar includes links to the Home, Course and About us page. The links helps the user to easily navigate to a specific content they are looking for without having to use the back button in the browser head or keep scrolling down to find the relevant content. The nav links have an active state which changes according to which section the user is currently looking at. On smaller screens the navbar is an burger-icon that toggles down and on larger screen the navigatin links are spread out evenly. The header remme position and style over the website. The lesson from I love Running helped me create the burger icon. 
+
+### The Footer
+
+The footer uses the same theme as the Navbar and provides the social media links of the club (from FontAwesome), that opens in a new tab and set as noopener. The style remains the same over the webpages. The fonts are spread out evenly. ![Screenshot of header](assets/docs/header.jpg)![Screenshot of footer](assets/docs/footers.jpg)
+
+### The landing page image
+
 The image covers 100% of the viewport width. The main colours are light and gives a good contrast to the text. It is fully responsive.
-Th hero-imagThe project was developed in Codeanywhere, commited to Git and pushed and stored to GitHub. <https://wiklundm.github.io/arcticsleddogclub/>ple to imagine that relaxing feeling and to want to experience driving a dogteam to make them interested in participate in the club.
+The Hero image gives a relaxing feeling and the user can imagine how it would be driva a dogteam and to make them interested in participate and join the club.
 The covertext invites the reader to read more and explains what to expect.
+There are an inspirational text under the image to give the user an idea of the experience. ![Sleddogteams runs on a snowy mountain](assets/images/sleddogteam.jpg)
 
-There are an inspirational text under the image to give the user an idea of the experience.
+### Contact information
 
-Contact section
-The contact information is easy and quick to find both for the first-time user and the returning customer. The text is centered on all all sizes of devices.
+The contact information is easy and quick to find both for the first-time user and the returning customer. The text is centered on all devices. ![Screenshot of the Contact section]("assets/docs/contact.jpg")
 
-The Courses page:
+# The COURSES page
 
-The first image tells the user a story that there are different ways to ride a sled and different dogs can be used as a sleddog. The sleddog club can also attract children who wants to learn about the sport.
+### Heading
 
-Information and course content, additional information:
-There are lists with short information about the course content, time and place for the next course and additional information good to know.
+The heading has a clear message. It asks the user if they want to learn how to become a musher. If they want to learn how to drive one or more sleddogs, which is the purpose of the courses page. The heading has the font Philosofer, sans-serif, to make it stand out from the rest of the text.
 
-Youtube video:
-There are a free youtube video recorded by National Geographic that makes the user experience the sport visually with moving pictures and sound. The video is set to be started as muted. The video have access to full screen controls.
+*The first image tells the user a story that there are different ways to ride a sled and many different kind of dogs can be used as a sleddog. The sleddog club can also attract children who wants to learn about the sport. The image covers 100% of the viewport width on all screen sizes. ![Dog pulls child on a sled](assets/images/child.jpg)
 
-The About us page:
+### Information, course content and additional information section
 
-The first image illustrates how happy you will be when becoming a member and a sence of belonging to a team.
+There are lists with short information about the course content, time and place and price for the course and additional information good to know. The different sections have different background-colours which makes it easy to separate the different sections and to find the information the user are looking for. The section is fully responsive and have different layouts depending on the screensize.![Screenshot of courses-section]("assets/docs/courses-section.jpg")
 
-About us text
-The text is a short explanation of the clubs purpose and its responsibilies.
+### Youtube video
 
-The form
+The video are a free youtube video recorded by National Geographic. The video makes the user experience the sport combining sound and moving pictures. The video is set to be started as muted. The video have access to full screen controls. It is fully responsive. See the video above in section Technologies used.
+
+# The ABOUT US page
+
+The first image illustrates how happy the user will be when becoming a member and how the user will feel when becoming a member of the team. ![Group of people in the snow jumps in joy](assets/images/jump.jpg) The image has different size depending of the screensize.
+
+### About us section
+
+The text is a short explanation of the clubs purpose and its responsibilies and what regulations need to be followed. The layout changes from unordered list in a column to row on bigger screensize to make better use of the space on the screen. ![Screenshot of about-us-section]("assets/docs/about-us.jpg")
+
+### Contact Form
+
 The user can to leave a message on any subject regarding sleddogs and also apply for the course.
-The form requires the user to fill it out correctly before clicking the CONTACT US button. The button is responsive (confirmed by sending the user to a template page borrowed from Code Institute). The background color is the same color set on the section for time and place on the courses page. This gives a consistent theme.
+The form requires the user to fill it out correctly before clicking the CONTACT US button. The button is responsive (confirmed by sending the user to a template page borrowed from Code Institute). The background color is the same light pink used on the courses page. This gives a consistent theme.![Screenshot of the form]("assets/docs/form.jpg")
 
-Skijouring image
-The image shows the user the discipline of skijouring to inspire sending questions about the sport.
+**Skijouring image**
+The image shows the user the discipline of skijouring to inspire sending questions about the sport. ![Woman is skijouring behind two sleddogs](assets/images/skijouring.jpg) The last picture is to keep the user in a joyful feeling. ![Couple having fun riding a sled](assets/images/smile.jpg)
 
-The Footer
-The footer uses the same theme as the Navbar and provides the social media links of the club, that opens in a new tab. The style remains the same over the webpages.
 
-Features to be implemented in the future:
+# Features to be implemented in the future
 
-- Choices to pay in different ways such as Paypal and bank-transfer.
+- Choices to pay in different ways such as Paypal, bank-transfer and swish.
 - Choices to change the language of the website to Swedish
 - Add Captcha to the contact form to allow better security from spam.
 - Choices for GDPR
 - A separate page for those interested in competitions.
 - A Gallerypage with pictures from different disciplines, courses and competitions made by the club.
 
-Issues and bugs
+## Issues and bugs
 
-The biggest issue was my bad internet connetion. The Codeanywehere often stopped working, had to be reloaded, data was not being pushed and meny times I did not know if it was the code that was wrong or the connection problem.This was frustrating and very timeconsuming since I hade to start over and over again meny times and made me unsurtain of my code. This problem was unfortunately nothing I could fix due to there are no better service here, just try to work around it and push more often.
-The nest issue that made a lot of more issues stacking up was when my free codingtime on Codeanywhere was stopped. I got another free account from CodeInstitute. The problem was to transfer the project to the place. It seemed to work for a little time but when the old one stopped working I was not able to push or change anything in the new account either. This was also very timeconsuming and for days I could not code since we did not had any education on that part from the program. I searched for solutions how to merge the accounts on stack.
+Issue
+The biggest issue was my bad internet connetion. The Codeanywehere often stopped working, had to be reloaded and data was not being pushed many times and it was hard to keep track on what parts that went missing. This was frustrating and very timeconsuming. This problem was unfortunately nothing I could fix due to there are no better service here, just try to work around it and push more often. 
+
+My free coding hours on Codeanywhere was stopped. I recieved a new account from CodeInstitute. The problem was when the project was transfer from the old workspace to the new one. Something went wrong when they did the transfer and they had to debug. This took a few days. I found the solution on stack. When my work was almost done I got an email that the Codeanywhere should be stopped due tue maintenance and release of a new version the day before and the day of my exam. The timing was just not great.
 
 Issue:
-The flexbox properties for the contact page -section meeting would not align to the left on and the course content info would not align to the right.
-Solution:
+At first I hade put the image url in css and the src for the hero image on the Home page. When I run the validator it did not accept that so I moved it to the index.html insted. Unfortunately the covertext was then not responsive anymore.  Solution: The heroimage was set to position: relative with a width and height of 100% and the covertext to position absolute and fixed width and adjusted by padding. 
+
+Issue:
+When moving the hero image from css to index.html i had a problem with a white line under the image. No matter what I tried I could not fix the problem. When I had a meeting with my mentor I asked for help and after a lot of testing we still could not make it disappear. The solution was setting the margin to -10%. 
+
+Issue:
 
 Issue:
 Css warning: Importent statement do not load in parallel (@import google fonts).
