@@ -112,21 +112,20 @@ The header and footer remain the same over the pages with functional icons and n
 ## Technologies used
 
 **Language** HTML5 and CSS3
+
 **Workspace** *Codeanywhere to write the code
+
 **GitHub** to store the project and Gitpod terminal to commit to Git and push to GitHub
 
 **FontAwesome** to import icons for UX purposes and to look good. Facebook, Instagram, Twitter, Paws, Calender.
 
-**Am I Responsive** to preview the website on different screensizes.
+**Am I Responsive** to preview the website on different screensizes.![Screenshot of Am I Responsive](assets/docs/am-i-responsive.jpg)
 
-*Istock was the sorce of several of the images used in my project.
-\*Favicon was created using RedKetchup from a picture of one of my own sleddogs
+**Favicon** was created using RedKetchup with a picture of one of my own sleddogs. ![Screenshot of my Favicon](assets/docs/favicon.jpg)
 
-**Colors**
-The colors needed to match the colors in the sky and snow on the ground. Since the snow and sky are complex with a lot of different shades and contrasts during the day, I chose soft colors that suited that color scheme. I used Hexcolorpedia and Ginifab.com to identify colors from the image on home page and used them as the base for the rest of the colours.
-As a background colour in case the images does not load I chose #lightblue. For the paragraphs in the courses page a light blue rgb(132,172,222 0.2) and light pink rgb(220,173,170 0,2) and the form in about us is also the light pink colour.![Screenshot of colours I used](assets/docs/colours.jpg)
-**Favicon**
-The Favicon was created from a picure of one of my own sleddogs using RedKetchup.
+**Colours**
+ I used Hexcolorpedia and Ginifab.com to identify colors from the image on home page and used them as the base for the rest of the colours. I chose soft colors that suited that color scheme.
+As a background colour in case the images does not load I chose #lightblue. I used a light blue rgb(132,172,222 0.2) and light pink rgb(220,173,170 0,2) .![Screenshot of colours I used](assets/docs/colours.jpg).
 
 **Fonts**
 I chose the fonts by testing different types on Google Fonts.
@@ -141,6 +140,8 @@ The remaining pictures are from iStock free photos. The photos represent differe
 ![Woman is skijouring behind two sleddogs](assets/images/skijouring.jpg)
 ![Couple having fun riding a sled](assets/images/smile.jpg)
 ![White snowflakes on grey background]("assets/images/snowflake.jpg")
+
+Tiny-Png and The images was reized with o
 
 I also added a YouTube sleddog movie made by National Geographic to add both sound and visual effects and give the user a teaser and more information about the sport.
 ![Sleddog Movie](https://www.youtube.com/embed/6nVfFNbxX7s?si=czFZmxTQhXYpDqcX)
