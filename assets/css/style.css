@@ -377,9 +377,7 @@ text-align: center;
   font-size: 110%;
 font-family: "Philosopher", sans-serif;
 }
-#jump-image-container {
-    width: 100%;
-}
+
 /*images for about us section*/
 
 #jumpimage {
@@ -664,6 +662,12 @@ footer {
 
   /*courses section*/
 
+  #courses h2 {
+    font-size: 300%;
+  }
+#childimage {
+    width: 100vw;
+}
   .meetings {
     font-size: 140%;
   }
