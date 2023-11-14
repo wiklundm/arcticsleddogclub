@@ -99,7 +99,7 @@ An inspirational text gives a mental picture of what you can experience.
 There are a contact section with input fields for name, adress, email and an information field where the user can leave a message to the club.
 
 There is a navigation menu bar to easily navigate between the pages that encourages the user to stay motivated and continue to the next step.
-The navigation bar is responsive with links to the different pages and for smaller screens there are a hamburger icon with a dropdown list to save space.
+The navigation bar is responsive with links to the different pages and for smaller screens there are a hamburger icon with a dropdown list to save space. When users hover over the Home, About us or Contact navigation links with their cursor the subsequent link will become underlinded. This makes the site mor interactive for the user. ![Screenshot of two different sizes of the navigation bar](assets/docs/navigation-bar.jpg)
 
 4.**Skeleton plane**
 
