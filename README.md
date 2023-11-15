@@ -8,12 +8,13 @@
 The Arctic Sleddog Club is a club located in the far north of Sweden in a town called Abisko.
 There are more than 4000 dogs in the area and sleddog tourism is a big source of income. Despite that there are no training or educational facilities. When the season starts most kennels and companies have to teach and train their employees by them selves for several weeks before they can start working with the tourists. This is both expensive and timeconsuming. For the natives who wants to know more about sleddogs the closest club and training facility are in Kiruna approximately 250km away.
 
-The Arctic Sleddog Club is seated at the base of the mountain in beautiful surroundings. But even though the nature is beautiful the weather can rapidly change, and it can be dangerous if you are not prepared for the arctic climate. The temperature falls below -40 degrees Celsius some weeks over the year and lavins are frequently occurring. The cold and long winter season, the guarantee of enough snow on the trails and the big population of sleddogs makes the location for the club optimal. The club wants to spread the knowledge about how to enjoy dogsledding in the mouintanins while still being safe.
+The weather can rapidly change in the mountains and it can be dangerous if you are not prepared for the arctic climate. The temperature falls below -40 degrees Celsius some weeks over the year and lavins are frequently occurring. The club wants to spread the knowledge about how to enjoy dogsledding in the mouintanins while still being safe. 
+The winter is long and cold with a guarantee of enough snow on the trails and the amount of sleddogs in the area makes the location for the club optimal. 
 
 *The Arctic Sleddog Clubs purpose is to educate and spread the knowledge about sleddog culture and to engage people in outdoor activities in an arctic environment.
 *To educate train for and participate in sleddog races.
 *To promote good dogcare and sportsmanship and work against doping and discrimination in sports.
-*The website is a three-page website. It features an home page, a courses page and an about page where you can read about when, where and what the next course is about.
+*The website is a three-page website. It features an home page, a courses page and an about us page, where you can read about when, where and what the next course is about and it has a contact form.
 
 _Please note that this site is a fictional website using HTML and CSS and was created for The Code Institutes Milestone Project 1. There are no Arctic Sleddog Club even though there are demands for it._
 
@@ -24,11 +25,11 @@ _Please note that this site is a fictional website using HTML and CSS and was cr
 ### Strategy Plan
 
 The site is fictional.
-Reaserch was made online and by interviews of members from different sleddog associations.
+Research was made online and by interviews of members from different sleddog associations.
 I discovered that people living and visiting the area mainly did so due to its beautiful nature, and sleddog tourism is a big source of income.
 Research also told me that there are almost as many sleddogs as people in the county of Kiruna.
-The nature is free for everyone to visit, but there are regulations that needs to be followed in the mountain area, especially when comes to areas with reindeers.
-The arctid climate and vast wild nature with frequent lavins makes it important to have the right knowledge before driving sleddogs in the area.
+The nature is free for everyone to visit, but there are regulations you need to follow in the mountain area, especially when comes to areas with reindeers.
+The arctid climate and remote location with with frequent lavins makes it important to have the right knowledge before driving sleddogs in the area.
 
 #### User goals
 
