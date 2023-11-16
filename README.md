@@ -272,12 +272,22 @@ The project was developed in Codeanywhere, commited to Git and pushed and stored
 - On the right side under Environments 1 click github pages.
 - Click on view deployment to open the url. <https://wiklundm.github.io/arcticsleddogclub/>
 
-## Forking the GitHub repository
+## Clone the repository
 
-By forking the repository you can make a copy of the original repository. By doing so you can make changes or view the repository without affecting the original repository.
+By cloning a GitHub repository you can create a local copy of your remote repository on your computer. By doing so you can make changes or view the repository without affecting the original repository.
 
 - Log in to GitHub
-
+- Go to the repository you want to clone. 
+- Above the list of files click the button called Code
+- Click on the tab called Local
+- Chose if you want to use HTTPS or SSH key. 
+- Copy the URL link
+- Open a new terminal on your IDE
+- Change the location of the working directory to where you want the cloned directory to be. 
+- Type git clone and paste the URL you just copied.
+- Press Enter and a local clone will be created.
+  
+  
 Testing
 W3C Css and HTML validatorservice was used throughout the project to check whether there were any errors in my code.
 I manualy tested the project on Google Chrome, Microsoft Edge and Apple Safari browsers. This did not lead to any problems.
