@@ -143,9 +143,7 @@ The header remains its position and style over the website. The lesson from I lo
 
 ##### **The logo** has a heading with the name of the club to easily understand what the site is all about. The font is Philosopher sans-sarif and colour #3a3a3a
 
-### The landing page image
-
-### The Hero image
+### The landing page image / The Hero image
 
 The image covers 100% of the viewport width.
 The main colours are light and gives a good contrast to the text.
@@ -207,7 +205,7 @@ The different sections have different background-colours which makes it easy to 
 ### Youtube video
 
 The video are a free youtube video recorded by National Geographic. The video makes the user experience the sport combining sound and moving pictures. The video is set to be started as muted. The video have access to full screen controls. It is fully responsive.
-![Sleddog Movie](https://www.youtube.com/embed/6nVfFNbxX7s?si=czFZmxTQhXYpDqcX)
+![Sleddog Movie](https://youtu.be/6nVfFNbxX7s?si=Q9CW8FjsOOssv9pY)
 
 # The ABOUT US page
 
