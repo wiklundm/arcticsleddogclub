@@ -100,25 +100,30 @@ The website has three pages and the links on the navigation bar opens in a new t
 There is a navigation menu bar to easily navigate between the pages that encourages the user to stay motivated and continue to the next step. The navigation bar is responsive with links to the different pages and for smaller screens there are a hamburger icon with a dropdown list to save space. When users hover over the Home, About us or Contact navigation links with their cursor the subsequent link will become underlinded. This makes the site more interactive for the user.
 ![Screenshot of two different sizes of the navigation bar](assets/docs/nav-bar.jpg)
 
-**HOME Page**
+#### HOME Page
+
 -The Home tells the user they are visiting a website for a Sleddog club.
 -That the club is located in a mountain area with beautiful and relaxing environments.
 -Provides contact information.
 -An inspirational text gives a mental picture of what you can experience.
 
-**COURSES Page**
+#### COURSES Page
+
 -The Courses page tells the user when, where, the price and content of the next course.
 -There are additional information good to know when visiting and joining the club.
 -There are an inspirational youtube-video that combines audio and video to inform about the sport.
 
-**ABOUT US Page**
+#### ABOUT US Page
+
 -The About us page tells the user a little about the club and what regulations need to be followed.
 -There are a contact section with input fields for name, adress, email and an information field, where the user can leave a message to the club.
 
 4.**Skeleton plane**
 
-**Balsamic**
-Used to create the wireframes during the design process. It is a basic model of how I was planning the layout and worked as a reminder for the structure on different screensizes.
+##### Balsamic
+
+Used to create the wireframes during the design process.I
+t is a basic model of how I was planning the layout and worked as a reminder for the structure on different screensizes.
 ![Screenshot of Balsamic Wireframe I used](assets/docs/wireframe-tiny.jpg)
 
 5.**Surface plane**
@@ -136,27 +141,31 @@ On smaller screens the navbar is a burger-icon that toggles down and on larger s
 The header remains its position and style over the website. The lesson from I love Running helped me create the burger icon and navbar.
 ![Screenshot of the header](assets/docs/header.jpg)
 
-**The logo** has a heading with the name of the club to easily understand what the site is all about. The font is Philosopher sans-sarif and colour #3a3a3a.
+##### **The logo** has a heading with the name of the club to easily understand what the site is all about. The font is Philosopher sans-sarif and colour #3a3a3a
 
 ### The landing page image
 
-**The Hero image**
+### The Hero image
+
 The image covers 100% of the viewport width.
 The main colours are light and gives a good contrast to the text.
 It is fully responsive.
-The Hero image gives a relaxing feeling and the user can imagine how it would be drive a dogteam, and to make the user interested in participate in sleddogtours and to join the club.
+The Hero image gives a relaxing feeling and the user can imagine how it would be drive a dogteam,
+and to make the user interested in participate in sleddogtours and to join the club.
+![Sleddogteams runs on a snowy mountain](assets/images/sleddogteam.jpg)
 
-**The Cover text**
+### The Covertext
+
 The covertext invites the reader to read more and explains what to expect from the site.
 The font is Philosopher, sans-serif in italic and the colour is #3a3a3a, the background colour rgb(183, 200, 226, 0.2) transparent.
 The covertext has a fixed location and stays in the same place of the heroimage.
-![Sleddogteams runs on a snowy mountain](assets/images/sleddogteam.jpg)
 
-**The Inspirational text**
+#### The Inspirational text
+
 There are an inspirational text under the heroimage to help the user imagine how the experience could be. T
 he background-colour is #dcadaa a lightpink colour. The font is Philosopher in italic and colour #3a3a3a.
 
-### Contact information
+## Contact information
 
 The contact information is easy to find both for the first-time user and the returning customer.
 The text is centered on all devices.
@@ -193,12 +202,12 @@ The image covers 100% of the viewport width on all screen sizes. ![Dog pulls chi
 
 There are unordered lists with short information about the course content, time, place and price for the course, and additional information good to know.
 The different sections have different background-colours which makes it easy to separate sections from each other and to find the information the user are looking for. The section is fully responsive and have different layouts depending on the screensize.
-![Screenshot of courses-section](assets/docs/courses-section.jpg)
+![Screenshot of courses-section](assets/docs/courses-sections.jpg)
 
 ### Youtube video
 
 The video are a free youtube video recorded by National Geographic. The video makes the user experience the sport combining sound and moving pictures. The video is set to be started as muted. The video have access to full screen controls. It is fully responsive.
-![Sleddog Movie](https://youtu.be/6nVfFNbxX7s?feature=shared/)
+![Sleddog Movie](https://www.youtube.com/embed/6nVfFNbxX7s?si=czFZmxTQhXYpDqcX)
 
 # The ABOUT US page
 
@@ -220,9 +229,12 @@ The background color is the same light pink used on the courses page. This gives
 ![Screenshot of the form](assets/docs/form.jpg)
 ![Screenshot of the form](assets/docs/submit.jpg)
 
-**Skijouring image**
+#### Skijouring image
+
 The image shows the user the discipline of skijouring and to inspire sending questions about the sport.
 ![Woman is skijouring behind two sleddogs](assets/images/skijouring.jpg)
+
+#### Smile image
 
 The last picture is to keep the user in a joyful feeling of how fun it will be to join the club.
 ![Couple having fun riding a sled](assets/images/smile.jpg)
@@ -236,46 +248,54 @@ The last picture is to keep the user in a joyful feeling of how fun it will be t
 - A separate page for those interested in competitions.
 - A Gallerypage with pictures from different disciplines, courses and competitions made by the club.
 
-## Technologies used
+# Technologies used
 
-**Language**
+##### Language
+
 HTML5 and CSS3
 
-**Workspace**
+##### Workspace
+
 Codeanywhere to write the code
 
-**GitHub**
+##### GitHub
+
 To store the project and Gitpod terminal to commit to Git and push to GitHub
 
-**FontAwesome**
+##### FontAwesome
+
 To import icons for UX purposes and to look good. Facebook, Instagram, Twitter, Paws, Calender.
 FontAwesom icons are used in the footer and in the unordered lists.
 The fonts in the footer have links to Facebook, Twitter and Instagram and redirects the user to that webpage destination in a new tab.
 
-**Am I Responsive**
+##### Am I Responsive
+
 The website AmIResponsive <https://ui.dev/amiresponsive/> was used to preview the website on different screensizes.
 ![Screenshot of Am I Responsive](assets/docs/am-i-responsive.jpg)
 
-**Favicon**
-My Favicon was created using RedKetchup. I created the Faviocon from a picture of one of my own sleddogs.
+##### Favicon
 
+My Favicon was created using RedKetchup. I created the Faviocon from a picture of one of my own sleddogs.
 ![Screenshot of my Favicon](assets/docs/favicon.jpg)
 
-**Colours**
+##### Colours
+
  I used <Hexcolorpedia.com> and <Ginifab.com> to identify colours from the sleddogteam-image and used them as the base for the rest of the colours.
  I chosed soft colours that suited that colour scheme.
 As a background colour in case the images does not load I chose #lightblue.
 To make contrast between the different parts of the texts I used a light blue rgb(132,172,222 0.2) and light pink rgb(220,173,170 0,2) colour.
 ![Screenshot of colours I used](assets/docs/colours.jpg).
 
-**Fonts**
+##### Fonts
+
 I chose the fonts by testing different types on Google Fonts.
 The main fonts used on the website and the logo is Lato light 300, a sans-serif font.
 I used a font called Philosopher, also a sans-serif, for the inspirational text on the Home page and the headings.
 For the text I used the dark colour #3a3a3a which is compatible with most browsers.
 For the header and footer i used the light #ffffff as background for high contrast.
 
-**Images**
+##### Images
+
 TinyPNG <https://tinypng.com/> and Shopify <https://www.shopify.com/tools/image-resizer#ToolContentShopify> was used to resize and compress the images.
 I made the images smaller to decrease the loading time.
 
@@ -286,24 +306,24 @@ The images can be seen under the features section.
 
 **YouTube video**
 I added a YouTube sleddog movie made by National Geographic to add both sound and visual effects, and to give the user a teaser and more information about the sport.
-(More information about the video on the Courses page).
+(More information about the video on the Courses page). <https://www.youtube.com/embed/6nVfFNbxX7s?si=czFZmxTQhXYpDqcX>
 
-## Issues and bugs
+# Issues and bugs
 
-Issue
+**Issue**
 The biggest issue was internet disruption and that Codeanywhere often stopped working, had to be reloaded and data not being pushed. This was frustrating and very timeconsuming and sometimes some parts of the code went missing. This problem was unfortunately nothing I could fix, just try to work around it and push more often.
 
 My Codeanywhere account was suddenly stopped. I recieved a new account from CodeInstitute. When the staff was transfering project from the old workspace to the new one something went wrong and I could not code. They had to debug. This took a few days. I found the solution on stack.
 
-Issue:
+**Issue**
 From the beginning I put the img url and src in the css file for the hero image. The validator did not accept this. When I changed the code to index.html instead unfortunately the covertext was not responsive anymore.
 Solution: The heroimage was set to position: relative with a width and height of 100% and the covertext to position absolute and fixed width and adjusted by padding.
 
-Issue:
+**Issue**
 When moving the hero image from css to index.html i had got a new white line under the image.
 No matter what I tried I could not fix the problem. When I had a meeting with my mentor I asked for help and after a lot of testing we still could not make it disappear. The solution was setting the margin to -10%.
 
-Issue:
+**Issue**
 Css warning: Importent statement - do not load in parallel @import google fonts.
 Solution: after reading all I could find on stack and talking to my mentor we decided to ignore the issue since it did not made any real problem.
 
@@ -339,7 +359,8 @@ By cloning a GitHub repository you can create a local copy of your remote reposi
 - Type git clone and paste the URL you just copied.
 - Press Enter and a local clone will be created.
   
-#Testing
+# Testing
+
 W3C Css and HTML validatorservice was used throughout the project to check whether there were any errors in my code.
 I manualy tested the project on Google Chrome, Microsoft Edge and Apple Safari browsers. This did not lead to any problems.
 I used a mobile first approach. I continued to test the responsiveness throughout the development process. I used Google Chromes Dev Tools to view the result on different screen sizes. By doing so I adjusted margins, paddings and image sizes to fit different screen sizes.
