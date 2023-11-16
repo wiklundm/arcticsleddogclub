@@ -5,6 +5,8 @@
 
 ## Welcome to the website of Arctic Sleddog Club
 
+![Sleddogteams runs on a snowy mountain](assets/images/sleddogteam.jpg)
+
 The Arctic Sleddog Club is a club located in the far north of Sweden in a town called Abisko.
 There are more than 4000 dogs in the area and sleddog tourism is a big source of income. Despite that there are no training or educational facilities. When the season starts most kennels and companies have to teach and train their employees by them selves for several weeks before they can start working with the tourists. This is both expensive and timeconsuming. For the natives who wants to know more about sleddogs the closest club and training facility are in Kiruna approximately 250km away.
 
@@ -96,7 +98,7 @@ When I had decided what features I wanted, I began to create the structure of my
 The website has three pages and the links on the navigation bar opens in a new tab.
 
 There is a navigation menu bar to easily navigate between the pages that encourages the user to stay motivated and continue to the next step. The navigation bar is responsive with links to the different pages and for smaller screens there are a hamburger icon with a dropdown list to save space. When users hover over the Home, About us or Contact navigation links with their cursor the subsequent link will become underlinded. This makes the site more interactive for the user.
-![Screenshot of two different sizes of the navigation bar](assets/docs/navigation-bar.jpg)
+![Screenshot of two different sizes of the navigation bar](assets/docs/nav-bar.jpg)
 
 -The **Home** page would tell the user they are visiting a site for a Sleddog club.
 That the club is in a mountain area with beautiful and relaxing environments and provide contact information.
@@ -277,16 +279,15 @@ The project was developed in Codeanywhere, commited to Git and pushed and stored
 By cloning a GitHub repository you can create a local copy of your remote repository on your computer. By doing so you can make changes or view the repository without affecting the original repository.
 
 - Log in to GitHub
-- Go to the repository you want to clone. 
+- Go to the repository you want to clone.
 - Above the list of files click the button called Code
 - Click on the tab called Local
-- Chose if you want to use HTTPS or SSH key. 
+- Chose if you want to use HTTPS or SSH key.
 - Copy the URL link
 - Open a new terminal on your IDE
-- Change the location of the working directory to where you want the cloned directory to be. 
+- Change the location of the working directory to where you want the cloned directory to be.
 - Type git clone and paste the URL you just copied.
 - Press Enter and a local clone will be created.
-  
   
 Testing
 W3C Css and HTML validatorservice was used throughout the project to check whether there were any errors in my code.
