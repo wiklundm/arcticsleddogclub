@@ -117,57 +117,11 @@ There is a navigation menu bar to easily navigate between the pages that encoura
 
 4.**Skeleton plane**
 
-**Balsamic** 
+**Balsamic**
 Used to create the wireframes during the design process. It is a basic model of how I was planning the layout and worked as a reminder for the structure on different screensizes.
 ![Screenshot of Balsamic Wireframe I used](assets/docs/wireframe-tiny.jpg)
 
 5.**Surface plane**
-
-## Technologies used
-
-**Language** 
-HTML5 and CSS3
-
-**Workspace** 
-Codeanywhere to write the code
-
-**GitHub** 
-To store the project and Gitpod terminal to commit to Git and push to GitHub
-
-**FontAwesome** 
-To import icons for UX purposes and to look good. Facebook, Instagram, Twitter, Paws, Calender.
-FontAwesom icons are used in the footer and in the unordered lists.
-The fonts in the footer have links to Facebook, Twitter and Instagram and redirects the user to that webpage destination in a new tab.
-
-**Am I Responsive** 
-The website was used to preview the website on different screensizes.
-![Screenshot of Am I Responsive](assets/docs/am-i-responsive.jpg)
-
-**Favicon** 
-My Favicon was created using RedKetchup. I created the Faviocon from a picture of one of my own sleddogs.
-
-![Screenshot of my Favicon](assets/docs/favicon.jpg)
-
-**Colours**
- I used Hexcolorpedia and Ginifab.com to identify colours from the image on the home page and used them as the base for the rest of the colours. I chosed soft colours that suited that colour scheme.
-As a background colour in case the images does not load I chose #lightblue. To make contrast between the different parts of the texts I used a light blue rgb(132,172,222 0.2) and light pink rgb(220,173,170 0,2) colour.
-![Screenshot of colours I used](assets/docs/colours.jpg).
-
-**Fonts**
-I chose the fonts by testing different types on Google Fonts.
-The main fonts used on the website and the logo is Lato light 300, a sans-serif font.
-I used a font called Philosopher, also a sans-serif, for the inspirational text on the Home page and the headings.
-For the text I used the dark colour #3a3a3a which is compatible with most browsers.
-For the header and footer i used the light #ffffff for high contrast.
-
-**Images**
-Tiny-Png and Shopify was used to resize and compress the images.
-
-The background image on the home page is borrowed from my friends private collection -Anna Norman at Lifestyle North AB/Kiruna Dogsled AB. The other pictures are from IStock and are pictures free to use.
-The images represents different parts of the sleddog sport and are motivational.
-The images can be seen under the features section.
-
-I also added a YouTube sleddog movie made by National Geographic to add both sound and visual effects and to give the user a teaser and more information about the sport.
 
 # FEATURES
 
@@ -175,37 +129,64 @@ I also added a YouTube sleddog movie made by National Geographic to add both sou
 
 ### The Header
 
-The navigation bar includes links to the Home, Course and About us page. The links helps the user to easily navigate to the specific content they are looking for without having to use the back button in the browser head or keep scrolling down to find the relevant content. The nav links have an active state which changes according to which section the user is currently looking at. On smaller screens the navbar is a burger-icon that toggles down and on larger screen the navigatin links are spread out evenly. The header remains its position and style over the website. The lesson from I love Running helped me create the burger icon and navbar.
+The navigation bar includes links to the Home, Courses and About us page.
+The links helps the user to easily navigate to the specific content they are looking for without having to use the back button in the browser head or keep scrolling down to find the relevant content.
+The nav links have an active state which changes according to which section the user is currently looking at.
+On smaller screens the navbar is a burger-icon that toggles down and on larger screen the navigatin links are spread out evenly.
+The header remains its position and style over the website. The lesson from I love Running helped me create the burger icon and navbar.
 ![Screenshot of the header](assets/docs/header.jpg)
 
-**The logo** has a heading with the name of the club to easily understand what the site is all about. The font is Philosopher sans-sarif.
-
-### The Footer
-
-The footer uses the same theme as the Navbar and provides the social media links of the club (from FontAwesome), that opens in a new tab and set as noopener. The style remains the same over the webpages. The fonts are spread out evenly.
-![Screenshot of footer](assets/docs/footers.jpg)
+**The logo** has a heading with the name of the club to easily understand what the site is all about. The font is Philosopher sans-sarif and colour #3a3a3a.
 
 ### The landing page image
 
-The image covers 100% of the viewport width. The main colours are light and gives a good contrast to the text. It is fully responsive.
+**The Hero image**
+The image covers 100% of the viewport width.
+The main colours are light and gives a good contrast to the text.
+It is fully responsive.
 The Hero image gives a relaxing feeling and the user can imagine how it would be drive a dogteam, and to make the user interested in participate in sleddogtours and to join the club.
+
+**The Cover text**
 The covertext invites the reader to read more and explains what to expect from the site.
-There are an inspirational text under the heroimage to help the user imagine how the experience could be.
+The font is Philosopher, sans-serif in italic and the colour is #3a3a3a, the background colour rgb(183, 200, 226, 0.2) transparent.
+The covertext has a fixed location and stays in the same place of the heroimage.
 ![Sleddogteams runs on a snowy mountain](assets/images/sleddogteam.jpg)
+
+**The Inspirational text**
+There are an inspirational text under the heroimage to help the user imagine how the experience could be. T
+he background-colour is #dcadaa a lightpink colour. The font is Philosopher in italic and colour #3a3a3a.
 
 ### Contact information
 
-The contact information is easy to find both for the first-time user and the returning customer. The text is centered on all devices. The text is bold and easy to read.
+The contact information is easy to find both for the first-time user and the returning customer.
+The text is centered on all devices.
+The text is bold and easy to read.
+The e-mail adress is a clickable link with blue underlining and when clicked, a new e-mail opens up in the users e-mailprogram.
+The background-image comes from IStock and also follows the theme of winter.
+The contact section has fullt viewport width.
+The text stays centered in all scrensizes.
 ![Screenshot of the Contact section](assets/docs/contact.jpg)
+
+### The Footer
+
+The footer uses the same theme as the navbar and provides the social media links of the club that opens in a new tab and set as noopener.
+The style remains the same over the webpages.
+The background-colour is #ffffff white to give high contrast.
+The fonts are spread out evenly.
+The icons are from FontAwesome <https://fontawesome.com/icons>
+![Screenshot of footer](assets/docs/footers.jpg)
 
 # The COURSES page
 
 ### Heading
 
 The heading has a clear message. It asks the user if they want to learn how to become a musher.
-Mushing is a sport or transport method powered by dogs. The person who drives the dog is called a musher. The heading has the font Philosofer, sans-serif, to make it stand out from the rest of the text.
+Mushing is a sport or transport method powered by dogs. The person who drives the dog is called a musher.
+The heading has the font Philosofer, sans-serif, to make it stand out from the rest of the text.
 
-*The image tells the user that there are different ways to ride a sled and that many different kind of dogs can be used as a sleddog. The sleddog club also wants to attract children who wants to learn about the sport.
+**Child image**
+*The image tells the user that there are different ways to ride a sled and that many different kind of dogs can be used as a sleddog.
+The sleddog club also wants to attract children who wants to learn about the sport.
 The image covers 100% of the viewport width on all screen sizes. ![Dog pulls child on a sled](assets/images/child.jpg)
 
 ### Course section
@@ -217,12 +198,12 @@ The different sections have different background-colours which makes it easy to 
 ### Youtube video
 
 The video are a free youtube video recorded by National Geographic. The video makes the user experience the sport combining sound and moving pictures. The video is set to be started as muted. The video have access to full screen controls. It is fully responsive.
-![Sleddog Movie](https://youtu.be/6nVfFNbxX7s?feature=shared)
+![Sleddog Movie](https://youtu.be/6nVfFNbxX7s?feature=shared/)
 
 # The ABOUT US page
 
-The first image illustrates how happy the user will be when joining the club and gives a sence of belonging to a team
-The size of the image changes depending on screensize to optimize the use of space. On the smallest screen the image is round to save space and on wider screens it covers the full width of the screen.
+The first image illustrates how happy the user will be when joining the club and gives a sence of belonging to a team.
+The size of the image changes depending on screensize to optimize the use of space. On the smallest screen the image is round to save space and on wider screens it covers the full width of the screen with less border-radius.
 ![Group of people in the snow jumps in joy](assets/images/jump.jpg)
 
 ### About us section
@@ -233,8 +214,11 @@ The text is a short explanation of the clubs purpose and its responsibilies and 
 ### Contact Form
 
 The user can to leave a message on any subject regarding sleddogs and also apply for the course.
-The form requires the user to fill it out correctly before clicking the CONTACT US button. The button is responsive (confirmed by sending the user to a template page borrowed from Code Institute). The background color is the same light pink used on the courses page. This gives a consistent theme.
+The form requires the user to fill it out correctly before clicking the CONTACT US button.
+The button is responsive (confirmed by sending the user to a template page borrowed from Code Institute).
+The background color is the same light pink used on the courses page. This gives a consistent theme.
 ![Screenshot of the form](assets/docs/form.jpg)
+![Screenshot of the form](assets/docs/submit.jpg)
 
 **Skijouring image**
 The image shows the user the discipline of skijouring and to inspire sending questions about the sport.
@@ -251,6 +235,58 @@ The last picture is to keep the user in a joyful feeling of how fun it will be t
 - Choices for GDPR
 - A separate page for those interested in competitions.
 - A Gallerypage with pictures from different disciplines, courses and competitions made by the club.
+
+## Technologies used
+
+**Language**
+HTML5 and CSS3
+
+**Workspace**
+Codeanywhere to write the code
+
+**GitHub**
+To store the project and Gitpod terminal to commit to Git and push to GitHub
+
+**FontAwesome**
+To import icons for UX purposes and to look good. Facebook, Instagram, Twitter, Paws, Calender.
+FontAwesom icons are used in the footer and in the unordered lists.
+The fonts in the footer have links to Facebook, Twitter and Instagram and redirects the user to that webpage destination in a new tab.
+
+**Am I Responsive**
+The website AmIResponsive <https://ui.dev/amiresponsive/> was used to preview the website on different screensizes.
+![Screenshot of Am I Responsive](assets/docs/am-i-responsive.jpg)
+
+**Favicon**
+My Favicon was created using RedKetchup. I created the Faviocon from a picture of one of my own sleddogs.
+
+![Screenshot of my Favicon](assets/docs/favicon.jpg)
+
+**Colours**
+ I used <Hexcolorpedia.com> and <Ginifab.com> to identify colours from the sleddogteam-image and used them as the base for the rest of the colours.
+ I chosed soft colours that suited that colour scheme.
+As a background colour in case the images does not load I chose #lightblue.
+To make contrast between the different parts of the texts I used a light blue rgb(132,172,222 0.2) and light pink rgb(220,173,170 0,2) colour.
+![Screenshot of colours I used](assets/docs/colours.jpg).
+
+**Fonts**
+I chose the fonts by testing different types on Google Fonts.
+The main fonts used on the website and the logo is Lato light 300, a sans-serif font.
+I used a font called Philosopher, also a sans-serif, for the inspirational text on the Home page and the headings.
+For the text I used the dark colour #3a3a3a which is compatible with most browsers.
+For the header and footer i used the light #ffffff as background for high contrast.
+
+**Images**
+TinyPNG <https://tinypng.com/> and Shopify <https://www.shopify.com/tools/image-resizer#ToolContentShopify> was used to resize and compress the images.
+I made the images smaller to decrease the loading time.
+
+The background image on the home page is borrowed from my friends private collection -Anna Norman at Lifestyle North AB/Kiruna Dogsled AB.
+The other pictures are from IStock <https://www.istockphoto.com/se>
+The images represents different parts of the sleddog sport and are motivational.
+The images can be seen under the features section.
+
+**YouTube video**
+I added a YouTube sleddog movie made by National Geographic to add both sound and visual effects, and to give the user a teaser and more information about the sport.
+(More information about the video on the Courses page).
 
 ## Issues and bugs
 
@@ -303,7 +339,7 @@ By cloning a GitHub repository you can create a local copy of your remote reposi
 - Type git clone and paste the URL you just copied.
 - Press Enter and a local clone will be created.
   
-Testing
+#Testing
 W3C Css and HTML validatorservice was used throughout the project to check whether there were any errors in my code.
 I manualy tested the project on Google Chrome, Microsoft Edge and Apple Safari browsers. This did not lead to any problems.
 I used a mobile first approach. I continued to test the responsiveness throughout the development process. I used Google Chromes Dev Tools to view the result on different screen sizes. By doing so I adjusted margins, paddings and image sizes to fit different screen sizes.
