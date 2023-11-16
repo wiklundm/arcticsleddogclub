@@ -326,7 +326,6 @@ text-align: center;
   width: 100%;
   padding-top: 56.25%;
   margin-left: 20px;
-  margin-right: 20px;
   height: auto;
 }
 
@@ -361,6 +360,8 @@ text-align: center;
   list-style-type: none;
   padding-bottom: 15px;
   padding-top: 15px;
+padding-left: 10px;
+padding-right: 10px;
   font-size: 100%;
 }
 
