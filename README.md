@@ -100,37 +100,51 @@ The website has three pages and the links on the navigation bar opens in a new t
 There is a navigation menu bar to easily navigate between the pages that encourages the user to stay motivated and continue to the next step. The navigation bar is responsive with links to the different pages and for smaller screens there are a hamburger icon with a dropdown list to save space. When users hover over the Home, About us or Contact navigation links with their cursor the subsequent link will become underlinded. This makes the site more interactive for the user.
 ![Screenshot of two different sizes of the navigation bar](assets/docs/nav-bar.jpg)
 
--The **Home** page would tell the user they are visiting a site for a Sleddog club.
-That the club is in a mountain area with beautiful and relaxing environments and provide contact information.
-An inspirational text gives a mental picture of what you can experience.
+**HOME Page**
+-The Home tells the user they are visiting a website for a Sleddog club.
+-That the club is located in a mountain area with beautiful and relaxing environments.
+-Provides contact information.
+-An inspirational text gives a mental picture of what you can experience.
 
--The **Courses** page tells the user when, where, the price and content of the next course.
-There are an inspirational youtube-video.
+**COURSES Page**
+-The Courses page tells the user when, where, the price and content of the next course.
+-There are additional information good to know when visiting and joining the club.
+-There are an inspirational youtube-video that combines audio and video to inform about the sport.
 
--The **About us** page tells the user a little about the club and what regulations need to be followed.
-There are a contact section with input fields for name, adress, email and an information field where the user can leave a message to the club.
+**ABOUT US Page**
+-The About us page tells the user a little about the club and what regulations need to be followed.
+-There are a contact section with input fields for name, adress, email and an information field, where the user can leave a message to the club.
 
 4.**Skeleton plane**
 
-**Balsamic** was used to create the wireframes during the design process. It is a basic model of how I was planning the layoutand worked as a reminder for the structure on different screensizes.
+**Balsamic** 
+Used to create the wireframes during the design process. It is a basic model of how I was planning the layout and worked as a reminder for the structure on different screensizes.
 ![Screenshot of Balsamic Wireframe I used](assets/docs/wireframe-tiny.jpg)
 
 5.**Surface plane**
 
 ## Technologies used
 
-**Language** HTML5 and CSS3
+**Language** 
+HTML5 and CSS3
 
-**Workspace** *Codeanywhere to write the code
+**Workspace** 
+Codeanywhere to write the code
 
-**GitHub** to store the project and Gitpod terminal to commit to Git and push to GitHub
+**GitHub** 
+To store the project and Gitpod terminal to commit to Git and push to GitHub
 
-**FontAwesome** to import icons for UX purposes and to look good. Facebook, Instagram, Twitter, Paws, Calender. The fonts are used in the footer and in the unordered lists. The fonts in the footer has links to Facebook, Twitter and Instagram and redirects the user to that webpage destination in a new tab.
+**FontAwesome** 
+To import icons for UX purposes and to look good. Facebook, Instagram, Twitter, Paws, Calender.
+FontAwesom icons are used in the footer and in the unordered lists.
+The fonts in the footer have links to Facebook, Twitter and Instagram and redirects the user to that webpage destination in a new tab.
 
-**Am I Responsive** to preview the website on different screensizes.
+**Am I Responsive** 
+The website was used to preview the website on different screensizes.
 ![Screenshot of Am I Responsive](assets/docs/am-i-responsive.jpg)
 
-**Favicon** was created using RedKetchup with a picture of one of my own sleddogs.
+**Favicon** 
+My Favicon was created using RedKetchup. I created the Faviocon from a picture of one of my own sleddogs.
 
 ![Screenshot of my Favicon](assets/docs/favicon.jpg)
 
