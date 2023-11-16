@@ -129,6 +129,7 @@ There are a contact section with input fields for name, adress, email and an inf
 ![Screenshot of Am I Responsive](assets/docs/am-i-responsive.jpg)
 
 **Favicon** was created using RedKetchup with a picture of one of my own sleddogs.
+
 ![Screenshot of my Favicon](assets/docs/favicon.jpg)
 
 **Colours**
