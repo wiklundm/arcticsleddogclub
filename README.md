@@ -82,11 +82,11 @@ I wanted to create a page that could gather people with similar interests and sp
 
 2.**Scope plan**
 
--I decided that since the nature and dogs is the main reason people would visit the page it is important to have images visualizing the experiences the people joining the club and attending the course would have. To provide enough information so the user wants to know more.
--I needed a contact form.
--Location, meeting hours and costs for the course.
--Information about what to expect taking the course.
--Information about the club.
+*I decided that since the nature and dogs is the main reason people would visit the page it is important to have images visualizing the experiences the people joining the club and attending the course would have. To provide enough information so the user wants to know more.
+*I needed a contact form.
+*Location, meeting hours and costs for the course.
+*Information about what to expect taking the course.
+*Information about the club.
 
 *Functionality requirements:
 The user needs to be able to navigate through the website to access all the contents.
@@ -102,21 +102,21 @@ There is a navigation menu bar to easily navigate between the pages that encoura
 
 #### HOME Page
 
--The Home tells the user they are visiting a website for a Sleddog club.
--That the club is located in a mountain area with beautiful and relaxing environments.
--Provides contact information.
--An inspirational text gives a mental picture of what you can experience.
+*The Home tells the user they are visiting a website for a Sleddog club.
+*That the club is located in a mountain area with beautiful and relaxing environments.
+*Provides contact information.
+*An inspirational text gives a mental picture of what you can experience.
 
 #### COURSES Page
 
--The Courses page tells the user when, where, the price and content of the next course.
--There are additional information good to know when visiting and joining the club.
--There are an inspirational youtube-video that combines audio and video to inform about the sport.
+*The Courses page tells the user when, where, the price and content of the next course.
+*There are additional information good to know when visiting and joining the club.
+*There are an inspirational youtube-video that combines audio and video to inform about the sport.
 
 #### ABOUT US Page
 
--The About us page tells the user a little about the club and what regulations need to be followed.
--There are a contact section with input fields for name, adress, email and an information field, where the user can leave a message to the club.
+*The About us page tells the user a little about the club and what regulations need to be followed.
+*There are a contact section with input fields for name, adress, email and an information field, where the user can leave a message to the club.
 
 4.**Skeleton plane**
 
@@ -205,7 +205,7 @@ The different sections have different background-colours which makes it easy to 
 ### Youtube video
 
 The video are a free youtube video recorded by National Geographic. The video makes the user experience the sport combining sound and moving pictures. The video is set to be started as muted. The video have access to full screen controls. It is fully responsive.
-![Sleddog Movie](https://youtu.be/6nVfFNbxX7s?si=Q9CW8FjsOOssv9pY)
+![Sleddog Movie](https://www.youtube.com/embed/6nVfFNbxX7s?si=czFZmxTQhXYpDqcX)
 
 # The ABOUT US page
 
@@ -271,14 +271,13 @@ The fonts in the footer have links to Facebook, Twitter and Instagram and redire
 The website AmIResponsive <https://ui.dev/amiresponsive/> was used to preview the website on different screensizes.
 ![Screenshot of Am I Responsive](assets/docs/am-i-responsive.jpg)
 
-##### Favicon
 
-My Favicon was created using RedKetchup. I created the Faviocon from a picture of one of my own sleddogs.
-![Screenshot of my Favicon](assets/docs/favicon.jpg)
+**Favicon**
+My Favicon was created using RedKetchup. I created the Faviocon from a picture of one of my own sleddogs. ![Screenshot of my Favicon](assets/docs/favicon.jpg)
 
 ##### Colours
 
- I used <Hexcolorpedia.com> and <Ginifab.com> to identify colours from the sleddogteam-image and used them as the base for the rest of the colours.
+ I used Hexcolorpedia <https://hexcolorpedia.com/> and Ginifab <https://www.ginifab.com/feeds/pms/color_picker_from_image.sv.php> to identify colours from the sleddogteam-image and used them as the base for the rest of the colours.
  I chosed soft colours that suited that colour scheme.
 As a background colour in case the images does not load I chose #lightblue.
 To make contrast between the different parts of the texts I used a light blue rgb(132,172,222 0.2) and light pink rgb(220,173,170 0,2) colour.
