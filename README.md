@@ -8,14 +8,11 @@
 ![Sleddogteams runs on a snowy mountain](assets/images/sleddogteam.jpg)
 
 The Arctic Sleddog Club is a club located in the far north of Sweden in a town called Abisko.
-There are more than 4000 dogs in the area and sleddog tourism is a big source of income. Despite that there are no training or educational facilities. The winter season is long and cold, there are enough snow on the trails, and the high amount of sleddogs in the area, makes the location for the club optimal.
+There are more than 4000 dogs in the area and sleddog tourism is a big source of income. Despite that there are no training or educational facilities. The winter season is long and cold, there are enough snow on the trails, and the high amount of sleddogs in the area, makes the location for the club optimal. For the natives who wants to know more about sleddogs the closest club and training facility are in Kiruna 250km away.
 
+The weather can rapidly change in the mountains and it can be dangerous if you are not prepared for the arctic climate. The temperature falls below -40 degrees Celsius some weeks over the year and lavins are frequently occurring.
 
-For the natives who wants to know more about sleddogs the closest club and training facility are in Kiruna 250km away.
-
-The weather can rapidly change in the mountains and it can be dangerous if you are not prepared for the arctic climate. The temperature falls below -40 degrees Celsius some weeks over the year and lavins are frequently occurring. 
-The club wants to spread the knowledge about how to enjoy dogsledding in the mouintains while still being safe.
-
+*The club wants to spread the knowledge about how to enjoy dogsledding in the mouintains while still being safe.
 *The Arctic Sleddog Clubs purpose is to educate and spread the knowledge about sleddog culture and to engage people in outdoor activities in an arctic environment.
 *To educate train for and participate in sleddog races.
 *To promote good dogcare and sportsmanship and work against doping and discrimination in sports.
@@ -61,11 +58,11 @@ The arctid climate and remote location with with frequent lavins makes it import
 
 #### Business goals
 
-When the season starts most kennels and companies have to teach and train their employees by them selves for several weeks before they can start working with the tourists. This is both expensive and timeconsuming.
-- By beeing member of the Arctic sleddog club and let their new employees join the courses, the companies specialized in tourism can hire educated staff instead of putting several weeks on training new staff by themselves as it right now.
-- 
-- When people following the rules in the mountains, the reindeers gest less stressed and the Sami people are getting healthier animals with higher survival rate which increases their income. A good relation with the natives makes the club able to use their land for the clubs purposes.
-- Income from advertising and sponsorship on competitions and business events.
+*When the season starts most kennels and companies have to teach and train their employees by them selves for several weeks before they can start working with the tourists. This is both expensive and timeconsuming.
+ By beeing member of the Arctic sleddog club and let their new employees join the courses, the companies specialized in tourism can hire educated staff instead of putting several weeks on training new staff by themselves as it is right now.
+*Increased interest in the sport can give the business more customers.
+*When people following the rules in the mountains, the reindeers gest less stressed and the Sami people are getting healthier animals with higher survival rate which increases their income. A good relation with the natives makes the club able to use their land for the clubs purposes.
+*Income from advertising and sponsorship on competitions and business events.
 
 ### Other considerations
 
@@ -207,7 +204,7 @@ The different sections have different background-colours which makes it easy to 
 ### Youtube video
 
 The video are a free youtube video recorded by National Geographic. The video makes the user experience the sport combining sound and moving pictures. The video is set to be started as muted. The video have access to full screen controls. It is fully responsive.
-![Sleddog Movie](https://www.youtube.com/embed/6nVfFNbxX7s?si=czFZmxTQhXYpDqcX)
+![Sleddog Movie](https://youtu.be/6nVfFNbxX7s)
 
 # The ABOUT US page
 
@@ -273,7 +270,6 @@ The fonts in the footer have links to Facebook, Twitter and Instagram and redire
 The website AmIResponsive <https://ui.dev/amiresponsive/> was used to preview the website on different screensizes.
 ![Screenshot of Am I Responsive](assets/docs/am-i-responsive.jpg)
 
-
 **Favicon**
 My Favicon was created using RedKetchup. I created the Faviocon from a picture of one of my own sleddogs. ![Screenshot of my Favicon](assets/docs/favicon.jpg)
 
@@ -326,6 +322,10 @@ No matter what I tried I could not fix the problem. When I had a meeting with my
 Css warning: Importent statement - do not load in parallel @import google fonts.
 Solution: after reading all I could find on stack and talking to my mentor we decided to ignore the issue since it did not made any real problem.
 
+**Issue**
+The Youtube video container made the page wider and the page could be scrolled a few px to both left and right.
+Solution:
+
 # Deployment
 
 To make my project viewable to others.
@@ -361,20 +361,77 @@ By cloning a GitHub repository you can create a local copy of your remote reposi
 # Testing
 
 W3C Css and HTML validatorservice was used throughout the project to check whether there were any errors in my code.
+![Image of css validation](assets/docs/validering-css.jpg)
+![Image of index.html page validation](assets/docs/index-html-validator.jpg)
+![Image of courses page validation](assets/docs/courses-validator.jpg)
+![Image of about us page validation](assets/docs/about-us-validator.jpg)
+
 I manualy tested the project on Google Chrome, Microsoft Edge and Apple Safari browsers. This did not lead to any problems.
+
 I used a mobile first approach. I continued to test the responsiveness throughout the development process. I used Google Chromes Dev Tools to view the result on different screen sizes. By doing so I adjusted margins, paddings and image sizes to fit different screen sizes.
 
-Menu bar: Clicking on the Logo or Home link returns the user to the Home page. Clicking on the Courses link takes the user to the Courses page. Clicking on the About us link directs the user to the About us page.
+#### Menu bar
 
-Footer: Clicking on the Facebook icon takes the user to the Facebook page. Clicking on Instagram takes the user to Instagram page
+I manually tested to click on the links in the navbar and also checked that the active state and that the hover state worked.
+Clicking on the Home link returns the user to the Home page.
+Clicking on the Courses link takes the user to the Courses page.
+Clicking on the About us link directs the user to the About us page.
+
+#### Footer
+
+Clicking on the Facebook icon takes the user to the Facebook page.
+Clicking on Instagram takes the user to Instagram page
 Clicking on Twitter takes the user to Twitter page.
+Since the club does not have own accounts on social media I choose to redirect to their homepages.
 
-Form: I manually tested that the form requested input data in name fields and an email adress in email-field and that you could not continue without filling in the data requested. I tested that the contact us button was responding by sending me to the test template page when I clicked the button.
+#### The Form
+
+I manually tested that the form requested input data in name fields and an email adress in email-field and that you could not continue without
+ filling in the data requested. I tested that the contact us button was responding by sending me to the test template page when I clicked the button. More information about the result can be seen on the image in the "contact form" section.
+
+#### Contact
+
+When I clicked on ![Arctic Sleddog Clubs e-mailadress](arctic.sleddogclub@gmail.com) in the contactsection a new mail opened up in my mail program. The link worked.
+
+#### First time user
+
+*_To create a professional design that are not causing information overload_.
+The text is short but still gives enough information and it is easy to understand the meaning behind the pictures.
+The Hero-image fits % of the viewport width and has a cover text that is informative and appealing. There is an inspirational text that gets the user interested to scroll down and find out more.
+
+*_To make a user easily navigate between the pages and attract with both text and visual images_.
+The links in the navbar is easy to find and spread evenly on the header, that remains in the top while scrolling down. On smaller screens the links is collected in a burger-icon to save space at the top of the screen.
+The footer and the header has the same layout over the website pages.
+
+*_To find information about the content, location, time and price of the upcoming course_.
+The about us page section has all the information requested above.
+
+*_Give access to social media links for reviews and other information_.
+The footer has links to Facebook, Instagram and Twitter. The Icons in the footer are spread evenly. The icon is represtented by an icon that is appropriate and easy to identify and has a link that redirects the user to their social media platoform. It opens in a new tab.
+
+*_To have a contact form where the user can ask questions and apply for the next course_.
+On the About us page is a contact form where the user can leave a message to the club and sign up for the next course. The contact form is requesting the user to put first name, last name, e-mail adress and information in the form before the user can use the Contact us button. When the user clicks the Contact us button it is redirected to a template borrowed from Code Institute that validate that the button works and the information the user put in the form can be seen in the template.
+
+*_To give the user short information about the clubs policy and regulations needed to know_.
+In the about us page are is an unordered list explaining the purpose and policy of the club. The user can read that the club answers to the authorities in Svenska Draghundsportförbundet, Svenska idrottsförbundet and ISDVMA (International Sleddog Veterinary Medicin Association) and ESDRA (European Sleddog Racing Accociation).
+
+#### Returning and first time user
+
+-_As both a returning and first-time visitor I want to easily be able to contact the Sleddog Club_.
+  The clubs adress, phone-number and email-adress is easily found on the Home page and there are a form in About us page where the user can contact the club.
+
+- _To create a design that would be fully responsive on all devices and screen sizes_.
+  I continously tested the layout with dev-tools and the deployed project on different screen-sizes.
+  I used AmIResponsive to see how the layout looked on different screens.
+
+- _To easily find information about the next course_.
+- In the Courses page are infomation about the next course. It is made in short sentenses with important information about the time, location, price and content of the next course. The information is made as a list to be easy to find and read.
+There is a section with additional information good to know before participating in the course.
 
 Credits:
 The content of the website is fictional and created by myself.
 The images are from Istock except from the homepage hero picture that is borrowed from my friend Anna Norman on Lifestyle North AB/Kiruna Dogsled.
-Information on how to make the Burger icon I found on stack and the lessons from Code institute.
+Information on how to make the Burger icon I found on stack and the lessons from Code institute.The template 
 
 Acknowledgements:
 Stack community for information when I encourtered a problem regarding the code and Code Institute regarding coding time and account issue.
