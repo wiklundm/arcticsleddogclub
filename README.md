@@ -8,10 +8,13 @@
 ![Sleddogteams runs on a snowy mountain](assets/images/sleddogteam.jpg)
 
 The Arctic Sleddog Club is a club located in the far north of Sweden in a town called Abisko.
-There are more than 4000 dogs in the area and sleddog tourism is a big source of income. Despite that there are no training or educational facilities. When the season starts most kennels and companies have to teach and train their employees by them selves for several weeks before they can start working with the tourists. This is both expensive and timeconsuming. For the natives who wants to know more about sleddogs the closest club and training facility are in Kiruna approximately 250km away.
+There are more than 4000 dogs in the area and sleddog tourism is a big source of income. Despite that there are no training or educational facilities. The winter season is long and cold, there are enough snow on the trails, and the high amount of sleddogs in the area, makes the location for the club optimal.
 
-The weather can rapidly change in the mountains and it can be dangerous if you are not prepared for the arctic climate. The temperature falls below -40 degrees Celsius some weeks over the year and lavins are frequently occurring. The club wants to spread the knowledge about how to enjoy dogsledding in the mouintanins while still being safe.
-Since the winter is long and cold and which guarantees enough snow on the trails, and the high amount of sleddogs in the area, makes the location for the club optimal.
+
+For the natives who wants to know more about sleddogs the closest club and training facility are in Kiruna 250km away.
+
+The weather can rapidly change in the mountains and it can be dangerous if you are not prepared for the arctic climate. The temperature falls below -40 degrees Celsius some weeks over the year and lavins are frequently occurring. 
+The club wants to spread the knowledge about how to enjoy dogsledding in the mouintains while still being safe.
 
 *The Arctic Sleddog Clubs purpose is to educate and spread the knowledge about sleddog culture and to engage people in outdoor activities in an arctic environment.
 *To educate train for and participate in sleddog races.
@@ -58,10 +61,9 @@ The arctid climate and remote location with with frequent lavins makes it import
 
 #### Business goals
 
-The website is mainly for individuals but when information spreads, the understanding and knowledge of the sport and sleddog culture increases which gives positive effects also on companies specialized in sleddogs and tourism.
-
-- Increased interest in the sport can give the business more customers.
-- The companies specialized in tourism can hire educated staff instead of putting several weeks on training new staff by themselves as it right now.
+When the season starts most kennels and companies have to teach and train their employees by them selves for several weeks before they can start working with the tourists. This is both expensive and timeconsuming.
+- By beeing member of the Arctic sleddog club and let their new employees join the courses, the companies specialized in tourism can hire educated staff instead of putting several weeks on training new staff by themselves as it right now.
+- 
 - When people following the rules in the mountains, the reindeers gest less stressed and the Sami people are getting healthier animals with higher survival rate which increases their income. A good relation with the natives makes the club able to use their land for the clubs purposes.
 - Income from advertising and sponsorship on competitions and business events.
 
