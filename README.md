@@ -204,7 +204,7 @@ The different sections have different background-colours which makes it easy to 
 ### Youtube video
 
 The video are a free youtube video recorded by National Geographic. The video makes the user experience the sport combining sound and moving pictures. The video is set to be started as muted. The video have access to full screen controls. It is fully responsive.
-![Sleddog Movie](https://youtu.be/6nVfFNbxX7s)
+![Sleddog Movie](assets/docs/youtube.jpg)
 
 # The ABOUT US page
 
