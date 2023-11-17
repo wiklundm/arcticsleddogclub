@@ -428,11 +428,15 @@ In the about us page are is an unordered list explaining the purpose and policy 
 - In the Courses page are infomation about the next course. It is made in short sentenses with important information about the time, location, price and content of the next course. The information is made as a list to be easy to find and read.
 There is a section with additional information good to know before participating in the course.
 
-Credits:
+# Credits
+
 The content of the website is fictional and created by myself.
 The images are from Istock except from the homepage hero picture that is borrowed from my friend Anna Norman on Lifestyle North AB/Kiruna Dogsled.
-Information on how to make the Burger icon I found on stack and the lessons from Code institute.The template 
+Information on how to make the Burger icon I found on stack and the lessons from Code institute.
+The template that sends the information from the form from Code Institute.
 
-Acknowledgements:
-Stack community for information when I encourtered a problem regarding the code and Code Institute regarding coding time and account issue.
+# Acknowledgements
+
+Stack community for information when I encourtered a problem regarding the code.
+Code Institute regarding coding time and account issues.
 Thanks to my mentor Daniel Hamilton for helpful feedback.
