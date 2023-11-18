@@ -297,6 +297,7 @@ TinyPNG <https://tinypng.com/> and Shopify <https://www.shopify.com/tools/image-
 I made the images smaller to decrease the loading time.
 
 The background image on the home page is borrowed from my friends private collection -Anna Norman at Lifestyle North AB/Kiruna Dogsled AB.
+Snowflake image comes from Shutterstock <https://www.shutterstock.com/sv/images>
 The other pictures are from IStock <https://www.istockphoto.com/se>
 The images represents different parts of the sleddog sport and are motivational.
 The images can be seen under the features section.
