@@ -240,10 +240,15 @@ The last picture is to keep the user in a joyful feeling of how fun it will be t
 
 # Features to be implemented in the future
 
+These features are not made now since I have not learned these lessons yet. I need to do more research and more learning.
+
 - Choices to pay in different ways such as Paypal, bank-transfer and swish.
 - Choices to change the language of the website to Swedish
 - Add Captcha to the contact form to allow better security from spam.
 - Choices for GDPR
+- Submit the form to Arctic Sleddog Site instead of Code Institute template. I have not learned JavaScript yet but will change this when I have the knowledge.
+  
+  _To implement in the next update_
 - A separate page for those interested in competitions.
 - A Gallerypage with pictures from different disciplines, courses and competitions made by the club.
 
@@ -327,7 +332,7 @@ Solution: after reading all I could find on stack and talking to my mentor we de
 
 **Issue**
 The snowflake image caused troubles with transparency and grey squares appeared.
-Solution: the image was originally a png converted to jpg. It had a grey background underneath. When the opacity changed the grey squares appear and was hard to change. This also gave me less points on lighthouse. I decided to change the image to the snowflake image without the grey background underneath. 
+Solution: the image was originally a png converted to jpg. It had a grey background underneath. When the opacity changed the grey squares appear and was hard to change. This also gave me less points on lighthouse. I decided to change the image to the snowflake image without the grey background underneath.
 
 **Issue**
 On smaller screens on the courses page on the deployed site I had a white line on the right and left side.

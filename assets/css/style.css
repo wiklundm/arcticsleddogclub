@@ -246,7 +246,19 @@ text-align: center;
 }
 #place {
   list-style-type: none;
+  padding-top: 20px;
 }
+.saturday .sleddog {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.date .arctic .dogcare .survival .sport .equipment {
+    margin-bottom: 10px;
+}
+.regulations {
+    margin-bottom: 20px;
+}
+
 #additional-information {
   list-style-type: none;
 }
@@ -281,6 +293,8 @@ text-align: center;
 }
 #course-content {
   list-style-type: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 hr {
