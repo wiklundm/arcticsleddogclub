@@ -587,6 +587,9 @@ footer {
     font-size: 240%;
   }
   /*contact-section on home page*/
+  #contact {
+    max-height: 320px;
+  }
 #contact-box {
     font-size: 130%;
 }
