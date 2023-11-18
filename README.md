@@ -8,16 +8,16 @@
 ![Sleddogteams runs on a snowy mountain](assets/images/sleddogteam.jpg)
 
 The Arctic Sleddog Club is a club located in the far north of Sweden in a town called Abisko.
-There are more than 4000 dogs in the area and sleddog tourism is a big source of income. Despite that there are no training or educational facilities. The winter season is long and cold, there are enough snow on the trails, and the high amount of sleddogs in the area, makes the location for the club optimal. For the natives who wants to know more about sleddogs the closest club and training facility are in Kiruna 250km away.
+There are more than 4000 dogs in the area and sleddog tourism is a big source of income. Despite that, there are no training or educational facilities. The winter season is long and cold, there is enough snow on the trails, and the high number of sleddogs in the area makes the location for the club optimal. For the natives who want to know more about sleddogs, the closest club and training facility are in Kiruna 250km away.
 
 The weather can rapidly change in the mountains and it can be dangerous if you are not prepared for the arctic climate. The temperature falls below -40 degrees Celsius some weeks over the year and lavins are frequently occurring.
 
-*The club wants to spread the knowledge about how to enjoy dogsledding in the mouintains while still being safe.
-*The Arctic Sleddog Clubs purpose is to educate and spread the knowledge about sleddog culture and to engage people in outdoor activities in an arctic environment.
-*To educate train for and participate in sleddog races.
-*To promote good dogcare and sportsmanship and work against doping and discrimination in sports.
+* The club wants to spread the knowledge about how to enjoy dogsledding in the mountains while still being safe.
+* The Arctic Sleddog Clubs purpose is to educate and spread the knowledge about sleddog culture and to engage people in outdoor activities in an arctic environment.
+* To educate train for and participate in sleddog races.
+* To promote good dogcare and sportsmanship and work against doping and discrimination in sports.
 
-*The website is a three-page website. It features an home page, a courses page and an about us page, where you can read about when, where and what the next course is about and it has a contact form.
+*The website is a three-page website. It features a home page, a courses page and an about us page, where you can read about when, where and what the next course is about and it has a contact form.
 
 _Please note that this site is a fictional website using HTML and CSS and was created for The Code Institutes Milestone Project 1. There are no Arctic Sleddog Club even though there are demands for it._
 
@@ -36,48 +36,48 @@ The arctid climate and remote location with with frequent lavins makes it import
 
 #### User goals
 
-- The site targets young people and adults with an interest in sleddogs and nature.
-- Living or spending time during the winter in the area.
-- To spread the knowledge about sleddogs and its culture and how to behave in the mountains in an arctic climate.
-- To educate and train for sleddog competitions.
+* The site targets young people and adults with an interest in sleddogs and nature.
+* Living or spending time during the winter in the area.
+* To spread knowledge about sleddogs and its culture and how to behave in the mountains in an arctic climate.
+* To educate and train for sleddog competitions.
 
 #### First time user
 
-- To create a professional design that are not causing information overload. When I did research I found out that many websites of sleddog clubs was cropped with information and had flawed layout.
-- To make a user easily navigate between the pages and attract with both text and visual images.
-- To find information about the content, location, time and price of the upcoming course.
-- Give access to social media links for reviews and other information.
-- To have a contact form where the user can ask questions and apply for the next course.
-- To give the user short information about the clubs policy and regulations needed to know.
+* To create a professional design that are not causing information overload. When I did research I found out that many websites of sleddog clubs were cropped with information and had flawed layout.
+* To make a user easily navigate between the pages and attract with both text and visual images.
+* To find information about the content, location, time and price of the upcoming course.
+* Give access to social media links for reviews and other information.
+* To have a contact form where the user can ask questions and apply for the next course.
+* To give the user short information about the clubs policy and regulations needed to know.
 
 #### Returning user and first-time user
 
-- As both a returning and first-time visitor I want to easily be able to contact the Sleddog Club.
-- To create a design that would be fully responsive on all devices and screen sizes.
-- To easily find information about the next course.
+* As both a returning and first-time visitor I want to easily be able to contact the Sleddog Club.
+* To create a design that would be fully responsive on all devices and screen sizes.
+* To easily find information about the next course.
 
 #### Business goals
 
 *When the season starts most kennels and companies have to teach and train their employees by them selves for several weeks before they can start working with the tourists. This is both expensive and timeconsuming.
- By beeing member of the Arctic sleddog club and let their new employees join the courses, the companies specialized in tourism can hire educated staff instead of putting several weeks on training new staff by themselves as it is right now.
+ By being member of the Arctic sleddog club and letting their new employees join the courses, the companies specializing in tourism can hire educated staff instead of putting several weeks on training new staff by themselves as it is right now.
 *Increased interest in the sport can give the business more customers.
-*When people following the rules in the mountains, the reindeers gest less stressed and the Sami people are getting healthier animals with higher survival rate which increases their income. A good relation with the natives makes the club able to use their land for the clubs purposes.
-*Income from advertising and sponsorship on competitions and business events.
+*When people, following the rules in the mountains, the reindeers gest less stressed and the Sami people are getting healthier animals with higher survival rate which increases their income. A good relationship with the natives makes the club able to use their land for the club's purposes.
+*Income of advertising and sponsorship on competitions and business events.
 
 ### Other considerations
 
-#### The Arctic Sleddog Club has a B2C (Business-to-costumer) approach
+#### The Arctic Sleddog Club has a B2C (Business-to-custumer) approach
 
-- The design stands out amongst the competitors.
-- Minimal content and large images to avoid informational overload as in many similar websites.
-- The content and headlines are appealing and fills a purpose..
-- There is a lot of sleddogs in the area but no training facilities or clubs.
+* The design stands out amongst the competitors.
+* Minimal content and large images to avoid informational overload as in many similar websites.
+* The content and headlines are appealing and fills a purpose.
+* There is a lot of sleddogs in the area but no training facilities or clubs.
 
 # DESIGN PROCESS
 
 1.**Strategy plane**
 
-I wanted to create a page that could gather people with similar interests and spread knowledge about sleddogs. The website should be easy to use, to navigate and find the information the user have come for. I had recently started to learn how to write code and my aim for this project was to apply what I had learned in HTML and CSS.
+I wanted to create a page that could gather people with similar interests and spread knowledge about sleddogs. The website should be easy to use, to navigate and find the information the user has come for. I had recently started to learn how to write code and my aim for this project was to apply what I had learned in HTML and CSS.
 
 2.**Scope plan**
 
@@ -94,9 +94,9 @@ The user can easily contact the club.
 3.**Structure plane**
 
 When I had decided what features I wanted, I began to create the structure of my design into pages.
-The website has three pages and the links on the navigation bar opens in a new tab.
+The website has three pages and the links on the navigation bar open in a new tab.
 
-There is a navigation menu bar to easily navigate between the pages that encourages the user to stay motivated and continue to the next step. The navigation bar is responsive with links to the different pages and for smaller screens there are a hamburger icon with a dropdown list to save space. When users hover over the Home, About us or Contact navigation links with their cursor the subsequent link will become underlinded. This makes the site more interactive for the user.
+There is a navigation menu bar to easily navigate between the pages that encourages the user to stay motivated and continue to the next step. The navigation bar is responsive with links to the different pages and for smaller screens there is a hamburger icon with a dropdown list to save space. When users hover over the Home, About us or Contact navigation links with their cursor, the subsequent link will become underlined. This makes the site more interactive for the user.
 ![Screenshot of two different sizes of the navigation bar](assets/docs/nav-bar.jpg)
 
 #### HOME Page
@@ -200,28 +200,28 @@ The image covers 100% of the viewport width on all screen sizes. ![Dog pulls chi
 ### Course section
 
 There are unordered lists with short information about the course content, time, place and price for the course, and additional information good to know.
-The different sections have different background-colours which makes it easy to separate sections from each other and to find the information the user are looking for. The section is fully responsive and have different layouts depending on the screensize.
+The different sections have different background-colours which makes it easy to separate sections from each other and to find the information the user is looking for. The section is fully responsive and has different layouts depending on the screensize.
 ![Screenshot of courses-section](assets/docs/courses-sections.jpg)
 
 ### Youtube video
 
-The video are a free youtube video recorded by National Geographic. The video makes the user experience the sport combining sound and moving pictures. The video is set to be started as muted. The video have access to full screen controls. It is fully responsive.
+The video is a free YouTube video recorded by National Geographic. The video makes the user experience the sport by combining sound and moving pictures. The video is set to be started as muted. The video has access to full screen controls. It is fully responsive.
 ![Sleddog Movie](assets/docs/youtube.jpg)
 
 # The ABOUT US page
 
-The first image illustrates how happy the user will be when joining the club and gives a sence of belonging to a team.
-The size of the image changes depending on screensize to optimize the use of space. On the smallest screen the image is round to save space and on wider screens it covers the full width of the screen with less border-radius.
+The first image illustrates how happy the user will be when joining the club and gives a sense of belonging to a team.
+The size of the image changes depending on screen size to optimize the use of space. On the smallest screen the image is round to save space and on wider screens it covers the full width of the screen with less border-radius.
 ![Group of people in the snow jumps in joy](assets/images/jump.jpg)
 
 ### About us section
 
-The text is a short explanation of the clubs purpose and its responsibilies and what regulations need to be followed. The layout changes from unordered list in a column to row on bigger screensize to make better use of the space on the screen.
+The text is a short explanation of the club's purpose and its responsibility and what regulations need to be followed. The layout changes from an unordered list in a column to a row on bigger screens to make better use of the space on the screen.
 ![Screenshot of about-us-section](assets/docs/about-us.jpg)
 
 ### Contact Form
 
-The user can to leave a message on any subject regarding sleddogs and also apply for the course.
+The user can leave a message on any subject regarding sleddogs and also apply for the course.
 The form requires the user to fill it out correctly before clicking the CONTACT US button.
 The button is responsive (confirmed by sending the user to a template page borrowed from Code Institute).
 The background color is the same light pink used on the courses page. This gives a consistent theme.
@@ -240,17 +240,17 @@ The last picture is to keep the user in a joyful feeling of how fun it will be t
 
 # Features to be implemented in the future
 
-These features are not made now since I have not learned these lessons yet. I need to do more research and more learning.
+These features are not made now, since I have not learned these lessons yet. I need to do more research and more learning.
 
-- Choices to pay in different ways such as Paypal, bank-transfer and swish.
-- Choices to change the language of the website to Swedish
-- Add Captcha to the contact form to allow better security from spam.
-- Choices for GDPR
-- Submit the form to Arctic Sleddog Site instead of Code Institute template. I have not learned JavaScript yet but will change this when I have the knowledge.
+* Choices to pay in different ways, such as Paypal, bank-transfer and swish.
+* Choices to change the language of the website to Swedish
+* Add Captcha to the contact form to allow better security from spam.
+* Choices for GDPR
+* Submit the form to Arctic Sleddog Site instead of Code Institute template. I have not learned JavaScript yet but will change this when I have the knowledge.
   
   _To implement in the next update_
-- A separate page for those interested in competitions.
-- A Gallerypage with pictures from different disciplines, courses and competitions made by the club.
+* A separate page for those interested in competitions.
+* A Gallerypage with pictures from different disciplines, courses and competitions made by the club.
 
 # Technologies used
 
@@ -264,7 +264,7 @@ Codeanywhere to write the code
 
 ##### GitHub
 
-To store the project and Gitpod terminal to commit to Git and push to GitHub
+To store the project, and Gitpod terminal, to commit to Git and push to GitHub
 
 ##### FontAwesome
 
@@ -283,8 +283,8 @@ My Favicon was created using RedKetchup. I created the Faviocon from a picture o
 ##### Colours
 
  I used Hexcolorpedia <https://hexcolorpedia.com/> and Ginifab <https://www.ginifab.com/feeds/pms/color_picker_from_image.sv.php> to identify colours from the sleddogteam-image and used them as the base for the rest of the colours.
- I chosed soft colours that suited that colour scheme.
-As a background colour in case the images does not load I chose #lightblue.
+ I chose soft colours that suited that colour scheme.
+As a background colour in case the images do not load, I chose #lightblue.
 To make contrast between the different parts of the texts I used a light blue rgb(132,172,222 0.2) and light pink rgb(220,173,170 0,2) colour.
 ![Screenshot of colours I used](assets/docs/colours.jpg).
 
@@ -314,25 +314,25 @@ I added a YouTube sleddog movie made by National Geographic to add both sound an
 # Issues and bugs
 
 **Issue**
-The biggest issue was internet disruption and that Codeanywhere often stopped working, had to be reloaded and data not being pushed. This was frustrating and very timeconsuming and sometimes some parts of the code went missing. This problem was unfortunately nothing I could fix, just try to work around it and push more often.
+The biggest issue was internet disruption and that Codeanywhere often stopped working, had to be reloaded and data not being pushed. This was frustrating and very time consuming and sometimes some parts of the code went missing. This problem was, unfortunately, nothing I could fix. I just tried to work around it and push more often.
 
-My Codeanywhere account was suddenly stopped. I recieved a new account from CodeInstitute. When the staff was transfering project from the old workspace to the new one something went wrong and I could not code. They had to debug. This took a few days. I found the solution on stack.
+My Codeanywhere account was suddenly stopped. I received a new account from CodeInstitute. When the staff was transferring projects from the old workspace to the new one, something went wrong and I could not code. They had to debug. This took a few days. I found the solution on stack.
 
 **Issue**
-From the beginning I put the img url and src in the css file for the hero image. The validator did not accept this. When I changed the code to index.html instead unfortunately the covertext was not responsive anymore.
+From the beginning, I put the img url and src in the css file for the hero image. The validator did not accept this. When I changed the code to index.html instead, unfortunately, the covertext was not responsive anymore.
 Solution: The heroimage was set to position: relative with a width and height of 100% and the covertext to position absolute and fixed width and adjusted by padding.
 
 **Issue**
 When moving the hero image from css to index.html i had got a new white line under the image.
-No matter what I tried I could not fix the problem. When I had a meeting with my mentor I asked for help and after a lot of testing we still could not make it disappear. The solution was setting the margin to -10%.
+No matter what I tried I could not fix the problem. When I had a meeting with my mentor, I asked for help and after a lot of testing we still could not make it disappear. The solution was setting the margin to -10%.
 
 **Issue**
-Css warning: Importent statement - do not load in parallel @import google fonts.
-Solution: after reading all I could find on stack and talking to my mentor we decided to ignore the issue since it did not made any real problem.
+Css warning: Important statement - do not load in parallel @import google fonts.
+Solution: after reading all I could find on stack and talking to my mentor, we decided to ignore the issue since it did not make any real problem.
 
 **Issue**
 The snowflake image caused troubles with transparency and grey squares appeared.
-Solution: the image was originally a png converted to jpg. It had a grey background underneath. When the opacity changed the grey squares appear and was hard to change. This also gave me less points on lighthouse. I decided to change the image to the snowflake image without the grey background underneath.
+Solution: the image was originally a png converted to jpg. It had a grey background underneath. When the opacity changed, the grey squares appeared and it was hard to change. This also gave me fewer points in lighthouse. I decided to change the image to the snowflake image without the grey background underneath.
 
 **Issue**
 On smaller screens on the courses page on the deployed site I had a white line on the right and left side.
@@ -341,48 +341,48 @@ Solution: I changed the margin-left and margin-right on the youtube video.
 # Deployment
 
 To make my project viewable to others.
-The project was developed in Codeanywhere, commited to Git and pushed and stored to GitHub pages. This allowed me to share the live website with others.
+The project was developed in Codeanywhere, committed to Git and pushed and stored to GitHub pages. This allowed me to share the live website with others.
 
 ## Depolyment to GitHub pages
 
-- Log in to GitHub
-- Go to the repositorys main page.
-- In the top of the main page of the repository, locate the menu and click on the settings button.
-- On the left side of the page is a list. Under "code and automation" locate the Pages tab and click it.
-- Set the source to Deploy from branch.
-- Choose main branch and set the folder to root. Click Save.
-- Refresh the page. Wait a few minutes for the page to be build. Refresh if nescessary.
-- On the right side under Environments 1 click github pages.
-- Click on view deployment to open the url. <https://wiklundm.github.io/arcticsleddogclub/>
+* Log in to GitHub
+* Go to the repository's main page.
+* At the top of the main page of the repository, locate the menu and click on the settings button.
+* On the left side of the page is a list. Under "code and automation", locate the Pages tab and click it.
+* Set the source to Deploy from branch.
+* Choose main branch and set the folder to root. Click Save.
+* Refresh the page. Wait a few minutes for the page to be built. Refresh if necessary.
+* On the right side under Environments 1 click github pages.
+* Click on view deployment to open the url. <https://wiklundm.github.io/arcticsleddogclub/>
 
 ## Clone the repository
 
-By cloning a GitHub repository you can create a local copy of your remote repository on your computer. By doing so you can make changes or view the repository without affecting the original repository.
+By cloning a GitHub repository, you can create a local copy of your remote repository on your computer. By doing so you can make changes or view the repository without affecting the original repository.
 
-- Log in to GitHub
-- Go to the repository you want to clone.
-- Above the list of files click the button called Code
-- Click on the tab called Local
-- Chose if you want to use HTTPS or SSH key.
-- Copy the URL link
-- Open a new terminal on your IDE
-- Change the location of the working directory to where you want the cloned directory to be.
-- Type git clone and paste the URL you just copied.
-- Press Enter and a local clone will be created.
+* Log in to GitHub
+* Go to the repository you want to clone.
+* Above the list of files click the button called Code
+* Click on the tab called Local
+* Chose if you want to use HTTPS or SSH key.
+* Copy the URL link
+* Open a new terminal on your IDE
+* Change the location of the working directory to where you want the cloned directory to be.
+* Type git clone and paste the URL you just copied.
+* Press Enter and a local clone will be created.
 
 ## Forking the repository
 
-Forking makes a copy of the repository on your GitHub account. When the repository is forked the original repository will not be affected by changes made on the forked copy. Follow these steps:
+Forking makes a copy of the repository on your GitHub account. When the repository is forked, the original repository will not be affected by changes made to the forked copy. Follow these steps:
 
 1. Log in to GitHub
 2. Go to the repository you want to fork.
-3. At the right corner above the About settings is a button calld Fork.
+3. In the right corner above the About settings is a button calld Fork.
 4. Click the Fork button and a forked copy of the repository is made in your GitHub account.
 5. Changes made to the forked repository can be merged with the original reopository via a pull request.
   
 # Testing
 
-W3C Css and HTML validatorservice was used throughout the project to check whether there were any errors in my code.
+W3C Css and HTML validator service was used throughout the project to check whether there were any errors in my code.
 ![Image of css validation](assets/docs/validering-css.jpg)
 ![Image of index.html page validation](assets/docs/index-html-validator.jpg)
 ![Image of courses page validation](assets/docs/courses-validator.jpg)
@@ -408,7 +408,7 @@ Since the club does not have own accounts on social media I choose to redirect t
 
 #### The Form
 
-I manually tested that the form requested input data in name fields and an email adress in email-field and that you could not continue without
+I manually tested that the form requested input data in name fields and an email address in the email-field and that you could not continue without
  filling in the data requested. I tested that the contact us button was responding by sending me to the test template page when I clicked the button. More information about the result can be seen on the image in the "contact form" section.
 
 #### Contact
@@ -417,9 +417,9 @@ When I clicked on ![Arctic Sleddog Clubs e-mailadress](arctic.sleddogclub@gmail.
 
 #### First time user
 
-*_To create a professional design that are not causing information overload_.
+*_To create a professional design that is not causing information overload_.
 The text is short but still gives enough information and it is easy to understand the meaning behind the pictures.
-The Hero-image fits % of the viewport width and has a cover text that is informative and appealing. There is an inspirational text that gets the user interested to scroll down and find out more.
+The Hero-image fits % of the viewport width and has a cover text that is informative and appealing. There is an inspirational text that gets the user interested in scrolling down and finding out more.
 
 *_To make a user easily navigate between the pages and attract with both text and visual images_.
 The links in the navbar is easy to find and spread evenly on the header, that remains in the top while scrolling down. On smaller screens the links is collected in a burger-icon to save space at the top of the screen.
@@ -429,33 +429,33 @@ The footer and the header has the same layout over the website pages.
 The about us page section has all the information requested above.
 
 *_Give access to social media links for reviews and other information_.
-The footer has links to Facebook, Instagram and Twitter. The Icons in the footer are spread evenly. The icon is represtented by an icon that is appropriate and easy to identify and has a link that redirects the user to their social media platoform. It opens in a new tab.
+The footer has links to Facebook, Instagram and Twitter. The Icons in the footer are spread evenly. The icon is represented by an icon that is appropriate and easy to identify and has a link that redirects the user to their social media platoform. It opens in a new tab.
 
 *_To have a contact form where the user can ask questions and apply for the next course_.
-On the About us page is a contact form where the user can leave a message to the club and sign up for the next course. The contact form is requesting the user to put first name, last name, e-mail adress and information in the form before the user can use the Contact us button. When the user clicks the Contact us button it is redirected to a template borrowed from Code Institute that validate that the button works and the information the user put in the form can be seen in the template.
+On the About us page is a contact form where the user can leave a message to the club and sign up for the next course. The contact form requests the user to put first name, last name, e-mail address and information in the form before the user can use the Contact us button. When the user clicks the Contact us button, it is redirected to a template borrowed from Code Institute that validates that the button works and the information the user put in the form can be seen in the template.
 
-*_To give the user short information about the clubs policy and regulations needed to know_.
-In the about us page are is an unordered list explaining the purpose and policy of the club. The user can read that the club answers to the authorities in Svenska Draghundsportförbundet, Svenska idrottsförbundet and ISDVMA (International Sleddog Veterinary Medicin Association) and ESDRA (European Sleddog Racing Accociation).
+*_To give the user short information about the clubs policy and regulations_.
+On the about us page there is an unordered list explaining the purpose and policy of the club. The user can read that the club answers to the authorities in Svenska Draghundsportförbundet, Svenska idrottsförbundet and ISDVMA (International Sleddog Veterinary Medicine Association) and ESDRA (European Sleddog Racing Association).
 
 #### Returning and first time user
 
--_As both a returning and first-time visitor I want to easily be able to contact the Sleddog Club_.
-  The clubs adress, phone-number and email-adress is easily found on the Home page and there are a form in About us page where the user can contact the club.
+-_As both a returning and first-time visitor, I want to easily be able to contact the Sleddog Club_.
+  The club's address, phone-number and email-adress are easily found on the Home page and there is a form on the About us page where the user can contact the club.
 
-- _To create a design that would be fully responsive on all devices and screen sizes_.
-  I continously tested the layout with dev-tools and the deployed project on different screen-sizes.
+* _To create a design that would be fully responsive on all devices and screen sizes_.
+  I continuously tested the layout with dev-tools and the deployed project on different screen-sizes.
   I used AmIResponsive to see how the layout looked on different screens.
 
-- _To easily find information about the next course_.
-- In the Courses page are infomation about the next course. It is made in short sentenses with important information about the time, location, price and content of the next course. The information is made as a list to be easy to find and read.
+* _To easily find information about the next course_.
+* On the Courses page is infomation about the next course. It is made in short sentences with important information about the time, location, price and content of the next course. The information is made as a list to be easy to find and read.
 There is a section with additional information good to know before participating in the course.
 
 # Credits
 
 The content of the website is fictional and created by myself.
-The images are from Istock except from the homepage hero picture that is borrowed from my friend Anna Norman on Lifestyle North AB/Kiruna Dogsled.
-Information on how to make the Burger icon I found on stack and the lessons from Code institute.
-The template that sends the information from the form from Code Institute.
+The Hero image is borrowed from my friend Anna Norman. The Snowflake image is from Shutterstock and the remaining images from IStock.
+Information on how to make the navbar and Burger icon I found on stack and the lessons from Code institute.
+The template that recieves the information from the form, is from Code Institute.
 
 # Acknowledgements
 
