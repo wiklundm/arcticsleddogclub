@@ -123,7 +123,9 @@ There is a navigation menu bar to easily navigate between the pages that encoura
 
 Used to create the wireframes during the design process.I
 t is a basic model of how I was planning the layout and worked as a reminder for the structure on different screensizes.
-![Screenshot of Balsamic Wireframe I used](assets/docs/wireframe-tiny.jpg)
+![Screenshot of Balsamic Wireframe Home page I used](assets/docs/home-wireframe.jpg)
+![Screenshot of Balsamic Wireframe Courses page I used](assets/docs/course-wireframe.jpg)
+![Screenshot of Balsamic Wireframe About us page I used](assets/docs/about-us-wireframe.jpg)
 
 5.**Surface plane**
 
