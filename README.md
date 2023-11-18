@@ -369,6 +369,16 @@ By cloning a GitHub repository you can create a local copy of your remote reposi
 - Change the location of the working directory to where you want the cloned directory to be.
 - Type git clone and paste the URL you just copied.
 - Press Enter and a local clone will be created.
+
+## Forking the repository
+
+Forking makes a copy of the repository on your GitHub account. When the repository is forked the original repository will not be affected by changes made on the forked copy. Follow these steps:
+
+1. Log in to GitHub
+2. Go to the repository you want to fork.
+3. At the right corner above the About settings is a button calld Fork.
+4. Click the Fork button and a forked copy of the repository is made in your GitHub account.
+5. Changes made to the forked repository can be merged with the original reopository via a pull request.
   
 # Testing
 
