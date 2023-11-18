@@ -391,6 +391,9 @@ padding-right: 10px;
   font-size: 110%;
 font-family: "Philosopher", sans-serif;
 }
+#ask p {
+    margin-top: 10px;
+}
 
 /*images for about us section*/
 
