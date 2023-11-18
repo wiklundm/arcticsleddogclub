@@ -326,8 +326,12 @@ Css warning: Importent statement - do not load in parallel @import google fonts.
 Solution: after reading all I could find on stack and talking to my mentor we decided to ignore the issue since it did not made any real problem.
 
 **Issue**
-The Youtube video container made the page wider and the page could be scrolled a few px to both left and right.
-Solution:
+The snowflake image caused troubles with transparency and grey squares appeared.
+Solution: the image was originally a png converted to jpg. It had a grey background underneath. When the opacity changed the grey squares appear and was hard to change. This also gave me less points on lighthouse. I decided to change the image to the snowflake image without the grey background underneath. 
+
+**Issue**
+On smaller screens on the courses page on the deployed site I had a white line on the right and left side.
+Solution: I changed the margin-left and margin-right on the youtube video.  
 
 # Deployment
 
