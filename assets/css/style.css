@@ -156,6 +156,7 @@ main {
   background-color: rgb(220, 173, 170, 0.2);
   width: 100vw;
   min-height: 200px;
+  max-height: 350px;
   overflow: hidden;
 }
 
@@ -248,15 +249,9 @@ text-align: center;
   list-style-type: none;
   padding-top: 20px;
 }
-.saturday .sleddog {
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-.date .arctic .dogcare .survival .sport .equipment {
-    margin-bottom: 10px;
-}
-.regulations {
-    margin-bottom: 20px;
+#place li {
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 #additional-information {
@@ -293,13 +288,17 @@ text-align: center;
 }
 #course-content {
   list-style-type: none;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 hr {
   border-top: 1px solid #3a3a3a;
   width: 100%;
+}
+#course-content li {
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 #add-information {
   position: relative;
@@ -307,8 +306,10 @@ hr {
   line-height: 20px;
   display: flex;
   border-radius: 8px;
-  max-height: 200px;
+  max-height: 350px;
+  min-height: 200px;
   overflow: auto;
+  align-items: center;
 }
 
 #add-info-box {
@@ -321,19 +322,16 @@ hr {
   flex-direction: column;
   align-items: center;
   background-color: rgb(255, 255, 255, 0.2);
-  font-weight: bold;
 }
 #add-info-box h3 {
     padding-bottom: 20px;
     font-size: 100%;
 }
 #add-information li {
-  color: #3a3a3a;
 text-align: center;
+font-size: 90%;
 }
-#add-information h3 {
-  color: #3a3a3a;
-}
+
 
 /*YouTube video aspect ratio 16:9 9/16 = 0,5625*/
 .container {
@@ -534,10 +532,20 @@ footer {
   }
 
   /*Courses section*/
+  .meetings > h3 {
+      font-size: 110%;
+  }
+  .course-content-class > h3 {
+      font-size: 110%;
+  }
   #add-info-box h3 {
     font-size: 110%;
   }
-
+#add-information li {
+    font-size: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
   /*about-us-section*/
 
   #info-box {
@@ -641,6 +649,10 @@ footer {
   #add-information {
     font-size: 120%;
   }
+  #add-information li {
+      font-size: 120%;
+  }
+
   #add-info-box {
     padding-top: 40px;
   }
@@ -688,10 +700,10 @@ footer {
 #childimage {
     width: 100vw;
 }
-  .meetings {
+  .meetings > h3 {
     font-size: 140%;
   }
-  .course-content-class {
+  .course-content-class > h3 {
     font-size: 140%;
   }
   #add-info-box h3 {
@@ -746,7 +758,6 @@ footer {
   }
   #add-information {
     font-size: 150%;
-    max-height: 190px;
   }
   /*About-us section*/
   
