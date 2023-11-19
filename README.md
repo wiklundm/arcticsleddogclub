@@ -391,21 +391,23 @@ Forking makes a copy of the repository on your GitHub account. When the reposito
   
 # Testing
 
-W3C Css and HTML validator service was used throughout the project to check whether there were any errors in my code.
-Here are the links to the W3C Markup Validator results:
+W3C HTML and CSS Jigsaw validator service were used throughout the project. No errors were found.
+Here are the links to the results:
 Home page <https://validator.w3.org/nu/?doc=https%3A%2F%2Fwiklundm.github.io%2Farcticsleddogclub%2Findex.html>
 Courses page <https://validator.w3.org/nu/?doc=https%3A%2F%2Fwiklundm.github.io%2Farcticsleddogclub%2Fcourses.html>
 About Us page <https://validator.w3.org/nu/?doc=https%3A%2F%2Fwiklundm.github.io%2Farcticsleddogclub%2Faboutus.html>
+CSS code: <https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwiklundm-arcticsleddogcl-nhosc1eowb.us2.codeanyapp.com%2F%23%2Fworkspaces%2Farcticsleddogclub&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv>
+
 ![Image of html and css validation](assets/docs/validation.jpg)
 
-I used the Chrome Lighthouse to test the website's performance, accessibility, best practice and SEO. I did the test for both mobile and laptop.
-![Image of Lighthouse results for mobile](assets/docs/lighthouse-mobile.jpg)
+I used the Chrome Lighthouse to test the website's performance, accessibility, best practice and SEO. I did the test for both mobile and laptop. All pages passed the tests. ![Image of Lighthouse results for mobile](assets/docs/lighthouse-mobile.jpg)
 ![Image of Lighthouse results for laptop](assets/docs/lighthouse-laptop.jpg)
 
-I manualy tested the project on Google Chrome, Microsoft Edge and Apple Safari browsers. This did not lead to any problems.
-Family members and friends were asked to review the website and look out for issues or bugs. 
+I manually tested the project on Google Chrome, Microsoft Edge and Apple Safari browsers. This did not lead to any problems.
+I manually tested the website on Iphone 13 Pro, Samsung S21+, Samsung S22 Ultra. No problems were found.
+Family members and friends were asked to review the website and look out for issues or bugs.
 
-I used a mobile first approach.I used Google Chromes Dev Tools to view the result on different screen sizes.  I continued to test the responsiveness throughout the development process. By doing so I adjusted margins, paddings, image sizes and the layout from row to column, to fit different screen sizes.
+I used a mobile first approach.I used Google Chromes Dev Tools to view the result on different screen sizes.  I continued to test the responsiveness throughout the development process. By doing so, I adjusted margins, paddings, image sizes and the layout from row to column, to fit different screen sizes.
 
 #### Menu bar
 

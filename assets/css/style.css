@@ -17,7 +17,6 @@ body {
   color: #3a3a3a;
   font-family: "Lato", sans-serif;
 }
-
 h1,
 h2,
 h3 {
@@ -123,18 +122,13 @@ main {
   bottom: 10px;
 }
 
-#cover-text > h2,
-#cover-text > h3 {
-  color: #3a3a3a;
-}
-
 /*experience-text under hero-image*/
 #experience {
   padding: 50px;
   font-style: italic;
   text-align: center;
   background-color: rgb(220, 173, 170, 0.2);
-  align-items: flex-start;
+
 }
 
 /*contact-section*/
@@ -147,7 +141,7 @@ main {
   overflow: hidden;
   align-items: center;
 }
-
+/*image from Shutterstock free images*/
 #snowflakeimage {
   position: relative;
   background-repeat: no-repeat;
@@ -162,7 +156,6 @@ main {
   object-fit: cover;
  
 }
-
 #contact-box {
   position: absolute;
   padding-top: 20px;
@@ -180,9 +173,6 @@ main {
 
 .contact-box p {
   font-weight: bolder;
-  color: #3a3a3a;
-}
-.contact-box h2 {
   color: #3a3a3a;
 }
 
@@ -208,7 +198,7 @@ main {
   color: #3a3a3a;
   flex-wrap: wrap;
 }
-
+/*image from IStock free images*/
 #childimage {
   /*Used if the image is unavailable*/
   background-color: #ffffff;
@@ -223,9 +213,6 @@ main {
 #childimg-container {
     width: 100%;
     height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 #meet {
   padding-top: 20px;
@@ -335,7 +322,6 @@ text-align: center;
 font-size: 90%;
 }
 
-
 /*YouTube video aspect ratio 16:9 9/16 = 0,5625*/
 .container {
   position: relative;
@@ -356,7 +342,7 @@ font-size: 90%;
   height: 100%;
   border-radius: 8px;
 }
-/*about-us-section*/
+/*about-us-page*/
 #about {
   width: 100%;
   margin: auto;
@@ -369,7 +355,6 @@ font-size: 90%;
   margin-bottom: 20px;
   text-align: center;
   font-size: 280%;
-  color: #3a3a3a;
 }
 
 #aboutus {
@@ -384,7 +369,6 @@ padding-right: 10px;
     margin-bottom: 10px;
 }
 
-
 #info-box {
     background-color: rgb(220, 173, 170, 0.2);
     border-radius: 8px;
@@ -398,8 +382,7 @@ font-family: "Philosopher", sans-serif;
     margin-top: 10px;
 }
 
-/*images for about us section*/
-
+/*images from IStock free photos for about us section*/
 #jumpimage {
   /*Used if the image is unavailable*/
 background-color: #ffffff;
@@ -441,6 +424,7 @@ position: relative;
   border-radius: 50px;
   height: auto;
 }
+/*form*/
 #fname { 
     width: 50%;
 }
@@ -458,7 +442,6 @@ position: relative;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #3a3a3a;
     background-color: rgb(220, 173, 170, 0.2);
         font-family: "Philosopher", sans-serif;
         padding-bottom: 15px;
@@ -505,7 +488,7 @@ footer {
     margin-top: 77px;
   }
 
-  /*About-us-section*/
+  /*About-us-page*/
 
   #about {
     margin-top: 40px;
@@ -521,7 +504,7 @@ footer {
     /* Push main content down to accommodate larger header */
     margin-top: 42px;
   }
-
+/*home page*/
   /*Hero section cover text*/
   #cover-text {
     font-size: 100%;
@@ -536,7 +519,7 @@ footer {
     font-size: 110%;
   }
 
-  /*Courses section*/
+  /*Courses pagen*/
   .meetings > h3 {
       font-size: 110%;
   }
@@ -551,7 +534,7 @@ footer {
     padding-bottom: 10px;
     padding-top: 10px;
 }
-  /*about-us-section*/
+  /*about-us-page*/
 
   #info-box {
     display: flex;
@@ -625,7 +608,7 @@ footer {
     font-size: 130%;
 }
 
-  /*courses section*/
+  /*courses page*/
   #course-box {
     display: flex;
   }
@@ -663,7 +646,7 @@ footer {
   }
  
 
-  /*about-us-section*/
+  /*about-us-page*/
   #jumpimage {
     width: 60%;
   }
@@ -692,12 +675,12 @@ footer {
     border-bottom: 1px solid #3a3a3a;
   }
 
-  /*Hero section cover text*/
+  /*Hero section cover text home page*/
   #cover-text {
     font-size: 140%;
   }
 
-  /*courses section*/
+  /*courses page*/
 
   #courses h2 {
     font-size: 300%;
@@ -718,7 +701,7 @@ footer {
     font-size: 140%;
   }
 
-  /*about-us-section*/
+  /*about-us-page*/
   
   #about {
     margin-top: 60px;
@@ -745,13 +728,13 @@ footer {
     border-bottom: 1px solid #3a3a3a;
   }
 
-  /*Hero section cover text*/
+  /*Hero section cover text home page*/
   #cover-text {
     width: 350px;
     font-size: 150%;
   }
 
-  /*courses section*/
+  /*courses page*/
 
   .meetings {
     font-size: 150%;
@@ -764,7 +747,7 @@ footer {
   #add-information {
     font-size: 150%;
   }
-  /*About-us section*/
+  /*About-us page*/
   
     #aboutus {
 min-height: 200px;
