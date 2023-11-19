@@ -203,8 +203,7 @@ The image covers 100% of the viewport width on all screen sizes. ![Dog pulls chi
 There are unordered lists with short information about the course content, time, place and price for the course, and additional information good to know.
 The different sections have different background-colours which makes it easy to separate sections from each other and to find the information the user is looking for. The section is fully responsive and has different layouts depending on the screensize.
 There is a link with blue underlining on the Courses page, that when clicked, sends the user to the contact form on the About us page. The link has the namn Contact Us.
-![Screenshot of courses-section](assets/docs/course-sections.jpg)
-![Screenshot of the Courses section with contact link](assets/docs/contact-link.jpg)
+![Screenshot of courses-section](assets/docs/course-sections.jpg) ![Screenshot of the Courses section with contact link](assets/docs/contact-link.jpg)
 
 ### Youtube video
 
@@ -250,6 +249,7 @@ These features are not made now, since I have not learned these lessons yet. I n
 * Add Captcha to the contact form to allow better security from spam.
 * Choices for GDPR
 * Submit the form to Arctic Sleddog Site instead of Code Institute template. I have not learned JavaScript yet but will change this when I have the knowledge.
+* The Lighthouse results were affected by cookies and cache issues caused by the YouTube video. We have not learned this lesson yet.
   
   _To implement in the next update_
 * A separate page for those interested in competitions.
@@ -332,7 +332,7 @@ From the beginning, I put the img url and src in the css file for the hero image
 Solution: The heroimage was set to position: relative with a width and height of 100% and the covertext to position absolute and fixed width and adjusted by padding.
 
 **Issue**
-When moving the hero image from css to index.html i had got a new white line under the image.
+When moving the hero image from css to index.html i got a new white line under the image.
 No matter what I tried I could not fix the problem. When I had a meeting with my mentor, I asked for help and after a lot of testing we still could not make it disappear. The solution was setting the margin to -10%.
 
 **Issue**
@@ -392,14 +392,20 @@ Forking makes a copy of the repository on your GitHub account. When the reposito
 # Testing
 
 W3C Css and HTML validator service was used throughout the project to check whether there were any errors in my code.
-![Image of css validation](assets/docs/validering-css.jpg)
-![Image of index.html page validation](assets/docs/index-html-validator.jpg)
-![Image of courses page validation](assets/docs/courses-validator.jpg)
-![Image of about us page validation](assets/docs/about-us-validator.jpg)
+Here are the links to the W3C Markup Validator results:
+Home page <https://validator.w3.org/nu/?doc=https%3A%2F%2Fwiklundm.github.io%2Farcticsleddogclub%2Findex.html>
+Courses page <https://validator.w3.org/nu/?doc=https%3A%2F%2Fwiklundm.github.io%2Farcticsleddogclub%2Fcourses.html>
+About Us page <https://validator.w3.org/nu/?doc=https%3A%2F%2Fwiklundm.github.io%2Farcticsleddogclub%2Faboutus.html>
+![Image of html and css validation](assets/docs/validation.jpg)
+
+I used the Chrome Lighthouse to test the website's performance, accessibility, best practice and SEO. I did the test for both mobile and laptop.
+![Image of Lighthouse results for mobile](assets/docs/lighthouse-mobile.jpg)
+![Image of Lighthouse results for laptop](assets/docs/lighthouse-laptop.jpg)
 
 I manualy tested the project on Google Chrome, Microsoft Edge and Apple Safari browsers. This did not lead to any problems.
+Family members and friends were asked to review the website and look out for issues or bugs. 
 
-I used a mobile first approach. I continued to test the responsiveness throughout the development process. I used Google Chromes Dev Tools to view the result on different screen sizes. By doing so I adjusted margins, paddings and image sizes to fit different screen sizes.
+I used a mobile first approach.I used Google Chromes Dev Tools to view the result on different screen sizes.  I continued to test the responsiveness throughout the development process. By doing so I adjusted margins, paddings, image sizes and the layout from row to column, to fit different screen sizes.
 
 #### Menu bar
 
