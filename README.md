@@ -203,7 +203,7 @@ The image covers 100% of the viewport width on all screen sizes. ![Dog pulls chi
 There are unordered lists with short information about the course content, time, place and price for the course, and additional information good to know.
 The different sections have different background-colours which makes it easy to separate sections from each other and to find the information the user is looking for. The section is fully responsive and has different layouts depending on the screensize.
 There is a link with blue underlining on the Courses page, that when clicked, sends the user to the contact form on the About us page. The link has the namn Contact Us.
-![Screenshot of courses-section](assets/docs/courses-sections.jpg)
+![Screenshot of courses-section](assets/docs/course-sections.jpg)
 ![Screenshot of the Courses section with contact link](assets/docs/contact-link.jpg)
 
 ### Youtube video
@@ -316,6 +316,7 @@ The images represents different parts of the sleddog sport and are motivational.
 The images can be seen under the features section.
 
 #### YouTube video
+
 I added a YouTube sleddog movie made by National Geographic to add both sound and visual effects, and to give the user a teaser and more information about the sport.
 (More information about the video on the Courses page). <https://www.youtube.com/embed/6nVfFNbxX7s?si=czFZmxTQhXYpDqcX>
 
