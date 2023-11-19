@@ -81,17 +81,17 @@ To train for and compete in sleddog competitions.
 
 ## First Time visitor Goals
 
-a. As a First Time Visitor, I want to understand the purpose and concept of the website and learn more about the club.
-b. As a First Time Visitor, I want to easily navigate throughout the website.
-c. As a First Time Visitor, I want to find information about the courses.
-d. As a First Time Visitor, I want to find contact information to the club.
-e. As a First Time Visitor, I want to be able to join the club to meet people with simular interests.
+* As a First Time Visitor, I want to understand the purpose and concept of the website and learn more about the club.
+* As a First Time Visitor, I want to easily navigate throughout the website.
+* As a First Time Visitor, I want to find information about the courses.
+* As a First Time Visitor, I want to find contact information to the club.
+* As a First Time Visitor, I want to be able to join the club to meet people with simular interests.
 
 ## Returning Visitor goals
 
-a. As a Returning Visitor, I want to be able to send messages to the club and apply for the courses.
-b. As a Returning Visitor, I want to know the club's policy and regulations needed to know when joining the club.
-c. As a Returning Visitor, I want to have access to social media links for news, updates, reviews and other information.
+* As a Returning Visitor, I want to be able to send messages to the club and apply for the courses.
+* As a Returning Visitor, I want to know the club's policy and regulations needed to know when joining the club.
+* As a Returning Visitor, I want to have access to social media links for news, updates, reviews and other information.
 
 # DESIGN PROCESS
 
@@ -459,7 +459,7 @@ I manually tested that the form requested input data in name fields and an email
 
 #### Contact
 
-When I clicked on ![Arctic Sleddog Clubs e-mailadress](arctic.sleddogclub@gmail.com) in the contactsection a new mail opened up in my mail program. The link worked.
+When I clicked on the e-mail address (arctic.sleddogclub@gmail.com) in the contact section, a new e-mail opened up in my mail program. The link worked.
 On Courses page when I clicked on the link "Contact Us", I was redirected to the contact form on the About us page. The link worked.
 
 #### First time user
