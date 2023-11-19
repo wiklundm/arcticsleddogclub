@@ -87,7 +87,7 @@ I wanted to create a page that could gather people with similar interests and sp
 *Information about what to expect taking the course.
 *Information about the club.
 
-*Functionality requirements:
+**Functionality requirements**:
 The user needs to be able to navigate through the website to access all the contents.
 The user can easily contact the club.
 
@@ -97,7 +97,7 @@ When I had decided what features I wanted, I began to create the structure of my
 The website has three pages and the links on the navigation bar open in a new tab.
 
 There is a navigation menu bar to easily navigate between the pages that encourages the user to stay motivated and continue to the next step. The navigation bar is responsive with links to the different pages and for smaller screens there is a hamburger icon with a dropdown list to save space. When users hover over the Home, About us or Contact navigation links with their cursor, the subsequent link will become underlined. This makes the site more interactive for the user.
-![Screenshot of two different sizes of the navigation bar](assets/docs/nav-bar.jpg)
+![Screenshot of two different sizes of the navigation bar](assets/docs/nav-bar.jpg). The user have access to the club's contact information on all three pages.
 
 #### HOME Page
 
@@ -110,6 +110,7 @@ There is a navigation menu bar to easily navigate between the pages that encoura
 
 *The Courses page tells the user when, where, the price and content of the next course.
 *There are additional information good to know when visiting and joining the club.
+*There is a link on the Courses page, that when clicked, sends the user to the contact form on the About us page. The link has the namn Contact Us.
 *There are an inspirational youtube-video that combines audio and video to inform about the sport.
 
 #### ABOUT US Page
@@ -170,9 +171,9 @@ The contact information is easy to find both for the first-time user and the ret
 The text is centered on all devices.
 The text is bold and easy to read.
 The e-mail adress is a clickable link with blue underlining and when clicked, a new e-mail opens up in the users e-mailprogram.
-The background-image comes from IStock and also follows the theme of winter.
 The contact section has fullt viewport width.
 The text stays centered in all scrensizes.
+The background-image comes from IStock and also follows the theme of winter. It covers the full viewport width.
 ![Screenshot of the Contact section](assets/docs/contact.jpg)
 
 ### The Footer
@@ -201,7 +202,9 @@ The image covers 100% of the viewport width on all screen sizes. ![Dog pulls chi
 
 There are unordered lists with short information about the course content, time, place and price for the course, and additional information good to know.
 The different sections have different background-colours which makes it easy to separate sections from each other and to find the information the user is looking for. The section is fully responsive and has different layouts depending on the screensize.
+There is a link with blue underlining on the Courses page, that when clicked, sends the user to the contact form on the About us page. The link has the namn Contact Us.
 ![Screenshot of courses-section](assets/docs/courses-sections.jpg)
+![Screenshot of the Courses section with contact link](assets/docs/contact-link.jpg)
 
 ### Youtube video
 
@@ -264,7 +267,7 @@ Codeanywhere to write the code
 
 ##### GitHub
 
-To store the project, and Gitpod terminal, to commit to Git and push to GitHub
+To store the project, and Gitpod terminal to commit to Git and push to GitHub.
 
 ##### FontAwesome
 
@@ -277,7 +280,12 @@ The fonts in the footer have links to Facebook, Twitter and Instagram and redire
 The website AmIResponsive <https://ui.dev/amiresponsive/> was used to preview the website on different screensizes.
 ![Screenshot of Am I Responsive](assets/docs/am-i-responsive.jpg)
 
-**Favicon**
+#### Grammar Checker
+
+I used Grammar Checker on the text to check for any grammatical errors, since English is not my first language. <https://www.grammarcheck.net/editor/>
+
+#### Favicon
+
 My Favicon was created using RedKetchup. I created the Faviocon from a picture of one of my own sleddogs. ![Screenshot of my Favicon](assets/docs/favicon.jpg)
 
 ##### Colours
@@ -307,7 +315,7 @@ The other pictures are from IStock <https://www.istockphoto.com/se>
 The images represents different parts of the sleddog sport and are motivational.
 The images can be seen under the features section.
 
-**YouTube video**
+#### YouTube video
 I added a YouTube sleddog movie made by National Geographic to add both sound and visual effects, and to give the user a teaser and more information about the sport.
 (More information about the video on the Courses page). <https://www.youtube.com/embed/6nVfFNbxX7s?si=czFZmxTQhXYpDqcX>
 

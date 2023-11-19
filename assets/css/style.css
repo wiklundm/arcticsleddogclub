@@ -26,7 +26,7 @@ h3 {
   letter-spacing: 2px;
   color: #3a3a3a;
 }
-
+/*Header and navigation links with help from I Love Running*/
 /* Header */
 header {
   background-color: #ffffff;
@@ -93,6 +93,7 @@ main {
   display: flex;
   flex-direction: column;
 }
+/*Home page*/
 
 /* Hero section */
 
@@ -158,6 +159,8 @@ main {
   min-height: 200px;
   max-height: 350px;
   overflow: hidden;
+  object-fit: cover;
+ 
 }
 
 #contact-box {
