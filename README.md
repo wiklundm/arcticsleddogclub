@@ -73,6 +73,26 @@ The arctid climate and remote location with with frequent lavins makes it import
 * The content and headlines are appealing and fills a purpose.
 * There is a lot of sleddogs in the area but no training facilities or clubs.
 
+# User Stories
+
+The goal of this website is to gather people with interest in sleddogs and nature.
+To educate people in how to stay safe and behave while driving dogs in the mountains in an arctic climate.
+To train for and compete in sleddog competitions.
+
+## First Time visitor Goals
+
+a. As a First Time Visitor, I want to understand the purpose and concept of the website and learn more about the club.
+b. As a First Time Visitor, I want to easily navigate throughout the website.
+c. As a First Time Visitor, I want to find information about the courses.
+d. As a First Time Visitor, I want to find contact information to the club.
+e. As a First Time Visitor, I want to be able to join the club to meet people with simular interests.
+
+## Returning Visitor goals
+
+a. As a Returning Visitor, I want to be able to send messages to the club and apply for the courses.
+b. As a Returning Visitor, I want to know the club's policy and regulations needed to know when joining the club.
+c. As a Returning Visitor, I want to have access to social media links for news, updates, reviews and other information.
+
 # DESIGN PROCESS
 
 1.**Strategy plane**
@@ -170,9 +190,8 @@ he background-colour is #dcadaa a lightpink colour. The font is Philosopher in i
 The contact information is easy to find both for the first-time user and the returning customer.
 The text is centered on all devices.
 The text is bold and easy to read.
-The e-mail adress is a clickable link with blue underlining and when clicked, a new e-mail opens up in the users e-mailprogram.
-The contact section has fullt viewport width.
-The text stays centered in all scrensizes.
+The e-mail address is a clickable link with blue underlining and when clicked, a new e-mail opens up in the users e-mailprogram.
+The contact section has full viewport width.
 The background-image comes from IStock and also follows the theme of winter. It covers the full viewport width.
 ![Screenshot of the Contact section](assets/docs/contact.jpg)
 
@@ -194,7 +213,7 @@ Mushing is a sport or transport method powered by dogs. The person who drives th
 The heading has the font Philosofer, sans-serif, to make it stand out from the rest of the text.
 
 **Child image**
-*The image tells the user that there are different ways to ride a sled and that many different kind of dogs can be used as a sleddog.
+The image tells the user that there are different ways to ride a sled and that many different kind of dogs can be used as a sleddog.
 The sleddog club also wants to attract children who wants to learn about the sport.
 The image covers 100% of the viewport width on all screen sizes. ![Dog pulls child on a sled](assets/images/child.jpg)
 
@@ -202,7 +221,7 @@ The image covers 100% of the viewport width on all screen sizes. ![Dog pulls chi
 
 There are unordered lists with short information about the course content, time, place and price for the course, and additional information good to know.
 The different sections have different background-colours which makes it easy to separate sections from each other and to find the information the user is looking for. The section is fully responsive and has different layouts depending on the screensize.
-There is a link with blue underlining on the Courses page, that when clicked, sends the user to the contact form on the About us page. The link has the namn Contact Us.
+There is a link called Contact Us with blue underlining on the Courses page, that when clicked, sends the user to the contact form on the About us page.
 ![Screenshot of courses-section](assets/docs/course-sections.jpg) ![Screenshot of the Courses section with contact link](assets/docs/contact-link.jpg)
 
 ### Youtube video
@@ -227,6 +246,7 @@ The user can leave a message on any subject regarding sleddogs and also apply fo
 The form requires the user to fill it out correctly before clicking the CONTACT US button.
 The button is responsive (confirmed by sending the user to a template page borrowed from Code Institute).
 The background color is the same light pink used on the courses page. This gives a consistent theme.
+The link named Contact Us in Courses page sends the user to this contact form.
 ![Screenshot of the form](assets/docs/form.jpg)
 ![Screenshot of the form](assets/docs/submit.jpg)
 
@@ -253,7 +273,7 @@ These features are not made now, since I have not learned these lessons yet. I n
   
   _To implement in the next update_
 * A separate page for those interested in competitions.
-* A Gallerypage with pictures from different disciplines, courses and competitions made by the club.
+* A Gallery page with pictures from different disciplines, courses and competitions made by the club.
 
 # Technologies used
 
@@ -329,22 +349,28 @@ My Codeanywhere account was suddenly stopped. I received a new account from Code
 
 **Issue**
 From the beginning, I put the img url and src in the css file for the hero image. The validator did not accept this. When I changed the code to index.html instead, unfortunately, the covertext was not responsive anymore.
+
 Solution: The heroimage was set to position: relative with a width and height of 100% and the covertext to position absolute and fixed width and adjusted by padding.
 
 **Issue**
 When moving the hero image from css to index.html i got a new white line under the image.
-No matter what I tried I could not fix the problem. When I had a meeting with my mentor, I asked for help and after a lot of testing we still could not make it disappear. The solution was setting the margin to -10%.
+No matter what I tried I could not fix the problem. When I had a meeting with my mentor, I asked for help and after a lot of testing we still could not make it disappear.
+
+Solution: setting the margin to -10%.
 
 **Issue**
 Css warning: Important statement - do not load in parallel @import google fonts.
+
 Solution: after reading all I could find on stack and talking to my mentor, we decided to ignore the issue since it did not make any real problem.
 
 **Issue**
 The snowflake image caused troubles with transparency and grey squares appeared.
-Solution: the image was originally a png converted to jpg. It had a grey background underneath. When the opacity changed, the grey squares appeared and it was hard to change. This also gave me fewer points in lighthouse. I decided to change the image to the snowflake image without the grey background underneath.
+
+Solution: the image was originally a png converted to jpg. It had a grey background underneath the image. When the opacity changed, the grey squares appeared and it was hard to change. This also gave me fewer points in lighthouse. I decided to change the image to the snowflake image without the grey background underneath.
 
 **Issue**
 On smaller screens on the courses page on the deployed site I had a white line on the right and left side.
+
 Solution: I changed the margin-left and margin-right on the youtube video.  
 
 # Deployment
@@ -394,8 +420,11 @@ Forking makes a copy of the repository on your GitHub account. When the reposito
 W3C HTML and CSS Jigsaw validator service were used throughout the project. No errors were found.
 Here are the links to the results:
 Home page <https://validator.w3.org/nu/?doc=https%3A%2F%2Fwiklundm.github.io%2Farcticsleddogclub%2Findex.html>
+
 Courses page <https://validator.w3.org/nu/?doc=https%3A%2F%2Fwiklundm.github.io%2Farcticsleddogclub%2Fcourses.html>
+
 About Us page <https://validator.w3.org/nu/?doc=https%3A%2F%2Fwiklundm.github.io%2Farcticsleddogclub%2Faboutus.html>
+
 CSS code: <https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwiklundm-arcticsleddogcl-nhosc1eowb.us2.codeanyapp.com%2F%23%2Fworkspaces%2Farcticsleddogclub&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv>
 
 ![Image of html and css validation](assets/docs/validation.jpg)
@@ -421,7 +450,7 @@ Clicking on the About us link directs the user to the About us page.
 Clicking on the Facebook icon takes the user to the Facebook page.
 Clicking on Instagram takes the user to Instagram page
 Clicking on Twitter takes the user to Twitter page.
-Since the club does not have own accounts on social media I choose to redirect to their homepages.
+Since the club does not have own accounts on social media I choose to redirect to their social media platform.
 
 #### The Form
 
@@ -431,6 +460,7 @@ I manually tested that the form requested input data in name fields and an email
 #### Contact
 
 When I clicked on ![Arctic Sleddog Clubs e-mailadress](arctic.sleddogclub@gmail.com) in the contactsection a new mail opened up in my mail program. The link worked.
+On Courses page when I clicked on the link "Contact Us", I was redirected to the contact form on the About us page. The link worked.
 
 #### First time user
 
@@ -472,7 +502,7 @@ There is a section with additional information good to know before participating
 The content of the website is fictional and created by myself.
 The Hero image is borrowed from my friend Anna Norman. The Snowflake image is from Shutterstock and the remaining images from IStock.
 Information on how to make the navbar and Burger icon I found on stack and the lessons from Code institute.
-The template that recieves the information from the form, is from Code Institute.
+The template that recieves the information from the form, is borrowed from Code Institute.
 
 # Acknowledgements
 
