@@ -18,7 +18,7 @@ The weather can rapidly change in the mountains and it can be dangerous if you a
 * To educate people how to work with sleddog.
 * To promote good dogcare and sportsmanship, and work against doping and discrimination in sports.
 
-*The website is a three-page website. It features a home page, a courses page and an about us page, where you can read about when, where and what the next course is about and it has a contact form.
+The website is a three-page website. It features a Home page, a Courses page and an About Us page, where you can read about when, where and what the next course is about and the club´s policies. Contact information is accessible on all pages and there is a contact form.
 
 _Please note that this site is a fictional website using HTML and CSS and was created for The Code Institutes Milestone Project 1. There are no Arctic Sleddog Club even though there are demands for it._
 
@@ -125,7 +125,7 @@ There is a navigation menu bar to easily navigate between the pages that encoura
 
 #### HOME Page
 
-* The Home tells the user they are visiting a website for a sleddog club.
+* The Home page tells the user they are visiting a website for a sleddog club.
 * That the club is located in a mountain area with beautiful and relaxing environments.
 * Provides contact information.
 * An inspirational text gives a mental picture of what you can experience.
@@ -208,7 +208,7 @@ The image covers 100% of the viewport width on all screen sizes. ![Dog pulls chi
 ### Course section
 
 There are unordered lists with short information about the course content, time, place and price for the course, and pertinent information.
-The different sections have different background-colours which makes it easy to separate sections from each other and to find the information the user is looking for. The section is fully responsive and has different layouts depending on the screen size.
+The different sections have different background-colours which makes it easy to separate sections from each other and to find the information the user is looking for. The section is fully responsive and has different layouts depending on the screen size. It changes from column on small screens to rows on bigger screens.
 There is a link called Contact Us with blue underlining on the Courses page, that when clicked, sends the user to the contact form on the About us page.
 ![Screenshot of courses-section](assets/docs/course-sections.jpg) ![Screenshot of the Courses section with contact link](assets/docs/contact-link.jpg)
 
@@ -474,7 +474,7 @@ On the about us page there is an unordered list explaining the purpose and polic
 
 #### Returning and first time user
 
--_As both a returning and first-time visitor, I want to easily be able to contact the Sleddog Club_.
+*_As both a returning and first-time visitor, I want to easily be able to contact the Sleddog Club_.
   The club's address, phone-number and email-adress are easily found on the Home page and there is a form on the About us page where the user can contact the club.
 
 * _To create a design that would be fully responsive on all devices and screen sizes_.
@@ -482,7 +482,7 @@ On the about us page there is an unordered list explaining the purpose and polic
   I used AmIResponsive to see how the layout looked on different screens.
 
 * _To easily find information about the next course_.
-* On the Courses page is infomation about the next course. It is made in short sentences with important information about the time, location, price and content of the next course. The information is made as a list to be easy to find and read.
+  On the Courses page is infomation about the next course. It is made in short sentences with important information about the time, location, price and content of the next course. The information is made as a list to be easy to find and read.
 There is a section with additional pertinent information good to know before participating in the course.
 
 # Credits
