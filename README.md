@@ -214,7 +214,7 @@ There is a link called Contact Us with blue underlining on the Courses page, tha
 
 ### Youtube video
 
-The video is a free YouTube video recorded by National Geographic. The video makes the user experience the sport by combining sound and moving pictures. The video is set to be started as muted. The video has access to full screen controls. It is fully responsive.
+The video is a free YouTube video recorded by National Geographic. The video makes the user experience the sport by combining sound and moving pictures. The video is set to be started as muted. The video has access to full screen controls. It is fully responsive. The Aspect-Ratio is kept at 16:9.
 ![Sleddog Movie](assets/docs/youtube.jpg)
 
 # The ABOUT US page
